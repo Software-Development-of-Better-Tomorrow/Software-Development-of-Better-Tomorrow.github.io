@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /___source___/main/css/
+Disallow: /___source___/main/images/
+Disallow: /___source___/main/download/
+Disallow: /___source___/profile/css/
+Disallow: /___source___/profile/images/
+Disallow: /___source___/blog/css/
+Disallow: /___source___/release_notes/css/
+Disallow: /___source___/bio/css/
+Disallow: /___source___/bio/images/
+Disallow: /___source___/bio/php/
+Disallow: /___source___/itprolinks/css/
+Disallow: /___source___/it_pro_link_explanation/css/
+Disallow: /___source___/next_version/css/
+Disallow: /___source___/our_roots/css/
+Sitemap: https://github.com/Software-Development-of-Better-Tomorrow/Software-Development-of-Better-Tomorrow.github.io/blob/master/sitemap.xml
