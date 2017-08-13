@@ -1,0 +1,52 @@
+.navigationArrow {
+	position: relative;
+	top: 60px;
+
+	width: 160px;
+	height: 25px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: left;
+}
+
+.expandAllCollapseAll {
+	position: relative;
+  	float: right;
+  	right: 105px;
+  	top: 5px;
+
+  	width: 100px;
+ 	height: 1.8em;
+
+  	color: white;
+}
+
+.nav_arrow_down {
+	position: relative;
+	float: right;
+
+	width: 25px;
+	height: 26px;
+
+	background-image: url('../../images/arrow_down.png');
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+
+	color: transparent;
+}
+
+.nav_arrow_up {
+	position: relative;
+	float: right;
+
+	width: 25px;
+	height: 26px;
+
+	background-image: url('../../images/arrow_up.png');
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+
+	color: transparent;
+}

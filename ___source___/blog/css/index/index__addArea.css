@@ -1,0 +1,27 @@
+.addArea {
+    position: relative;
+    top: 2%;
+    
+    width: 60%;
+    height: 5.7em;
+
+    background-color: lightgray;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+
+    border: 1px solid whitesmoke;
+}
+
+.page_speed_move {
+    width: 97%;
+    height: 3em;
+
+    font-size: 1.5em;
+
+    margin-top: 1%;
+
+    text-align: center;    
+}

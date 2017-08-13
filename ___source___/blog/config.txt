@@ -1,0 +1,4 @@
+{
+    "isFile" : true,
+    "storageLocation" : "/___source___/blog/upload/blog_storage.txt"
+}

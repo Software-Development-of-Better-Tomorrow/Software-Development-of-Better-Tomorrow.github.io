@@ -1,0 +1,8 @@
+{
+Because very easily you can test your website against various devices & devices' resolutions.
+Other such online tools I've tested are:
+<a href="http://quirktools.com/screenfly/" target="_blank">http://quirktools.com/screenfly/</a>
+<a href="http://www.infobyip.com/testwebsiteresolution.php" target="_blank">http://www.infobyip.com/testwebsiteresolution.php</a>
+<a href="http://cybercrab.com/screencheck/" target="_blank">http://cybercrab.com/screencheck/</a>
+02-june-2017 11:52:00 GMT +0100
+}

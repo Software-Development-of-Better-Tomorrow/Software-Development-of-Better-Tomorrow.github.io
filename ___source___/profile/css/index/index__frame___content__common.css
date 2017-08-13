@@ -1,0 +1,83 @@
+.content {
+	position: relative;
+	top: 80px;
+
+	width: 800px;
+	min-height: 100px;
+    
+	font-size: 1em;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+}
+
+.arrow_down {
+	position: relative;
+	top: -23px;
+	left: 114px;
+
+	width: 25px;
+	height: 26px;
+	
+	background-image: url('../../images/arrow_down.png');
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+
+	color: transparent;
+}
+
+.arrow_up {
+	position: relative;
+	top: -23px;
+	left: 114px;
+
+	width: 25px;
+	height: 26px;
+	
+	background-image: url('../../images/arrow_up.png');
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+
+	color: transparent;
+}
+
+.aboutMe, .experience, .currentEmployer, .history, .skills {
+	width: 100%;
+}
+
+.aboutMe .legend, .experience .legend, .currentEmployer .legend, .history .legend, .skills .legend {
+	position: relative;
+	left: -15px;
+
+ 	width: 113px;
+ 	height: 23px;
+ 	
+	color: white;
+	
+	text-align: left;
+}
+
+.aboutMe_content, .experience_content, .currentEmployer_content, .history_content, .skills_content {
+	width: 100%;
+	min-height: 100px;
+
+	border: 1px dotted #404040;
+
+	background-color: #333333;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.it_div, .education_div, .offwork_div, .language_div, .company_div, .timePeriod_div, .occupation_div, .technology_div, .project_div {
+	position: relative;
+	top: 5px;
+
+	min-height: 25px;
+}
+
+.technology_div, .project_div {
+	min-height: 40px;
+}

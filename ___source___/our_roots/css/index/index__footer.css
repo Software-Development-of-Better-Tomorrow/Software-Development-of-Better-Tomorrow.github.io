@@ -1,0 +1,17 @@
+.footerContent {
+    position: relative;
+    float: left;
+
+    width: 100%;
+
+    color: burlywood;
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    font-weight: bold;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}

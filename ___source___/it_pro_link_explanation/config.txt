@@ -1,0 +1,4 @@
+{
+    "isFile" : true,
+    "storageLocation" : "/___source___/it_pro_link_explanation/upload/"
+}

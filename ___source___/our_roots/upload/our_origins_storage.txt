@@ -1,0 +1,9 @@
+{
+I come from here where live my family.;Janów 6, 27-350 Sienno, Mazowieckie;
+Łukasz (Lucas); Janów, Lipsko County, Masovian Voivodeship, Poland; Lucas.png;
+},
+{
+From here comes SKARB and here live her family.;Dębno 33, 27-530 Ożarów, Świętokrzyskie;
+Beata (Betty); Dębno, Ożarów County, Świętokrzyskie Voivodeship, Poland; Betty.jpg;
+Tosia (Tony); Dębno, Ożarów County, Świętokrzyskie Voivodeship, Poland; Tony.png;
+}

@@ -1,0 +1,7 @@
+{
+Very good & detailed explanation on every aspect of C# programming from bottom to top, so to speak.
+I read this book in the second year into when I started my C# adventure.
+I do believe that not only really starting from knowing the basics of every programming language but paying attention to its every detail is the best approach.
+This is book that is 100% all about that.
+21-may-2017 13:55:00 GMT +0100
+}

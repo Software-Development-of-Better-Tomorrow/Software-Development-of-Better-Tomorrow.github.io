@@ -1,0 +1,8 @@
+{
+If you read it carefully and devote time to analyse it, then you will understand the core meaning of Lean Development.
+You will understand how simple sometimes and diffcult as well it is to implement.
+You will also get the understanding that it's not fixed set of rules that should be strictly followed, more often general guidelines
+how to come close to Lean way of development.
+I strongly recommend reading it at your own pace and not once. I read it across 3 days and always making recap of what I've read the previous day.
+16-june-2017 19:50:00 GMT +0100
+}

@@ -1,0 +1,34 @@
+.skills_content {
+    min-height: 225px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pLanguages, .pTechnologies, .pFrameworks, .pDatabases, .pTools, .pVersionControlSystems, .pPendingStuff {
+    position: relative;
+    
+	width: 100%;
+
+    padding-bottom: 50px;
+}
+
+.csharp, .tech, .framework, .mssql, .tools , .vcs, .itStuff {
+	position: relative;
+  	float: left;
+  	left: 10px;
+
+  	width: 70%;
+
+  	text-align: left;
+}
+
+.exp {
+    position: relative;
+  	float: right;
+  	right: 10px;
+  	
+	width: 30%;
+
+  	text-align: right;
+}

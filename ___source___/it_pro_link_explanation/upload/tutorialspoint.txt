@@ -1,0 +1,8 @@
+{
+This is a platform of various tutorials (not only IT-related ones), development tools and programming environments.
+You can also watch video tutorials for free and teach people.
+The best for me is Coding Ground, where you can practise, test or check some functionalities in 80 programming languages :-)
+Of very good usage are also [ Net Meeting ], [ SENDFiles ] and [ Whiteboard ] that can be accessed at the top of the page.
+All available tools can be found under [ Tools ] option in the same place.
+30-july-2017 08:56:00 GMT +0100
+}

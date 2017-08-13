@@ -1,0 +1,132 @@
+.legend_inline {
+    position: relative;
+    display: inline-block;
+    right: 20%;
+
+    width: 3.7em;
+
+    padding-top: 1%;
+
+    text-align: center;
+}
+
+.legend {
+    position: relative;
+    float: left;
+    left: 0;
+
+    width: 9%;
+    height: 2em;
+
+    color: whitesmoke;
+}
+
+.info {
+    position: relative;
+    float: left;
+    left: 0;
+
+    width: 9%;
+    height: 2em;
+
+    border: 1px solid #ffc107;
+    background-color: #43a047;
+
+    color: whitesmoke;
+}
+
+.new, .active, .done {
+    position: relative;
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9em;
+}
+
+.new {
+    color: #8c8c8c;
+}
+
+.active {
+    color: #1976d2;
+
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.done {
+    color: #43a047;
+}
+
+.established_identity {
+    position: relative;
+    float: left;
+    left: 1%; 
+    top: 0;
+
+    width: 43%;
+    height: 2em;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user_verified, .high_quality, .code {
+    position: relative;
+    float: left;
+    left: 17%;
+}
+
+.footer_content {
+    position: relative;
+    float: left;
+    left: 1%;
+        
+    width: 37%;
+    height: 2em;
+
+    text-align: right;
+}
+
+.footer_content a {
+    color: whitesmoke;
+
+    text-decoration: none;
+}
+
+.footer_content a:hover {
+    color: silver;
+
+    cursor: pointer;
+
+    text-decoration: underline;
+}
+
+.copy {
+    position: relative;
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+}
+
+.year {
+    position: relative;
+
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* below classes are being applied dunamically */ 
+.goToSourceCode {
+    position: relative;
+}
+
+.siteName {
+    position: relative;
+
+    font-family: 'Orbitron', sans-serif;
+}
+
+.siteVersion {
+    position: relative;
+
+    font-family: 'Orbitron', sans-serif;
+}

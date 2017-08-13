@@ -1,0 +1,8 @@
+{
+This site contains quick How-To tutorials on many languages & their APIs.
+I was visiting this site for many years since I broke into IT world.
+Last time I was looking for something was some 4 years ago.
+As I see now, website has changed a little bit :-).
+Overall very good place on common programming problems. I highly recommend this site especially for young devs.
+18-june-2017 13:45:00 GMT +0100
+}

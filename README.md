@@ -1,2 +1,3 @@
-# Official website of Software of Better Tomorrow
-## in preparation...
+```js
+   window.location.href = "index.html"
+```

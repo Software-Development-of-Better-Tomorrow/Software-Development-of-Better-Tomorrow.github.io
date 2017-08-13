@@ -1,0 +1,4 @@
+{
+    "isFile" : true,
+    "storageLocation" : "/___source___/bio/upload/bio_storage.txt"
+}
