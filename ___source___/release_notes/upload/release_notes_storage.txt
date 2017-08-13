@@ -1,5 +1,5 @@
 {
- [v19.5]: [npm JavaScript Package Manager added to profile] (silent version)    
+ [v19.5]: [npm JavaScript Package Manager added to profile] (silent version) [new name]    
  [v19.4]: [CSS bug fix: main page height increased] (silent version)
  [v19.3]: [ Tosia i.e. SKARB 2 (3580, 58) ] (Birthday version)
  [v19.2]: [Download code semantic change] (silent version)
