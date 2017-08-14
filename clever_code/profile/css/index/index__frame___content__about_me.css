@@ -1,0 +1,27 @@
+.aboutMe_content {
+    min-height: 295px;
+
+    padding-top: 5px;
+}
+
+.aboutMe_div {
+    min-height: 120px;
+}
+
+.aboutMe_div a {
+    color: #000099;
+    
+	text-decoration: none;
+}
+
+.aboutMe_div a.aboutMe_Blog:active, .aboutMe_div a.aboutMe_Bio:active, .aboutMe_div a.aboutMe_ProLinks:active, .aboutMe_div a.aboutMe_ourRoots:active {
+    color: #376ceb;
+}
+
+.aboutMe_div a.aboutMe_Blog:hover, .aboutMe_div a.aboutMe_Bio:hover, .aboutMe_div a.aboutMe_ProLinks:hover, .aboutMe_div a.aboutMe_ourRoots:hover {
+	box-shadow: 1px 1px 30px whitesmoke;
+
+    background-color: white;
+
+    color: darkred;
+}

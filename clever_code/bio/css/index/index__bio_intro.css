@@ -1,0 +1,126 @@
+.leftPanel {
+    position: relative;
+
+    width: 59%;
+    height: 270px;
+}
+
+.navigation {
+    position: relative;
+    float: left;
+    left: 7%;
+    top: 5%;
+
+    height: 120px;
+
+    color: whitesmoke;
+
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 1em;
+}
+
+.main_page {
+    position: relative;
+
+    line-height: 1.9em;
+}
+
+.main_page  a {
+    color: white;
+        
+    letter-spacing: 1px;
+
+    text-decoration: none;
+}
+
+.main_page  a:hover {
+    color: silver;
+
+    text-decoration: none;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.broadAudienceQA {
+    position: relative;
+    float: left;
+    left: 1%;
+    top: -5%;
+
+    width: 98%;
+
+    color: whitesmoke;
+
+    font-size: 14px;
+
+    transform: skewY(-12deg);
+    transform-origin: 100% 0;
+
+    visibility: hidden;
+}
+
+#technologies {
+    position: relative;
+    float: right;
+    right: 2%;
+    top: 2.2%;
+
+    width: 38%;
+    height: 17em;        
+}
+
+.entry {
+    position: relative;
+    top: 10%;
+
+    width: 90%;
+
+    margin-left: auto;
+    margin-top: 2%;
+    margin-right: auto;
+
+    padding: 1%;
+}
+
+.entryTitle {
+    position: relative;
+
+    font-size: 0.75em;
+
+    line-height: 1.4em;
+
+    margin-bottom: 1%;
+
+    text-decoration: overline;
+}
+
+.lineDefinition {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+
+    letter-spacing: 1px;
+    
+    line-height: 1.5em;
+}
+
+.postedOnDate {
+    position: relative;
+
+    color: lightblue;
+
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 0.7em;
+
+    padding-top: 2%;
+}
+
+.bioUpdate {
+    color: red;
+
+    font-size: 2em;
+
+    line-height: 2em;
+}

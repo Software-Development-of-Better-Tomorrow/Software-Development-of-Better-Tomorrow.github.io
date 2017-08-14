@@ -1,0 +1,5 @@
+{
+This site contains quick How-To tutorials on CSS2/3 stylesheets usage, covers new things that are emarging in the HTML/JavaScript/CSS world and many more.
+Stuff here ranges from beginner to advanced web developer :-)
+23-june-2017 09:24:00 GMT +0100
+}

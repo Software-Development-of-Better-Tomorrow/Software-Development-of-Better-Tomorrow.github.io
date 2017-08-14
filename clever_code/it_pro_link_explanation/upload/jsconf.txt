@@ -1,0 +1,5 @@
+{
+There you have one place where people with passion share their knowledge and insight on JS development.
+It's from developers to developers for the sake of better development.
+29-june-2017 20:21:00 GMT +0100
+}

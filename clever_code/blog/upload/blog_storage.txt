@@ -1,0 +1,932 @@
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: job title]...
+Different companies, different titles, but the work is exactly the same. From time to time such thoughts just cross my mind...what such title does really mean ?
+Having worked across all the over 8 years I was pleased, excited, confused, frustrated, bored and much more... And it all really was boiling down to getting hands-on experience with reality, the reality with whom I simply don't agree at all.
+I would even go further to call it oxymoron, meaning company position vs assigning certain titles to some people, but it could be maybe a little bit too harsh. On the other hand, what I really wanna do and trying to push through are my personal reflections based on up-to-now experience. By saying "to push through" I'd like certain people and other people as well to understand, that these simple three or four words mean something.
+Otherwise, why not calling a laryngologist just a heart surgeon..Why not ? IT is also the very important industry. This is what I was faced with as of now. Unfortunately to say, I was faced, because I'd like not to be. It harms those people being assigned with so-called titles, even though they don't even know that it is harmful to them, beacuse it let them believe that they already are who they are simply not.
+And in this industry IMHO it's like two-edged sword. In the first place you false and harm people and in the second place you false and harm other people. You can say it's just a job title, and that is by far the truth, but for me and from my point of view, it's like following good software development rules versus not following them.
+In the end byte is just a byte as long as it saves its purpose.
+03-february-2017 15:45:20 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[being serious: web development]...
+Contrary to the very first post of mine, this is kind of " hmm... I don't get it :/ ? " or "shoemaker walks barefoot" type of post.
+I'll start it this way, namely, my experience in this field is like year and a half or so. Maybe a little bit more than "or so".
+I know how little I know if it comes to web development as well as how difficult it is to design a page that looks good, attracts people and so on... Maybe a little bit less difficult if you devote little time to familiarize yourself with some new tech stuff that lives with us from some time ago.
+And now coming back to the core of this post...
+I am a little bit nervous person and it takes me a little less time to do sth as I try to do it asap. Either way, it takes me about thirty sec to do it. What I am alluding to is the very sophisticated skill I have, i.e. ability to copy and paste.
+There is something like HTML validator and CSS as well, that can tell you whether your website conforms to W3C standard or not. I'm using this tool on daily basis and for me it pays off even though I am not a web developer on daily basis... But what I see on daily basis is quite the opposite. And I am wondering why is that ?
+People who do web dev do not pay very much attention to their own, let's call it promotion. Their offical website from time to time is far from W3C and quite often far from 1st page in Google. That's not bad as nokdaun is not so harmful in the boxing, right ? What brings back nokout memories to me is sth different, i.e. doing such websites for people who pay for it.
+They truly believe they get very good product, well-designed and so on and so forth. It may be well designed and quite often it is, but I am really wondering what this phrase "well-designed" means ? On many occasions not well-structured and quality of the paint - here called CSS - is probably from the lowest shelf possible... And it is the case with mid-to-big campanies judging from my experience. SEO for those people (creating such websites for the mid-to-big) probably is some character from Matrix movie, maybe twin brother of Neo [ :-) hahaha... ] as it sounds familiar. And as Matrix is something unreal, the chance of such website jumping into first ten of pages in search engine is the same. What's the fuss all about ?
+Who cares...
+I do very simple web stuff and sometimes starting from sth simple is what I really appreciate, to be honest. But not so long time ago, typing some phrases about professional website business card development conforming to w3c gave me the first 3 places locally and on broader scale in google.
+Comparing to people who design it on daily basis I do not think it is right, if you know what I mean...
+And finally, concluding this post with some positive remark, during this whole two years up to now, I came across one guy who makes really clean and W3C well-designed web content. Hope it will be the case on many more occasions in the future :-)
+04-february-2017 12:26:05 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[being serious: portfolio]...
+This post came to my mind yesterday and it's the aftermath of the recent treatments of my person during numerous interviews I was lucky to be invited  to.
+When I was younger and doing normal stuff like writing loops, fairly simple logic processing some xml files or just writing simple T-SQL stuff and so on and so forth, I wanted to be appreciated one day for being good programmer. I knew where I was and where were others. That's the point.
+Trying not to writing poetry I'll just skip to the present times.
+Now I know what I know and know what don't know yet. And of course I know what I was lucky to write.
+And what follows now is what I don't understand.
+To be honest every other potential employer on being asked - very kindly - about my contribution on GitHub was trying to tell me either they were unaware of what I am talking about or just were telling me they glanced the eye on that probably by coincidence.
+Either way, all of them tried to tell me "man, you just wrote two foreaches. No big deal."
+I do not agree with that :-)
+Now I do not even pay attention or ask them about that. There is no point telling people about other solar systems if they do not know how many planets are in our one, put it very basically.
+So I wondering whether having some portfolio really matters? Or is it just me who is being constantly neglected?
+Putting some things into thorough analysis I guess there is one lesson to learn, i.e. an egg cannot be more clever than chicken :-)
+10-february-2017 16:30:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[being serious: on naming technologies in job ads]...
+<span class="appreciation">Thank for all of You who appreciated it :-)</span>
+23-april-2017 11:31:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: faq 1]...
+I'd like to answer one commonly overheard question, mainly WHY DO I NEED "SO MUCH" MONEY?
+Making long story short I'll put it this way:
+·        I'm working for that almost 30 years
+·        I am very knowledgeable
+·        I am improving my skill set on daily basis
+Actually, I'm learning when other people are going to bed and when other people are about to get out of their beds.
+For more human reasons I can say that with my fiancée are expecting for the new family member and it would be nice to have some shelter over our heads.
+For other reason I think in this industry people should be paid for their actual skills - IMO it's a fair approach.
+For the last 1.5 years on average my salary was ~ 6500 in local currency.
+Dating back 1.5 years and going to the beginning of my programming adventure, which spans whole 7 years on average my salary was ~ 1850 in local currency.
+Bearing in mind my passion, commitment and hard work (IMHO), do you think I do not deserve those money I am fighting for?
+And if so, why do you abuse US on constant basis? :-(
+Does in this country working really hard for the family is like getting money for nothing?
+If not, please stop doing so. Thank you.
+14-february-2017 05:38:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[having fun: Maths & sport]...
+When I was a child, next a lad, I always wanted to be a football player.
+I tried my best to play football as good as I could behind the school every Sunday afternoon on non-potato filed, but to be honest with you, a potato field was just behind one of the goal lines :-), maybe 20 or 30 meters away from a goal line.
+But I was growing up in the countryside, where and when opportunities as well as possibilities were very limited.
+So I had to help my parents every now and then, sometimes more often to do normal stuff that is to be done when you live in the countryside.
+Also I had to learn some subjects at school, because I knew this was the only way for me to be someone in the future. We were not so rich, but we were and are rich in other way.
+So I had to give up my football amibitions and and focus on learning.
+Time went by, now I am not so young any more, but far more knowledgeable.
+What's the point?
+The point is, my parents did the job, I am qualified to perform my job.
+From the past what was left is the telly football I am able or sometimes not to watch it.
+Then I was smart enough to figure out, that despite the fact I was denied to maybe play in the Premier League one day, I can work for Premier League one day, because I learnt English language and accquired some skills.
+Eventually the bought me and told me to learn English football culture and train with kids.
+I was really happy...
+But then they told me, that I had to pass some training, they called it training, but I wanted to go further and pass the certificate.
+Unfortunately they told me, it was a rubbish. Ok,...
+Eventually they told me, I am Polish and do not follow English football rules, but Polish ones. And the got rid of me :-(
+I was very dissappointed and so sad that I could barely stay calm, if you know what I mean.
+I thought, I would work harder and harder.
+And another football club approached me in a very professional way.
+I was very impressed. Discussions were going very well, all that paper stuff which I do not like very much, but I've got some people to do that for me :)
+But the negotiations stalled in black corner when it came to paying the morgue... if you know what I mean.
+They told me that my skills, knowledge and work approach learnt in almost 30 years comparing to my future goals are like north and south pole...
+IMHO I do not quite agree with that. :-(
+So I am being left stranded and trying to understand what's really going on...
+I am trying not to understand that maybe it's because I am Pole. Who knows...
+I learnt so far in my life, that in order to succeed you must be fair and you must follow fair play rules.
+But they brought in some jury to match that probably did not learn such things and on the very first occassion they showed yellow card for nothing.
+And a couple of minutes later they showed me straight red card.
+Do you know how cruel it was?
+At the end of the first half break official contacted me to tell me, that - IMHO rules probably have changed - I am not neither allow to play with 10M (men), which is obvious for me, but nor with 10k (kids). I call some of players kids, because they are young as I was long time ago.
+I am wondering what is left for me ? Looking after a grass, if I wanna stay alive with my goals ?
+More to follow...
+17-february-2017 17:30:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my philosophy: Senior Software Developer i co dalej?]...
+<a id="blogUrls" href="https://bulldogjob.pl/articles/372-senior-software-developer-i-co-dalej" target="_blank">Senior Software Developer i co dalej?</a> <--- this is a link :-)
+18-february-2017 13:20:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[having fun: flat living ad]...
+Why this kind of post? Because I am being frank, sometimes maybe a little bit outspoken.
+Neverthelles, living here is very good, except for one neighbours living upstairs from us, but that's probably the case with us only. They constantly knocking on their floor / our ceiling and disturb our rest.
+The flat is very good, one moderately-sized living room and one small bedroom, but big  enough to keep it there one small table, book shelf and ironing board.
+The bathroom is separated form WC, kitchen is good, well-equipped: microvawe, oven etc.
+The balcony is sth between not small and not big. In the evening when the sky is clear, there are superb views on Kraków, actually left-sided Kraków looking from south to north.
+You can easily see from long-distanced Zakopianka up to Mistrzejowice and Prądnik Czerwony to the right.
+And beautiful sunsets as well :-)
+The price for this falt is ~ 1800 PLN, which in comparison to other locations is good.
+What about connections to the city center, you can reach Krakowska Gallery in 30 mins using one tram.
+To be onest there is only one pharmacy 400 meters away from the flat. Apart from that pretty everything you can find here for normmal life.
+Bonarka City Center Gallery is like 10 mins away from here.
+All services required for normal life are around the corner, so to speak.
+One day I'll post a video showing Kraków in the evening.
+And last, what I really appreciate living here, is the kind of countryside way of living in positive meaning of course :-).
+No so much traffic, little noise now and then and dogs barking and birds singing when there spring, summer or early autumn.
+You can fully recover for the next day, or week.
+I highly recommend renting this flat. The owner does not make any troubles anytime.
+20-february-2017 10:45:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[having fun: looking for a job]...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content removed.
+23-april-2017 11:24:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[having fun: looking for a job 2]...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content removed.
+23-april-2017 11:23:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[having fun: UCL draw 17-03-2017 11.00 GMT)]...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content removed.
+18-april-2017 09:54:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: looking for a job @ ABB]...
+Explanation: no response.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content removed.
+<br />
+18-april-2017 09:54:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: disturbance of sleep]...
+You know where we are living, right ?
+Today, i.e. 27-march-2017, 1.45 AM (which is to my mind almost middle of the night), when I was almost falling asleep and was total silence all around, our neighbours from upstairs threw something like coin or heavy stuff onto the floor.
+Thanks to them I had a SLEEPLESS NIGHT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!  :-(
+Why ?
+Is this the way to tell us that you do not like us, beacuse we are hard-working people ? And we had to work so hard beacuse we are not originally from Cracow ?
+Please anybody tell them to ALLOW US HAVE A NORMAL NIGHT, PLEASE...
+They disturb us calm life on a regular basis!
+27-march-2017 06:11:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: country-wide announcement]...
+Stop calling me gay, slipper, gull etc.
+My knowledge is like bucket full of water.
+Your knowledge is like drop of water in that bucket.
+You are just (semi-)professional 9 a.m. - 5 p.m. programmers.
+I am Software Engineer.
+Refrein from telling such lies or I'll do whatever I can to push & force you out of the business!.
+12-april-2017 07:20:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: looking for a job @ Motorola Solutions]...
+Previous attempts:<br />
+November 2015: too late invitation for knowledge assesment at Czerwone Maki.<br />
+November 2016: poor algorithms development skills.<br />
+February 2017: knowledge assesment below expectations.<br /><br />
+So I did my best to improve on both sides and I will give myself a fourth attempt, i.e.  I will send my application to Motorola Solutions on Wednesday noon to give them 2.5 days (until Friday 5 p.m. to offer me the job).
+They are all engineers working there, so in my opinion it is enough time.
+<br />
+Status: passed elimination round on 27 April. Awaiting 1st round of talks, i.e. 30 mins phone conversation assessing programming & English language skills.
+Unfortunately nobody called me since 27-April-2017, so I assume I had been dropped due to weak references. I failed for the third successive attempt. This time did not qualify for the first round :-(
+26-may-2017 21:19:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[being serious: what is the most important in our world ?]...
+<span class="family">Happy Family.</span>
+<span class="work">work</span>
+<span class="friends">some people put here friends or sth like that... I put here nothing.</span>
+26-april-2017 09:40:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[being serious: my philosophy of work derived from Greek mythology]...
+<span class="work_attitude">Icarus flight</span> vs. <span class="work_attitude">Sissy work</span>
+I'd prefer to fly like Icarus but in a cold rainless day.
+28-april-2017 09:39:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[being serious: working @ HSBC]...
+<span class="work_reflection">July - December '16 |> waisted time :-(</span>
+01-may-2017 13:40:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[being serious: so-far the biggest achievement]...
+Many people ask me about that and I say many different things. Because it's kind of enterteiment to me.
+The truth is quite different.
+When I was so-called "grey person" like so-called other people I worked hard to make my life better.
+Then they destroyed my life and health here and there making more difficult for me to do what I was doing.
+Now I know what I wanted to know.
+<br />
+The biggest achievement so far is the ability to go to the city, have a nice dinner and going for a walk with my family like others *
+<br />
+The rest let's say, does not count.
+* - taking into account the best conditions possible that could exist. (it's like LTE 300 internet speed)
+05-may-2017 14:00:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[having fun: describing my programming experience]...
+Speaking T-SQL I can describe my nearly 9 years of programming experience as it <span class="speaking_TSQL">FUNCTION</span>s:
+<span class="speaking_TSQL">CREATE</span> Professional software development ( @Your Ideas, @My Solution ) <span class="speaking_TSQL">RETURNS</span> HighQuality Bugless Code
+07-may-2017 14:26:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[sharing valuable knowledge: Pro Books, Videos & more]...
+In this post I've decided to share some valuable stuff.
+Since Microsoft and Google are friends rather than enemies I will double the speed and from now on you can access more valuable content via OneDrive & GoogleDrive as well.
+They could be found on publicly available places on the internet, that do not voilate any law.
+<a id="visit_drive" href="#" onclick="blogInfo.goToOneDrive()">Go for Pro IT on OneDrive</a>
+<a id="visit_drive" href="#" onclick="blogInfo.goToGoogleDrive()">Go for Pro IT on GoogleDrive</a>
+Keep coming to revisit these shares for new books, videos & more :-)
+08-june-2017 14:34:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[sharing valuable knowledge: Pro IT]...
+I acquired in a legal way from [Pluralsight], [udemy] and other sources tutorials on various programming stuff and will be happy to share with you.
+Therefore I will be, let's say, "streaming" them :-)
+Please note, that order indicates the way in which I was typing the stuff :-)
+<div class="pro_stuff" />
+Starting from 10-07-2017 until ~ mid September:
+<span class="namely">Summer break people ! :-)</span>
+Go to Pro Videos folder under [Go for Pro IT on OneDrive] link in the previous post for what was shared so far.
+09-july-2017 23:24:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[version explained: v15.2 (see how far you are from us ?)]...
+Last week while visiting our parents I was using "USB stick" internet and unfortunately it showed on the map that I was from Warsaw while I'm not.
+The reason for this - using plain English - is that when you are in areas where internet coverage is not so dense (it was in my case) like in cities and you wanna very quick GPS location,
+then it uses location of your internet provider (in my case it was Warsaw). I forgot to check whether it would be the same if would be using my phone internet as a hotspot.
+Like here, when using WiFi it shows ok. This is how it works put it very simply. I will test the slower option (GPS location is obtained sometimes around the minute or even over the minute in the worst scenarios),
+but it gives more precise GPS location in the beforementioned situations.
+Also, I am working on the second version of "Where do we come from ?" which will see the light of the day at the very end of this week.
+Features:
+1. more user-friendly interface: textual address representation instead of GPS coordinates.
+2. ability to show unlimited number of family members in one marker.
+3. ability to show unlimited number of markers.
+4. no hard-coded stuff (everything will be able to specify in a simple text file in a simple and painless way :-) )
+16-may-2017 11:04:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[quotes of my own: knowledge & skills]...
+<sub>"</sub>If you doing your job as a duty you will never reach as such level as if you would be doing it as a hobby<sub>"</sub>
+It's not a scientific research, it's a real-life experience :-)
+18-may-2017 22:05:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[hard facts: almost perfect day for the best performance]...
+Wondering how I spend my day to be able to do what I am really capable of ? That's how it goes:
+1. The previous day I go to bed around 10.45 p.m.
+2. Next day I wake up around 7.00 a.m. fully rested without any alarm clock.
+3. Resting for another around 45 mins in my bed.
+4. Eat good or very good breakfast.
+5. Around 9.00 a.m. I get down to programming and spend here another 8 - 8.30 h in almost complete silence
+6. Make a dinner
+7. Take a bath (not have a bath, as far as I was teached)
+8. Resting for the rest of the day doing some light work (twitting etc.)
+9. Around 10.45 p.m. I go to bed.
+I'd like at least some of you to know, that's not so easy as it might look :-)
+18-may-2017 10:07:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[my philosophy: software release]...
+After appying cool-headed thinking I made my mind up, that regardless of the so to speak "size of the release" from today on there won't be neither Friday nor Sunday releases.
+Alluding to beforementioned "Where do we come from ? v2" there won't be this week release.
+Probably somewhere between Monday & Wednesday :-)
+19-may-2017 08:57:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[my philosophy: accuracy of information]...
+With all of this real-time updates (when I was really updating something) on my website I aiming at people come to believe that this is 100% true information far from showing off,
+and that this is more valuable than what I say now and then ( if you know what I mean :-) ).
+In other words I want people to take it for granted what I write on my website.
+Thank you :-)
+19-may-2017 09:23:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[version explained: v16 (where do we come from v2 ?)]...
+This below video explains functionality "Where do we come from" v2, which will be available tomorrow.
+In this way it is easier for me to explain core approach than providing textual description.
+<a class="versionClip" href="#" onclick="blogInfo.download('upload/where_do_we_come_from.mp4')">Download mp4 clip</a>
+22-may-2017 11:42:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[version explained: v16 (blog automation)]...
+This below video explains functionality "Automation of blog scrolling", which will be available tomorrow.
+In this way it is easier for me to explain core approach than providing textual description.
+<a class="versionClip" href="#" onclick="blogInfo.download('upload/blog_automatic_scrolling.mp4')">Download mp4 clip</a>
+22-may-2017 11:43:00 GMT +0100
+},
+<span class="titleBeginingMarker">>> </span>[version explained: v16.2 (blog automation bug fix)]...
+This version in comparison to v16 & v16.1 fixes the error.
+Apologies for the inconvenance. I simply forgot to check that.
+<a class="versionClip" href="#" onclick="blogInfo.download('upload/blog_automatic_scrolling_bug_fix.mp4')">Download mp4 clip</a>
+22-may-2017 11:43:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[good advice: for young programmers/developers]...
+Please do not listen to your older colleagues telling you I’m a jerk or geek or whatever…
+Because in this industry there is no such stuff like geeks or jerks.
+Do not listen to them saying programming is only the job. It’s not true, because for many people it’s more than a job.
+Try to stand by your own values, because you will understand a few years later when you have your own family what it means to have your own set of values.
+Accept that from time to time you can get laughed off (it’s part of what I have said above).
+Be patient and  happy with your own small achievements (in this industry you have well over 40 years to succeed :-) ).
+And now the best of all.
+What I have said above happened to me, there was nobody to tell me what I am trying to tell you right now, but I was calm, silent and smart enough to be applying my own thinking.
+To all of those people who were higher in  IT hierarchy and laughing at me, so to speak, now I could go and tell them “please, could you tie my shoelaces ?”.
+But what I could achieve by saying that? Nothing but 15 minutes pleasure telling them they are idiots. There is no point. It’s ten times better to go and read a good article on some software technology.
+25-may-2017 10:18:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[my philosophy: recent activities on GitHub]...
+The main purpose of these actions is the possibility for those people who are not interested in 99 CSS mind-blowing trick :-)
+in the current version available to go to certain repo and with ease download tiny library.
+The subsequent purpose is to let people know very easily within a few seconds whatever there is new particular functionality in contrary to whether something has changed or not.
+25-may-2017 15:50:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[hard facts: leaving Cracow for home]...
+We've canceled the flat deal with the owner today, and we are set to leave the city next week.
+I did my best to find the job, unfortunately nobody was keen to  offer me something from late November '16 until today.
+All those companies were focused on advertising themselves thanks to my humble person, because it was for free. On "Stars" instead, they'd have to splash giantic money.
+It's better to go the easiest way, isn't it ?
+Therefore all those companies specialising in software advertisment, I think, should follow the same path like me.
+Or, the harder option, I can do my best to help them out of the business.
+Please consider this as a good advice :-)
+Thank you for your understanding!
+26-may-2017 22:15:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[being serious: ending 6 months comedy]...
+I would like to announce to the broader audience that I am retiring from this sitcom called "Łukasz Dąbrowski going to interviews now and then" starring me and some thrid plan actors.
+The board was unwilling to pay the required amouunt of money in time!
+I would like to apologise to other people who unfortunately had to endure some unpleasent moments entirely thanks to those third plan actors whose behaviour impacted my person and subsequently innocent people.
+If you worried about the continuation of this sitcom, I guess, my place will take some of them.
+Alluding to my person, IMHO programming field is not a place to joke.
+Please do not worry much, I will not stop trying to tell you what programming is really all about :-).
+01-june-2017 23:03:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[hard facts: my website going down for a while yesterday]...
+I took for granted that redirecting from README.md will accept some kind of full address, which turned out to be wrong assumption, of which I was simply unaware.
+That's the short explanation :-)
+01-june-2017 23:08:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[hard facts: why some people would like to talk to me ?]...
+The answer is crystal clear to me, namely:
+1. I am more knowledgeable & creative than other people in this industry at the time of writing this post.
+2. I do have more passion for this industry then other people at the time of writing this post.
+3. Many people put here a word "famous". I am really sorry for you, but it is not IT-related word; //  ("famous") => null;
+<br >
+I do know what I wrote :-). When do you start treating me the way I deserve to be treated ? :-( !
+06-june-2017 12:55:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[having fun: my path to succeed in IT]...
+How to impress your boss and get higher salary when you have weak IT skills ?
+Go for oriental way and say...
+<span class="good_customs_part1">Chào buổi sáng</span> <span class="good_customs_part2">ông chủ</span>
+By the way, if you like Far East cuisine, I can safely recommend this place:
+<br />
+<div class="resteurant_yellow_dragon" onclick="blogInfo.download('http://zoltysmok.pl/')"><span class="yellow_dragon_site_info">touch the dragon, but do not hurt him :-)</span></div>
+<br />
+Food is very tasty and they give full professional equipment for consuption :-)
+07-june-2017 15:39:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my philosophy: why ?]...
+This post treats about matters which I'll try to explain and which are "like a burning sheer fire in my heart"...:
+<br />
+<span class="blog_entry_section_title">1. how people should understand what they want from the job the've chosen ?</span>
+<br />
+Seeing many people "in action" and having the chance to observe them for a while, I can safely say "not in this way they understand it now".
+It's diffcult sometimes to express something in one sentennce or two, or a few setences. But I'll try.
+They think this is typical job "nine to five". Asking 100 random people calling themselves developers, 99 of them will tell you straight away "yes, that's right".
+This is the way they see it. This is their foundation upon which they build their approch to work.
+From there on they only looking forward to natural things that you inherit from such approch, i.e. this is their base thinking (I am here to stay for 8 hours, during which I must be happy, drink lots of coffee, have fun and do some work).
+Sometimes more work (for God's sake, I thought this day would never end), sometimes less work (come on guys, it's 5 to 5 p.m., let's go).
+And to be honest, something between these two approches.
+This is how they see it, this is how they think this job should look like, because this is what they really want from this job. That's the bare truth. This is the core thinking that never sees the light of the day.
+No matter how good HRs could be, they will never get such answer from them... And you know what ? Because they think the same - not all of them of course - but for sure, many of them.
+"I know, you know, everybody knows this is a business, don't make it more diffcult for me, and I won't make it difficult for you".
+This is whole HR - candidate meeting. Everything else is just a formal stuff.
+And of course - now coming back to developers - give me as much money as possible, they seem to be screaming all the time. This is business, well-paid business, I have master's degree, 2 years of programming behind my back already, so I am senior professional developer. 8k will be fine.
+"... ok, I signed the deal, well-paid one, job seems to be easy, yeah.. this is life... hey guys, do we go for bottle of bear this evening, come on !!! :-), ... don't tell me you wanna learn something at home... Do you really wanna waste the time..." , and so on and so forth.
+... Hi there, what's your name.... :-) ....
+..really, you are working for them...., you are main analyst ???!!! :-), woooooow !!!!!! :-)
+This is their understanding, they call themselves professionals, and that is why dear customers you pay lots of money, you pay lots of money because in their eyes they write serious and highly efficient code, which everybody knows has to by default cost much, because it's written by pro people and is very efficient :-).
+But IMHO, what you should understand what this job gives you is:
+ - firstly, you should feel privilged to be able to do stuff like programming, because this profession changes our world. Let's be clear about that.
+ - secondly, you should get the feeling that thanks to your job some people will have better life.
+ - thirdly, you can get appreciation and can be perceived as a professional and very clever person for what you are doing.
+ - fourthly, there are not many jobs out there, of which you can tell the same.
+In general, earning money is written into our existance by default. In general of course.
+Money, as someone once said, is the bonus you get for doing something right :-). If you doing something better, you get better money.
+Keep this in mind, please :-).
+<br />
+<br />
+<span class="blog_entry_section_title">2. why the've chosen such job ?</span>
+<br />
+The answer is clear and straightforward, for money. But it's not 100% true. It's 99% true.
+Do you know why ?
+This 1% is when they started study IT, when they were keen on learning new stuff, and breaking into IT world.
+But once they broke into IT world, all of a sudden - i.e. from 2 to 4 years - they lost their eagerness for doing programming just for the sheer pleasure of doing programming.
+They saw big money on their accounts, well-lived life, luxury, this is where they really stopped. Instead of counting newly learnt stuff, they started counting money.
+They will tell you one thing, i.e. "I've chosen this job because I came to university, I devoted all my effort to getting higher education, and therefore I will not be working as hard as ant, so to speak."
+"I want easy and effortless life".
+This said stuff above is the foundation of their sheer hate towards people like me :-) and all of the stuff that follows that, i.e. verbal abusement, finger-pointing etc.
+Because people like me or me will always be saying quite different stuff, mainly, putting very simply - this job is not easy at all.
+<br />
+<br />
+<span class="blog_entry_section_title">3. how companies understand people motivation ?</span>
+<br />
+Companies seems to understand how people motivate their decisions only in one way, unfortunately. They simply know they came for money.
+What they are trying to do is pretending they don't know it and trying to figure out whether candidates are motivated by something else. And this is IMHO what is the core factor regarding all the interviews.
+I do not mention the obvious, which are of course the skills etc.
+They take it for granted, that ~90% of cases is due to fact, that what candidates expect from them is the higher salary then the one they have at current company.
+From there they follow certain fixed well-practised paths of evaluating candidates, bla bla bla (but not offensive bla bla bla).
+Full stop.
+<br />
+<br />
+<span class="blog_entry_section_title">4. how companies want to understand people motivation ?</span>
+<br />
+The next sentence probably explains everything.
+Companies want to understand IMHO that 100% of motivation has nothing to do with money. Yes, nothing to do with money.
+Regardless of whether person is about to start his/her fourth or tenth professional programming year.
+So-called first job after graduating from university is an exception here for obvious reasons.
+No matter how skillful you can be, they do not wanna hear about money.
+And here comes funny situation.
+They always say they have such & such benefits for family etc... :-), but if you say that you came for money, because your family need it - for me nothing to explain - they will tell you lots stupid things that it's a bad motivation!
+Yes, wanting money for family being in diffcult situation is bad, despite the fact that you can be "through and through" developer (very passionate about programming).
+They want you to tell them that you came here because this company will help you be better developer, do more ambitious project etc. (bla bla bla <- in this context).
+<br />
+<br />
+<span class="blog_entry_section_title">5. some people & companies shoud understand that other people are not sheets of paper.</span>
+<br />
+What I mean by that is the fact how some people being mistreated at work.
+They are being used literally as tools required to do some job. When the job is done, tool is being put aside or thrown away, as simple as that.
+This reminds me of typical usage of a note book. You make some notes during day, and at the end of the day you just throw it away.
+But people are human beings, they often have their feelings and emotions and passion as well.
+So you cant't just get rid of them because you don't like them or they are more clever than you, and only because there are legal actions allowing for that.
+It's not right at all and it's violates core rule of fair treatment at work. Doing so allows others to not think of you as professionals. And that's correct and very right.
+<br />
+<br />
+<span class="blog_entry_section_title">6. who is the employer and who is the employee and how they should understand each other roles ?</span>
+<br />
+That's seems very simple.
+Employer is a person/company how hire people/companies to do some job and pay them for that.
+Employee is a person/company how is hired to do some job and and being paid for that.
+That's probably the simplest definition possible.
+And now something more complex.
+Hiring some entity to do the job does not mean at all that such entity should be used as a tool. Companies are for people and not people are for companies.
+That's the main difference.
+But following this rule has one exception, i.e. you can't go to work and feel as though you can do whatever you want saying "if you don't like the way I 'work', then hire better than me , hahaha".
+Such situation is also forbidden and IMHO such case shoud immediately result in "such good developer" being released straight away! :-), Yes, straight away.
+There is no point to invest in such work approch.
+Nowadays having a job is a privilege, not something given by default.
+Therefore each side violating this approach simply doing wrong.
+<br />
+<br />
+<span class="blog_entry_section_title">7. what is the family and what is the job ?</span>
+<br />
+In general family is what we strive for and job is what we need to do for the former to exist. This is the core foundation. This is how our world functions. Full stop.
+Other well-known cases are understood as well, but in general the above applies.
+<br />
+<br />
+<span class="blog_entry_section_title">8. what is long-term thinking vs. short-term thinking , i.e. (UX & CX) => ~ UXCX.</span>
+<br />
+I don't wanna provide some lecture on neither UX nor CX and how they intersect with each other. I put these terms here for huge simplification.
+From my observations I understand that many people tend to think in this way:
+a. let's build a house here, the ground is cheap;
+b. let's buy a new car, we will pay the morguage somehow;
+c. let's go for a holiday this summer, I will start thinking about finding a job when we come back. We have some savings;
+My thinking is this (respectively):
+a. what about in 5 years' time, will these surroundings get developed, will communication improve, what is the chance that this peaceful place will turn into buzzling and noisy nightmare?
+b. We will be better off if we invest this money in our flat. We don't need brand new car from factory only for rain and leafes to have place to fall onto.
+c. What about studies for our children ? Maybe we should already start saving money for them :-) ?
+This introduction has one goal.
+In IT and not only, sometimes you have one chance to win over your potential customer. If you let them leave with the feeling that you are maybe not doing something in a professional way (i.e. only for money),
+then you are narrowing your chances to succeed in this industry for a very long time (maybe be for not entire life, but for sure for a very long time).
+This IMHO is short-term thinkig driven by let's make as much money as possible out of this situation, then we will see.
+The long-term thinking is like we are in good position right now, we're doing quite right, let's be patient and build on that and for sure success and of course money will come soon.
+Gradully going step by step also builds our trust in customers' eyes, which is far more important, because you can loose money in one year and get them back next year.
+But if you loose customers' trust, you will have to work hard for quite a long time to rebuild this relation.
+<br />
+These are my reflections I was gathering in my mind for quite a while.
+Thank you.
+11-june-2017 14:37:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my philosophy:  my dream!]...
+Before you read the following, please understand, that this is what I'd like to be here rather then me being here and therefore what I'd like to be here :-)
+Having so much passion for IT, I have a dream to make this place - I would like to create something cool here - like Silicon Valley.
+Yes, I do know what Silicon Valley means, but I'd like to create something cool resembling life in Silicon Valley :-).
+This is my life-time goal if it comes to software development.
+What is needed for this, is the desire for some clever people "to gather around" and think it through what could be done about that :-)
+I think that in 10 years' time something cool could be launched on.
+And below is the precise visualisation of my dream:
+<div class="my_dream" />
+<div class="my_dream_codename">Central-East European Hexagon</div>
+Blue color in this pic represents my dream!
+Please do bear in mind that it's only a name. It's all about the idea more than a name itself. If so, then it's far more than simple name, isn't it ? :-)
+29-june-2017 10:53:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[hard facts: today's GoogleDrive share]...
+Some of the content did not upload correctly. My fault.
+I still struggle with getting to remember that recycle bin needs to be emptied.
+12-june-2017 11:34:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: coming year revealed (until August '18)]...
+My mainstream efforts for the coming year can be described in 45 characters of regular expression , i.e.
+<span class="special_characters">^</span>JavaScript, TypeScript, (React/React Native)?<span class="special_characters">$</span>
+12-june-2017 11:37:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: website updates canceled]...
+In the aftermath of posting this message <a id="blogUrls" href="https://twitter.com/ld_SSP/status/874699037433360384" target="_blank">[ https://twitter.com/ld_SSP/status/874699037433360384 ]</a> on Twitter
+I have decided to cancel releasing new versions of website and blog or IT Pro Links pages' updates from now on until undefined time altogether.
+13-june-2017 22:26:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: website updates resumed]...
+Stupid jokes will proove costly!
+18-june-2017 12:03:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my philosophy: being more versatile]...
+Since 17th of Saturday, June '17 I've added to my professional toolset another great IDE, i.e. Atom.
+You can find it under this address <a id="blogUrls" href="https://atom.io/" target="_blank">[ A T O M ]</a>
+VS Code is being used for full website, while Atom I'll use for mobile website :-)
+They are both built with Electron behind the scenes (under the hood).
+This gives me more versatility and provides some kind of SRP-based work approach as well as saving me more time being spent on non-productive stuff :-)
+18-june-2017 12:31:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[quick jumpstart: starting website in 5 mins from scratch]...
+Wondering how to quickly test your website functionality without unnecessary overhead ? :-)
+Go to <a id="blogUrls" href="https://nodejs.org/en/download/" target="_blank">[ node.js download page ]</a> and install server for your paltform.
+Next open Command Prompt (Win + R), type cmd, and type the following command: [ npm install http-server -g ]
+When you have server already installed, go to folder where your website lives and run server by typing following command: [ http-server ]
+These steps you can read from this <a id="blogUrls" href="https://www.npmjs.com/package/http-server" target="_blank">[ address ]</a>
+And that's all :-) You have server up and running with 0-configuration.
+Or you can just download below .bat file to automate server running & stopping process.
+<br />
+<a id="blogUrls" href="#" onclick="blogInfo.download('upload/start node http-server.bat')">[ Download start node http-server.bat ]</a>
+<br />
+Inside this file you can find explanation why you would prefer this solution over standard one like f.e. installing Apache server.
+22-june-2017 13:22:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my philosophy: Create Better Tomorrow - some elaboration on this phrase]...
+This is a general phrase, not coupled to IT only.
+What it means in the context of IT, probably most of the people can figure out right now.
+What it can mean in other context is only limited by people imagination :-)
+It's not a recipe that can be done overnight, so to speak.
+As I said, in non-IT-related contexts it can mean almost anything.
+For me, f.e. it can mean these two things straight away (using simplified description):
+ - people could start creating "some communities" commenting on some holiday destinations... why ?
+   When you go on holidays you can read useful advices on how to spend your next day in the best way possible :-) (don't go there, there is nothing to see, you will waiste your time driving there. Instead go there, the place is less advertised but you can enjoy ... .... etc.)
+ - flat renting is a tricky stuff, isn't it ? :-) Sharing valuable experience, and what is more important, truth can help many people avoid some pitfalls.
+   And subsequently, avoiding disappointment and sadness, and so on and so forth. If you have ever rented a flat, you know what I'm talking about :-)
+This is my understanding of this phrase.
+To my mind, some people sometimes think that some big trending ideas has to be difficult and out of their capabilities :-(
+It's not true, as some big ideas are really simple ones but are neglected, skipped, ommitted (whatever you call it) in the first place because they seem too easy or mundane :-)
+It's neither a rule nor an exception, but it's the case on many occasions.
+As I said, this is just my understanding.
+22-june-2017 19:32:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my philosophy: my ever next employer]...
+IMHO my manager in line can only question my work approach and pace at which I do things if that person is more skillful & knowledgeable than my humble person.
+My manager in line giving me orders and me fulfilling them is a natural thing as everywhere.
+Conforming to this working draft not standard yet is the key to our future success :-)
+23-june-2017 17:23:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: job title v2 (web development)]...
+Having so many phone conversations during which I was frequently being asked about what type of developer I am led me to pondering this for some time.
+I do remember what I was saying on this subject in the past and now I have some update on that.
+Mainly, describing people as Front-End Devs, Back-End Devs, FullStack Devs IMHO only makes sense if those peole are at least very good in those areas.
+Yes, if they are at least very good, what means they're very good and even better :-)
+In this sense I do agree that such separations in terms of calling peole with those titles are OK.
+In other situations it does not make sense. And this is only my subjective opinion.
+How I see this:
+Front-End Dev is a person with very good -> superb skills in this area and let's say intermediate skills if it comes to back-end development (server side, database)
+Back-End Dev is a person with very good -> superb skills in this area adn let's say intermediate skills if it comes to front-end development (JavaScript, CSS, HTML, client side development in general)
+What I mean by "intermediate skills" is that those skills are decent ones.
+These titles were invented for some purpose, and if so, they mean something, and in the beforementioned cases they should mean something :-( :-)
+Otherwise having CVs of two developers in front of your eyes with equal number of years of development experience, both calling themselves Front-End Devs how would you choose the one to interview ?
+24-june-2017 15:09:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[sharing valuable knowledge: certificate problem in SourceTree]...
+Yesterday I downloaded standalone (in video I said alone :\) new version of Git and run into trouble when pulling changes from repository in SourceTree.
+SourceTree was complaining about some certificate issue.
+Please refer to the below video on quick simple tutorial how to overcome it in case you encounter such problem :-)
+<a class="versionClip" href="#" onclick="blogInfo.download('upload/quick_fix_of_cert_problem_in_source_tree.mp4')">Download mp4 clip</a>
+08-june-2017 16:00:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[my philosophy: Journey to the Center of the Web]...
+Now it's crystal clear to me that what has happened in the early of April is gonna last for a very long time.
+That's confirmed! :-)
+At that time I set out on a journey or adventure (whatever you call it) to get to know the web very well and in every detail.
+When this end ? Probably around the same time when our universe will end, which is a very long time from now :-)
+25-june-2017 22:30:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[hard facts: holiday]...
+As we are approaching this time of the year commonly known as holiday, and knowing that some people do make a use of this time and stressing once again that I do am a human being,
+I decided that this new learning materials (until 10-07-2017) will be the last ones before being resumed after holidays, i.e. around the middle of September.
+It will also be very busy time for me in terms of family, work and other stuff, so it's good to have a break :-)
+So for those who go on holiday, have a really good time (whatever it means to you) :-) !
+<div class="holidays" />
+I "borrowed"  this picture from this <a id="blogUrls" href="https://www.flickr.com/photos/neumeyer/2356634541" target="_blank">[ address ]</a>. Hope the author will not mind :-)
+25-june-2017 22:27:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[hard facts: learning English language]...
+Maybe it will be of some interest to some people, maybe not.
+When I was started learning English, I was hearing voices now and then that if you want to speak foreign language fluently or like native people you need to live in such a country for about five years.
+That's a shame, I said to myself. That's the introduction :-)
+I was learning single phrases or words while in primary school, then for a year or so I was buying learning materials while in high school.
+Then during studies I was attending English classes targeting the lowest level possible.
+When I was about to graduate from university I started going to private school for 3 years in a row.
+It cost me ~ 6000 PLN in overall, but that's not the point.
+Before I started going to private school I had started listening to BBC podcasts and radio. At the beginning I was understanding maybe 15% of what I was listening to :-).
+And over those 3 years I was learning a lot, yes a lot at home. I was listening to podcasts alomst every day I was coming from work, while going home, or wherever.
+I was watching various interviews on YouTube (once even on 31st of December, when people on the corridor in the student house were celebrating incoming New Year :D )
+I was reading a lot, mainly on BBC various articles mainly about football, now and then about general news.
+And while attending classes at private school I was doing lots of grammar exercises preparing myself for certificate. I passed it twice, FCE & CAE, in the space of 3 years.
+From both exams I got C, but more importantly I gave me solid foundation for further learning.
+As one of the teachers at that time, i.e. Simon Kuss, who's living currently in his native Australia with his family, told me it was good that I passed it in general, because many people fail such exams.
+What he said also, that passing such certificate only make sense if you want to pass it and you are not sure. What that meant was this, that for me right now there would be no sense at all passing such certificate because IMO I communicate very well with other people.
+After the school I was reading the same stuff on BBC, listening to podcasts. I was reading the same stuff (articles) maybe 3,4, or 5 times to memorize some words, phrases or even sentences.
+I was listening over and over again to the same set of podcasts until I downloaded new ones.
+My favorite ones featured World Service & Radio 4 Podcasts (from top to bottom) i.e. [World Have Your Say], [The Bottom Line], [The Forum] , [Click], [From Our Own Correspondent] [Health Check], [Outlook], [Hardtalk]
+When I started programming I also was writing all stuff in English.
+Then after 4 years of such serious learning I started watching BBC TV. And you know what, I was watching mainly on Fridays, Saturdays or Sundays.
+On Fridays when I came from work, ate dinner, I was watching BBC TV for about 2 hours.
+My motivation was so strong.
+And from now on the rest is just a history.
+The lesson to be learnt is this - and not because I am saying it - you don't have live in a foreign country to speak like a foreigner.
+If your motivation is strong enough, and taking into accout times we're living in, there are so many resources just to learn from :-)
+I agree, that living in a foreign country helps you a lot learning a language, much a lot. That's truth.
+But I you don't have such possibility or opportunity you can follow the path I gone through in terms of learning language :-)
+As I said, maybe this will be of some help to somebody.
+I forgot one thing if it comes to resources.
+I was using mainly two general-purpose books across all my learning, among other specific ones.
+<br />
+1. Oxford Advanced Learner's Dictionary of Current English, because I wanted this dictionary on my shelf.
+2. PRACTICAL ENGLISH USAGE Michael Swan 3rd Editon (now it's already 4th edition). Very very good book.
+<br />
+These books were advised to me by my friend at that time, now hardly a colleague, Kornel Paszkiewicz, whose profile was for some time on my website.
+He was very helpful if I had some question regarding English language.
+29-june-2017 11:08:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[quick jumpstart: what is bundler in web development]...
+This quick tutorial is aiming at showing you what is so-called bundler in the context of web development and what's for ?
+Put it very simply bundler is like WinRar or WinZip in the context of Windows.
+You use WinRar to zip some files. Simple.
+Now in the context of your web project.
+Your application root folder is like folder with some files and bundler is like WinRar. Simple definition :-)
+You zip folder in order to reduce space and network traffic for download or upload purposes.
+The same you do in terms of web project. You bundle (~ to some extent zip your files in one single file) for better release management and optimization.
+Such code is also going through minification process (so-called uglifying process) to reduce size of the files for optimization as well.
+Such files according to convention are ended with .min suffixes.
+f.e.
+my_library-0-0-1.js -> looks as it was written (nice, elegant code etc.)
+my_library-0-0-1.min.js -> this is minified version of your library (optimized & uglified).
+That's the whole idea behind bundlers.
+To show you how it works in practise, follow these below steps:
+1. Download this very tiny zipped project & extract it to @your_location <a id="blogUrls" href="#" onclick="blogInfo.download('upload/testing_fuse-box_and_typescript.zip')">[ Download testing_fuse-box_and_typescript.zip ]</a>
+2. Open it in favorite IDE and take a look at its content
+3. Next open CMD console, go to project location and type:
+ a. nmp init -y
+ b. take a look what has changed :-)
+ c. npm install fuse-box typescript -D
+ d. take a look what has changed
+First command creates json configuration file, while second command installs bundler (in this case FuseBox) and TypeScript (because FuseBox has native support for TypeScript)
+Now it's time to do bundle process. Main file responsible for this is called fuse.js
+To run the bundling process type the following command:
+f. node fuse.js
+What has happened is that FuseBox has compiled your files and bundled them and in our case started web server :-)
+Now you can open your browser and type localhost:4444
+Now some remarks:
+Many people say that Webpack (currenty commonly used bundler is diffcult to learn).
+What authors of FuseBox say is that their bundler is easy to learn and far more efficient than Webpack.
+I spent last 3 afternoons on FuseBox and can tell you that it does really is easy to learn :-)
+I highly recommend visiting FuseBox's offical website <a id="blogUrls" href="http://fuse-box.org/" target="_blank">[ FuseBox offical website ]</a>
+for easy-to-follow documentation.
+Also you can read some detailed tutorial available here <a id="blogUrls" href="https://www.sitepoint.com/fusebox-faster-webpack-alternative/" target="_blank">[ Introduction to FuseBox — a Faster, Simpler Webpack Alternative ]</a>
+29-june-2017 12:18:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[being serious: breaking away]...
+Regarding what I was asking for a couple weeks ago I do am really disappointed! You did not learn the lesson.
+You think I was joking or what? Please let me answer your uncertainty – no I wasn’t.
+You had well over half a year to understand your stupid behavior. IHMO you wasted your time.
+To be honest I had flashbacks thinking maybe you had a bad day, too much work, trafic jams etc.
+I do wanted to understand your attitude. Now I know it was a waste of time.
+Hope you have a very good life as you had lots of time to take care about that.
+Because from now on I really stopped carrying about you. For people like you there is no place in this industry.
+I am 100 % sure this is for the better tomorrow of younger generations.
+30-june-2017 11:31:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[hard facts: videos coming back to OneDrive]...
+I have thought that it's good to share the same stuff once again in case someone somehow missed some content.
+When I was sharing the previous stuff (JS, TS, Version Control Systems) I forgot to  add SVN tutorials to that bundle.
+No worries, it's available now :-)
+Please go to [Go for Pro IT on OneDrive], enter Pro Videos and visit folder ___SHARED___ if you are interested in what was shared so far :-)
+This will be available for an unlimited number of days until I decide otherwise, of which I will inform you in advance.
+02-july-2017 17:39:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[version explained: v19 (the end of July)]...
+Under following link [ <a id="blogUrls" href="#" onclick="blogInfo.download('upload/d-s-d___v19.pdf')"> you can download more detailed explanation of the next major version of the website</a> ].
+I can offically confirm that point 1. of v19 is done.
+Here you can <a class="versionClip inlineClip" href="#" onclick="blogInfo.download('upload/v19_SALM.mp4')">download mp4 clip</a> showing that.
+In a clip I said "Console Application"..., of course I meant browser console :-)
+It only shows I am still human being :-).
+What's left to do is testing different configurations and applying this functionality to other modules.
+Design Patterns: DRY & SoC [Dont Repeat Yourself & Separation of Concerns]
+Explanation:
+ > DRY: no hard-coded stuff & no repating the same stuff all over the same module.
+ > SoC: SALM is just the SALM (provides storage abstraction, i.e. loading data from some storage) that uses following dependices [js-utilities-1.0.0.js, jquery-3.2.1.min.js]. Other stuff like [blog] using dependency [blog-utilities-0.0.7.js] or [our roots] using dependency [google-maps-utilities-0.0.2.js] are independent of each other and independent of SALM as well.
+ They provide some interface that accepts data to be displayed. That's some improvement and optimization due to simpler internal implementation.
+ Therefore you can combine f.e. SALM and [google-maps-utilities-0.0.2.js] to load some data into the map or just use them independently.
+Current versions of [blog] or [our roots] use to some extent hard-coded way of data fetching, i.e. they internally use loading data from flat file.
+To provide backward compatibility this is preserved and can be enabled internally in those libraries alone [blog-utilities-0.0.7.js, google-maps-utilities-0.0.2.js] via switching [js-utilities-1.0.0.js]'s public function jsUtilities.fillChildContainersUnderGivenParentContainer_2 to jsUtilities.fillChildContainersUnderGivenParentContainer.
+The first one accepts content to be displayed which is default behavior now, whereas the second one accepts flat file storage location.
+Here you can <a class="versionClip inlineClip" href="#" onclick="blogInfo.download('upload/v19_backward_compatibility.mp4')">download mp4 clip</a> treating about backward compatibility.
+Modules that include backward compatibility are [our roots], [blog] and [bio] due to fact that libraries powering these functionalities include built-in flat file storage data retrieval.
+Other modules don't.
+This backward compatibility feature is provided for easier seamless understanding of things that changed since the previous version.
+This backward compatibility feature will be removed in v20.
+Here you can <a class="versionClip inlineClip" href="#" onclick="blogInfo.download('upload/v19_SALM_all_modules.mp4')">download mp4 clip</a> showing all modules having SALM implementation.
+<br />
+<br />
+The following 3 clips show SALM database usage, how to use SALM and along the way how to tackle CORS issues :-)
+<a class="versionClip inlineClip" href="#" onclick="blogInfo.download('upload/v19_SALM_part_1.mp4')">download mp4 clip part 1</a>
+<a class="versionClip inlineClip" href="#" onclick="blogInfo.download('upload/v19_SALM_part_2.mp4')">download mp4 clip part 2</a>
+<a class="versionClip inlineClip" href="#" onclick="blogInfo.download('upload/v19_SALM_part_3.mp4')">download mp4 clip part 3</a>
+<br />
+There is no clip for web service access as it is identical approach as with database one.
+<br />
+The following clip show new feature in v19 which is replacement of missing blog automation.
+<a class="versionClip inlineClip" href="#" onclick="blogInfo.download('upload/v19_GET_Request_blocker.mp4')">download mp4 clip</a>
+23-july-2017 23:46:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my dream!: design notes]...
+After long-term thinking I came to realize that the perfect match for my dream would reunification of City of Cracow and Google branch office in Warsaw.
+When I heard for the first time of Google having left for Warsaw, I felt very big dissappointment...
+Hope they will return one day :-)!
+Here you can read more <a id="blogUrls" href="#" onclick="blogInfo.download('upload/d-s-d___my_dream.design_notes.pdf')">[ design notes ]</a> on my dream.
+<br />
+Here you can read about <a id="blogUrls" href="#" onclick="blogInfo.download('upload/d-s-d___WorkCultureStandardProposal.docx')">[ Work Culture Standard Proposal ] (docx)</a>, i.e. how I see the dream to be implemented in the early stage.
+23-july-2017 13:49:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[version explained: v20 (~ November '17)]...
+Under following link [ <a id="blogUrls" href="#" onclick="blogInfo.download('upload/Progressive_Gallery.ppsx')">you can download more detailed explanation of a future major version of the website</a> ].
+09-july-2017 08:39:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[offical statement: writing commercial software]...
+I see no reason against no writing software for commercial purposes :-).
+But regarding different stuff I am being involved in right now, the very beginning of 2018 is the first possible time for me to do such stuff.
+It is a professional & serious profession, therefore I do approach it in such a way.
+Regarding technical details please bear in mind the following:
+<br />
+1. Every such project I treat equally regardless of who is the client.
+<br />
+2. Price is based solely on the complexity of the project regardless of who is the client and regardless of the developer, whom in this case is me.
+<br />
+3. Quality of the code: <div class="code_quality" />
+<br />
+4. No rush time rule, i.e. if the complexity of a problem equals [ C ] which requires time of [ T ] and will cost the amount of money [ M ],
+which gives [ C ] * [ T ] = [ M ] then I will not agree to [ C ] * [ T/2 ] = [ 2M ]
+<br />
+4. Contact: welcomed any time :-)
+10-july-2017 14:16:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[offical statement: Twitter activity & other stuff]...
+From 14-07-2017 until around mid September tweeting regarding programming is going to be suspended.
+There is time for work and there is time for some leisure time as well :-)
+During this time I'll be working hard for my family and on my own stuff.
+Regarding my website, v19 is coming soon and probably v19.1 and v19.2 will follow that with some small improvements in terms of security (I mean "hacking" :-) ).
+12-july-2017 21:29:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my philosophy: development works management]...
+Below you can read on how I manage all my development using my PC:
+<br />
+(C# & SQL stuff) -> development(Microsoft Visual Studio, SSMS) -> hosting(SourceTree |> GitHub) -> code_database(Visual Studio Team Services : VS |> Git)
+<br />
+(d-s-d) -> development(VS Code) -> hosting(SourceTree |> GitHub) -> code_database(Git Bash Here -> Bitbucket)
+<br />
+(m.d-s-d) -> development(Atom) -> hosting(SourceTree |> GitHub) -> code_database(Git Bash Here -> Bitbucket)
+<br />
+Every stage of development has its own directory according to some naming convention.
+Every release goes through [development |> testing] -> [release] -> [code backup] in that particular order regardless of whether it is completely new complex feature or simple new blog post.
+After each stage is completed, its respective directory is clean out.
+Why ?
+Because I don't have to even think at any time what is where and whether is done, currently in development or whatever.
+Thanks to that I avoid any mess at any time as well as useless thinking and just concentrate on what is important.
+15-july-2017 19:50:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[offical statement: v19 part 2]...
+After careful thinking I decided not to implement automation of profile due to simple fact.
+Mainly, I could automate it, but it wouldn't be flexible solution.
+In plain English current version of profile is too complex to automate it.
+My philosophy is to write something that is useful, universal and can be easily extended or modified.
+It would be useful but certainly would not be neither universal nor easy to modify or extend.
+Therefore this is aborted.
+I will try - if I find some spare time - to rewrite the profile that can be universal and automated.
+16-july-2017 22:27:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[offical statement: videos on OneDrive &amp; GoogleDrive]...
+From mid September on in addition to what is already said to be shared I will be uploading one course every 3 months or so.
+Other videos sharing approach stays the same.
+I just really realized today in the morning when I woke up and started thinking about programming (it's not self-promotion)
+that what I posted a few weeks ago could be a little bit unfair.
+Mainly, if I would have uploaded those 8 courses and all those people who browse my shares on OneDrvie &amp; GoogleDrive would have downloaded them for learning purposes,
+then probably none of them would go to the Udemy website and bought those courses again :-)
+That would be a little unfair.
+And taking into account that the price for such a course is not high, then the best of both worlds will be me sharing one course every at least three months or so,
+blogging about "what is good to buy" so to speak, and all of you who are interested in any course in particluar, going to the website and buying on your own.
+I will be browsing both Pluralsight and Udemy and will let you know :-)
+That will be fair approach.
+29-july-2017 09:17:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[offical statement: purchased videos from Udemy]...
+Content removed by my own initiative.
+29-july-2017 09:36:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[version explained: v19.1 (Open Source for Better Tomorrow)]...
+This below short clip shows where I hide navigation links on these sites.
+<a class="versionClip" href="#" onclick="blogInfo.download('upload/v19.1_navigation_from_D-S-D_to_OS4BT.mp4')">download mp4 clip</a>
+31-july-2017 18:24:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[hard facts: Turbo Pascal]...
+Do you wonder what my first real experience with programming looked like ?
+It was the very first or second day when I started studies.
+And it turned out that lab class was before the lecture class.
+Skipping the details, after the very first lab, when all the people were happily going down the stairs, one guy - namely Paweł Adamczyk - asked me this kind of question "Did your program compile itself ?" :D:D:D:D:D
+It turned out that I even run out of time to compile it, and to be honest, I did not know what "compile" word really mean, but happily answered kind of "I think it sholud" :D
+That's the very frst experience with real programming.
+Why I wrote this ?
+I don't even know nowadays what those people are doing in majority of cases.
+Now you know I wanna know much, and so on and so forth, I always was that person. I never changed. I will never change.
+But what I learnt and what lesson is to be learnt is this that some people think that programming starts in majority of cases when you go to studies and goes about 4 years after graduation.
+These are those people who abuse me nowadays :-)
+To be honest, IMHO programming starts well before you go to studies and ends when you quit from this job.
+This is what this job is all about, put it very simply.
+And now funny thing. I did not mange to learn Turbo Pascal to be able to write something serious. I don't know but I didn't find those lectures were very appealing to me.
+I was starting from that level, but I was - as you already probably know - very ambitious and hard-working.
+It doesn't matter whether you got grade this or that. Programming is not about grades. Programming is - among other things - about practical knowledge and creativity.
+You learn how to better program throughout your entire life, therefore some people know more and some people know less.
+That is to be remembered from this post.
+03-august-2017 10:50:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[version explained: v19.4 (v19, v19.1, v19.2, v19.3, Open-Source-4-Better-Tomorrow large screens CSS fix)]...
+As title says, I fixed CSS layout if it comes to large screens :-)
+Due to heavy workload as well as awaiting birthday of my little daughter I failed to test what's in the title.
+07-august-2017 00:00:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my philosophy: key rules of bugless software]...
+1. Simple & clear to understand requirements
+2. Detailed analysis of required changes & required changes' ramifications
+  &nbsp;&nbsp; a. analysis of required changes
+  &nbsp;&nbsp; b. ramifications
+  &nbsp;&nbsp; c. go to point a) until this a -> b -> c loop is done
+3. Developer(s) implementation(s)
+4. Testing
+  &nbsp;&nbsp; a. OK -> go to 5.
+  &nbsp;&nbsp; b. Errors -> go to 3.
+5. Release
+<br />
+I do follow these rules.
+Following these rules there is no room for any errors.
+If there any errors, it is clear that some point 1 - 5 was not completed in 100%, which in turn means that resposible for the failure is or are person(s) handling that specific point.
+<br />
+<br />
+You are more than welcomed to ask me about my philosophy on various IT stuff :-)
+08-august-2017 23:16:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[my philosophy: D-S-D coming to the end]...
+Do not worry, it doesn't mean what it reads :-)
+What I mean by that is one single fact.
+What Open Source 4 Better Tomorrow means you already know. The idea is clear.
+What D-S-D means you know as well. But what you maybe know or maybe not is the fact, that I feel more about Software Development rather than Dabrowski Software Development.
+But I had to start with something, i.e. some name.
+What I would like you to think about it is development of software with great ideas in mind, rather than me personally showing off my skills, so to speak :-)
+Hope in the future it will not be connected with me only, but with other people as well.
+Therefore in the not too distant future it will be called
+<span class="d-s-d_new_name"><span class="done">Software Development</span> <span class="new">of</span> <span class="active">Better Tomorrow</span></span>
+That's the offical name I came up with. I will not bother with unoffical names at all :-)
+Clever people will grasp my thinking. This is all about clever people.
+09-august-2017 14:38:00 GMT +0100
+}

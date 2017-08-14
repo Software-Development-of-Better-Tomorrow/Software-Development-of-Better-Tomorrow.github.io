@@ -1,0 +1,44 @@
+.dynamicProLinkExplanationContainer {
+    line-height: 2em;
+
+    padding: 3%;
+}
+
+.dynamicProLinkExplanationContainer a {
+    color: whitesmoke;
+
+    text-decoration: none;
+}
+
+.dynamicProLinkExplanationContainer a:hover {
+    text-decoration: underline;
+}
+
+.why {
+    color: palegreen;
+
+    cursor: pointer;
+
+    font-size: 1.3em;
+
+    margin-left: 3%;
+}
+
+.postedOnDate {
+    position: relative;
+
+    color: lightblue;
+
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 0.7em;
+
+    padding-top: 2%;
+}
+
+a.it_pro_expl_url {
+    color: grey;
+}
+
+a.clip {
+    color: #F6B600;
+}

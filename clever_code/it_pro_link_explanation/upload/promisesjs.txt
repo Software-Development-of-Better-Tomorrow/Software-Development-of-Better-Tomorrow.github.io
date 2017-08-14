@@ -1,0 +1,4 @@
+{
+Because you can read in plain English on what promises are, why they are, why they are better over standard JS solutions, how they work, what are patterns of using promises, and various rsources on that matter.
+29-may-2017 14:26:00 GMT +0100
+}

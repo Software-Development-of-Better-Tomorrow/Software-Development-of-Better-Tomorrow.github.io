@@ -1,0 +1,7 @@
+{
+This is like Slack, but purely in the context of web development.
+IMHO it's like a combination of Slack (gathering all what required in one place) + ability to easily share with interested people.
+The idea that powers this is the lack of any kind of authorization, you just need to know the url to access f.e. new website in the middle of development in order to show your client the current state of development.
+It's like Slack, because you define your team or teams and everything you do or your teammate does is visible to other people within that team.
+25-june-2017 21:41:00 GMT +0100
+}

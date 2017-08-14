@@ -1,0 +1,5 @@
+{
+I don't wanna copy & paste information from the site, therefore in one sentence will provide my explanation.
+Mainly, using bluebird allowed me to write 100% correct & bugless code using two "for" statements, i.e. "Where do we come from v2" functionality critical code based on Promises across all major browsers.
+25-may-2017 22:55:00 GMT +0100
+}

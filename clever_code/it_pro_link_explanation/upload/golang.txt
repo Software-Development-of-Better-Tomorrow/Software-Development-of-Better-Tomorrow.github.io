@@ -1,0 +1,5 @@
+{
+These few terms among others, i.e. Docker, InfluxDB, Cloud Foundry, Dropbox, MongoDB, Netflix, Uber.
+Plus being cross platform language that can be compiled to target platform's native language.
+26-july-2017 14:19:00 GMT +0100
+}

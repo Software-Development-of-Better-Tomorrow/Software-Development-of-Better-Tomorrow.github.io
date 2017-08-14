@@ -1,0 +1,27 @@
+.currentEmployer_content a {
+    text-decoration: none;
+}
+
+.currentEmployer_content a .custom_link {
+    position: relative;
+    float: right;
+    
+    color: #4d94ff;
+    
+    padding-left: 2%;    
+    
+    text-decoration: underline;
+}
+
+.unemployed {
+    position: relative;
+    top: 1em;
+    
+    color: whitesmoke;
+	
+	font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 1.9em;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}

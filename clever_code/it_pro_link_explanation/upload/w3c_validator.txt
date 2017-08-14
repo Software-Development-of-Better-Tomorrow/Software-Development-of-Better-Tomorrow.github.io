@@ -1,0 +1,8 @@
+{
+This is explanation for young programmers/developers :-)
+Web developers with 5+ years of experience who do not use beforementioned validator are not web developers.
+This website lets you test that the code you write - whether it's HTML or CSS - is valid according to (conforms to) current W3C standard.
+In plain English (using simple words), it basically means, that writing 0-errors HTML/CSS code (without errors) you have greater chance that your website will appear in the first 10 results in Google with some degree of simplification.
+Second thing you get from such clean & correct code is the professionalism that is being associated with you.
+05-june-2017 18:52:00 GMT +0100
+}

@@ -1,0 +1,4 @@
+{
+This library allows for cross browser compatibility while using latest JavaScript features.
+16-june-2017 19:18:00 GMT +0100
+}

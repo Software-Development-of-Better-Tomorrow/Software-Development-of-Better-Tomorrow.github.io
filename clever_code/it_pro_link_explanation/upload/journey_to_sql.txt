@@ -1,0 +1,8 @@
+{
+When I started visiting this website around 7 years ago, I was able to quickly get answer for sometimes trivial questions, like f.e. how to calculate first day of month etc.
+That kind of thing.
+I remember that I was really very impressed by this authority's short, clear and easy to understand answers to some common T-SQL problems.
+Now I visit this page now and then, to be honest :-).
+Last time I read an article on T-SQL compression in early February 2017.
+16-june-2017 19:33:00 GMT +0100
+}

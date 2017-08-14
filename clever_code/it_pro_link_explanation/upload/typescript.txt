@@ -1,0 +1,6 @@
+{
+1. You can use all the features available in JavaScript + other TypeScript features without pain (if you know what I mean :-) ).
+2. They work across all the major browsers since the code is compiled to ECMAScript 5
+3. This is my own reflection: current version available of TypeScript is like C# 4.0 + C# 6.0 + C# 7.0 based on my current knowledge.
+25-may-2017 23:32:00 GMT +0100
+}

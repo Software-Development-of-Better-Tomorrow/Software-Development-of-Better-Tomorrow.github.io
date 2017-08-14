@@ -1,0 +1,7 @@
+{
+This is professional tool for generating professional HTML documentation for your website's JS files.
+Just open CMD console and type:
+<br />
+npm install jsdoc -g
+01-july-2017 16:01:00 GMT +0100
+}

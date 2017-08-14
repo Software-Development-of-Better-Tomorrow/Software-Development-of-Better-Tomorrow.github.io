@@ -1,0 +1,50 @@
+.header {
+    position: relative;
+    top: 0.08%;
+
+    width: 99.4%;
+    height: 6.5em;
+
+    background-color: black;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.programmerExperience, .bloggerExperience {
+    position: relative;
+
+    color: #FFEFD5;
+}
+
+.programmerExperience {
+    float: left;
+    left: 5%;
+    top: 4%;
+}
+
+.blogTitle {
+    position: relative;
+    float: left;
+    left: 0;
+    top: 5%;
+
+    width: 100%;
+
+    color: whitesmoke;
+
+    font-size: 2.5em;
+        
+    text-align: center;
+}
+.redLetter {
+    color: darkred;
+    
+    font-weight: bold;
+}
+
+.bloggerExperience {
+    float: right;
+    right: 5%;
+    top: 6%;
+}

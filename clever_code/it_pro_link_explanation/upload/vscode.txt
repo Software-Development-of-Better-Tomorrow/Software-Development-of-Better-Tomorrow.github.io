@@ -1,0 +1,6 @@
+{
+No explanation needed :-)
+In addition to that VS Code has full-feature support for F#.
+You can read more on that under this url <a class="it_pro_expl_url" href="http://ionide.io/" target="_blank">Ionide</a>.
+11-july-2017 06:15:00 GMT +0100
+}

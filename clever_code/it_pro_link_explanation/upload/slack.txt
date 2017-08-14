@@ -1,0 +1,7 @@
+{
+Slack connects all your messaging activities like Twitter, GitHub, dribbble among many others in one place.
+You don't have to switch between different apps to get notified.
+I know I am boring saying this, but it reduces significantly time being spent on useless stuff, which is one of goals behind Lean Development.
+You can join <a href="https://d-s-d.slack.com/join/shared_invite/MjAxNDI3Mjc5MTQwLTE0OTgwNjMxMzItNzkxMzljYjdjMw" target="_blank">[ my Slack team right here ]</a>.
+21-june-2017 22:49:00 GMT +0100
+}
