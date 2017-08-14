@@ -11,7 +11,7 @@
 
     /* module scope variables begining */    
 
-    var _siteRootFolder = "/___source___/";
+    var _siteRootFolder = "/dev_for_better/";
 
     var _mobileVersionPrefix = "m-";
 
