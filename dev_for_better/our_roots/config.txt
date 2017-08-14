@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/___source___/our_roots/upload/our_origins_storage.txt"
-}

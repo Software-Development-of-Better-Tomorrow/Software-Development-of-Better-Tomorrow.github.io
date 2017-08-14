@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/___source___/it_pro_links/upload/pro_links.html"
-}

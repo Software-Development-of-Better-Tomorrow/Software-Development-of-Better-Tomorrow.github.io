@@ -1,0 +1,4 @@
+{
+    "isFile" : true,
+    "storageLocation" : "/clever_code/release_notes/upload/release_notes_storage.txt"
+}

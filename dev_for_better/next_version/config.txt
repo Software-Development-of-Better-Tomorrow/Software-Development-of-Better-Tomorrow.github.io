@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/___source___/next_version/upload/next_version_overview.html"
-}

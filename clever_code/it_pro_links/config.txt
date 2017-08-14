@@ -1,0 +1,4 @@
+{
+    "isFile" : true,
+    "storageLocation" : "/clever_code/it_pro_links/upload/pro_links.html"
+}

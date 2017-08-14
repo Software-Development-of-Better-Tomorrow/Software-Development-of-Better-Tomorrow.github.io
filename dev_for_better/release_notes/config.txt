@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/___source___/release_notes/upload/release_notes_storage.txt"
-}
