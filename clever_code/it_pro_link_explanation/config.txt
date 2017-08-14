@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/clever_code/it_pro_link_explanation/upload/"
-}

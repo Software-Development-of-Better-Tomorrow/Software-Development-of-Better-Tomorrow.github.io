@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/clever_code/our_roots/upload/our_origins_storage.txt"
-}

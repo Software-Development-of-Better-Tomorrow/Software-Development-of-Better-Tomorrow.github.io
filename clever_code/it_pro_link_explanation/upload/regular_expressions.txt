@@ -1,8 +1,0 @@
-{
-Because you can read on this site about all regular expressions flavour, get detailed explanation and practical examples.
-In addition to that you can read step by step about how regular expressions engine processes each regular expression regardless of specific programming language.
-I spent on this site well over half a year learning regular expressions and putting them into practice.
-I recommend using this editor (click to download):<br />
-<a href="upload/apps/rad.regexdesigner.setup.1.4.exe" download="rad.regexdesigner.setup.1.4.exe">[ Rad Software Regular Expression Designer ]</a>
-27-may-2017 23:16:00 GMT +0100
-}

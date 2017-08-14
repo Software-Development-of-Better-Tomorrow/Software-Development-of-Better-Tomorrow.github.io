@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/clever_code/blog/upload/blog_storage.txt"
-}

@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/clever_code/bio/upload/bio_storage.txt"
-}
