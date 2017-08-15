@@ -940,5 +940,16 @@ Below you have ready-to-use example of such page. This README.md file comes from
 The icons used in this file and meant for GitHub come from <a id="blogUrls" href="https://www.webpagefx.com/tools/emoji-cheat-sheet/" target="_blank">GitHub Emoji</a>.
 <br />
 The syntax for programming GitHub README.md pages you can read under <a id="blogUrls" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">this address</a>.
-15-august-2017 11:22:00 GMT +0100
+Update:
+I forgot you can download it for quite a while already, but you don't have to look for markup or emoji icons anymore :-)
+15-august-2017 14:39:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[hard facts: modern development with .NET]...
+IMHO nowadays if you ever start to write any application in .NET, the base line is to use at lest .NET 4 / C# 4 .
+Nowadays if you still maintain applications targeting .NET < 4.0 then - I'm sorry to be offensive - but it's not apps maintenance but rather renovation of monuments in the museum, so to speak.
+That's the reality.
+Hope nobody felt offended by what I wrote.
+I was thinking on that for good 3 months or so.
+15-august-2017 14:35:00 GMT +0100
 }
