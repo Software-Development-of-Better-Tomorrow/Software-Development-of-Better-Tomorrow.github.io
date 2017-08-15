@@ -929,4 +929,16 @@ Therefore in the not too distant future it will be called
 That's the offical name I came up with. I will not bother with unoffical names at all :-)
 Clever people will grasp my thinking. This is all about clever people.
 09-august-2017 14:38:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker"> >> </span>[quick jumpstart: GitHub README page]...
+Wondering how to quickly design your single page on GitHub for your brand new library or project you've just completed ?
+Below you have ready-to-use example of such page. This README.md file comes from Dabrowski Software Development BrowserUtility JavaScript library :-)
+<br />
+<a id="blogUrls" href="#" onclick="blogInfo.download('upload/README.md')">[ Download README.md ]</a>
+<br />
+The icons used in this file and meant for GitHub come from <a id="blogUrls" href="https://www.webpagefx.com/tools/emoji-cheat-sheet/" target="_blank">GitHub Emoji</a>.
+<br />
+The syntax for programming GitHub README.md pages you can read under <a id="blogUrls" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">this address</a>.
+15-august-2017 11:22:00 GMT +0100
 }
