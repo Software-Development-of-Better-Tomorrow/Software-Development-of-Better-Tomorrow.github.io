@@ -1,0 +1,6 @@
+{
+Definitive guide on parallel programming in .NET 4 provided you follow every resource starting from root page.
+The following download contains patterns of parallel programming using CSharp language.
+[ <a class="it_pro_expl_url" href="#" onclick="itProLinkExplanationInfo.download('upload/docs/Patterns_of_Parallel_Programming_CSharp.pdf')">Patterns of Parallel Programming CSharp</a> ]
+15-august-2017 18:07:00 GMT +0100
+}
