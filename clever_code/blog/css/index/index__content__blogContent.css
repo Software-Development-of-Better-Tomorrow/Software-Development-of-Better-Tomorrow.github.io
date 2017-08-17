@@ -309,3 +309,21 @@ sub {
 .done {
     color: #43a047;
 }
+
+img {
+    position: relative;
+    display: inline-block;
+
+    width: 300px;
+    height: 300px;
+}
+
+#blogUrls.big_event {
+    position: relative;
+    float: left;
+    left: 0;
+
+    color: #E7960C;
+
+    font-size: 2.4em;
+}

@@ -952,4 +952,20 @@ That's the reality.
 Hope nobody felt offended by what I wrote.
 I was thinking on that for good 3 months or so.
 15-august-2017 17:45:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[big events: the great September]...
+<img src="/clever_code/blog/upload/happy_face.png" />
+<br />
+You have no idea... how proud I am to write about the following.
+There are 2 big Pro IT events coming soon in Krakow and Wroclaw respectively:
+<br />
+<a id="blogUrls" class="big_event" href="https://developers.google.com/events/gdd-europe/?utm_source=devsite&utm_medium=hpp&utm_campaign=gddeurope_july17" target="_blank">Google Developer Days Europe in Krakow</a>
+<br />
+<br />
+<br />
+<br />
+<a id="blogUrls" class="big_event" href="https://react-native.eu/" target="_blank">React Native EU in Wroclaw</a>
+<br />
+18-august-2017 01:01:00 GMT +0100
 }
