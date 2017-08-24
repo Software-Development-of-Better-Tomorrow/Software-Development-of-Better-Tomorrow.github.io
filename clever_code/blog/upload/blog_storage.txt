@@ -968,4 +968,27 @@ There are 2 big Pro IT events coming soon in Krakow and Wroclaw respectively:
 <a id="blogUrls" class="big_event" href="https://react-native.eu/" target="_blank">React Native EU in Wroclaw</a>
 <br />
 18-august-2017 01:01:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[my philosophy: developer's salary]...
+Taking into account what I wrote on Twitter about salaries for requirements I did rethink some aspects of it.
+To make it clear picture of what I have on my mind let me write one thing.
+All those design notes related to the dream, so to speak, assume one simple but core fact.
+What I mean by young devs are those people who are maximum 3 years into professional software development.
+All the learning stuff I post on Twitter and website - where I mention young devs in particluar - have timeframe of 4 years, which sets a deadline somewhere around middle of 2021 :-)
+This is enough time IMO to learn and achieve what I think will be really very good starting point for doing bigger things.
+Of course without pain, i.e. everybody has its own private life and so on and so forth :-)
+<br />
+And now to the core of the post.
+I will make the entry point of the salary that equals 8000 NET PLN :-)
+For Senior Software Developer offer of 9000 - 13000 GROSS is fair right now. Full stop.
+But like always there is always some exception to the rule.
+If Senior Software Developer will turn out to be developer with "distinguished" skills then offer for such person shoud be and IMO must be "distinguished" as well.
+That's fair approach.
+<br />
+And the second thing.
+After four years such well-established salary of 9000 - 13000 GROSS has to be higher, if you know what I mean.
+Clever people will understand what I mean.
+Thank you.
+24-august-2017 10:09:00 GMT +0100
 }
