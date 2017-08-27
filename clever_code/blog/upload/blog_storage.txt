@@ -991,4 +991,29 @@ After four years such well-established salary of 9000 - 13000 GROSS has to be hi
 Clever people will understand what I mean.
 Thank you.
 24-august-2017 10:09:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[version explained: v19.6 (Content Security Policy)]...
+The idea that powers this version is to provide more secure website by explicitly specifying:
+1. What resources can be loaded.
+2. From where the resources can be loaded.
+3. How the beforementioned resources can be loaded.
+<br />
+And one thing that implementing CSP allows for is very humbly speaking kind of Static MVC.
+This is my own explanation.
+Why?
+What MVC stands for and what it means in practice that's crystal clear.
+What I understand by describing this website as Static MVC is this:
+1. This website is by all means a static website.
+2. By implementing CSP I've reached a state, where HTML View is simply a pure view, all logic is encapsulated into JavaScript files and layout is rendered by CSS only.
+3. MVC's model in my case is represented by module-helper-[XX].js files.
+<br />
+Therefore what I mean by Static MVC is:
+-> M stands for modules' helpers functions
+-> V stands for modules' html files
+-> C stands for modules' main JavaScript files suffixed with "Info.js".
+-> Static stands for static website
+<br />
+Please bear in mind that this is my humble understanding.
+24-august-2017 00:05:00 GMT +0100
 }

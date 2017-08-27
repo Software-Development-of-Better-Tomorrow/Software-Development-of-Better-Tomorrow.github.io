@@ -28,7 +28,7 @@
 
     var _siteName = "S-D-of-B-T";
                                   
-    var _siteVersion = "v19.5";
+    var _siteVersion = "v19.6";
                                   
     var _getCopyrightYear = new Date().getFullYear().toString();
 
@@ -37,17 +37,22 @@
 
     var _releaseNotesRedirectionUrl = _siteRootFolder + "release_notes/";
 
+
+    var _idea = "out-of-the-box algorithms &amp; solutions";
     
     var _YouTubeRedirectionUrl = "https://www.youtube.com/channel/UCE8Av5RpY69s0LDfbq0chwA";
 
     var _Channel9RedirectionUrl = "https://channel9.msdn.com/niners/DabrowskiSoftwareDevelopment";
 
-    
+
     var _downlodRootFolder = _siteRootFolder + "main/download/";
     var _CV_doc = _downlodRootFolder + "CV.doc";
     var _CV_pdf = _downlodRootFolder + "CV.pdf";
     var _LM_doc = _downlodRootFolder + "LM.doc";
     var _LM_pdf = _downlodRootFolder + "LM.pdf";
+
+    var _dossierTitle = "Always up-2-date dossier to download can be found under following links:";
+    var _dossierUpdate = "[ ACTUALISATION ] [ 2017-08-20 ]";
 
     var _downloadSourceCodeDescription = "Download code";
     var __downloadSourceCodeRedirectionUrl = "https://github.com/Software-Development-of-Better-Tomorrow/Software-Development-of-Better-Tomorrow.github.io/archive/master.zip";
@@ -76,6 +81,10 @@
         return _profileRedirectionUrl;
     }
 
+    self.getIdea = function() {
+        return _idea;
+    }
+
     self.getYouTubeRedirectionUrl = function() {
         return _YouTubeRedirectionUrl;
     }    
@@ -98,6 +107,14 @@
 
     self.getLM_pdfRedirectionUrl = function() {
         return _LM_pdf;
+    }
+
+    self.getDossierTitle = function() {
+        return _dossierTitle;
+    } 
+
+    self.getDossierUpdate = function() {
+        return _dossierUpdate;
     }
 
     self.getDownloadSourceCodeRedirectionUrl = function() {

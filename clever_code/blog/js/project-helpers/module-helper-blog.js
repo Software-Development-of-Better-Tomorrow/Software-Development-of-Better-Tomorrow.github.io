@@ -25,11 +25,19 @@
                                   "<br />" +
                                   "13\" Notebook is the base device supported. (1280 x 768)";
 
+    var _programmerExperience = "Software Engineer";
+    var _bloggerExperience = "Junior Development Blogger";
 
 
     var _mainPageUrl = _siteRootFolder + "main/";
+    var _mainPageUrl_label = "| go to main page ";
 
     var _profileRedirectionUrl = _siteRootFolder + "profile/";
+    var _profileRedirectionUrl_label = "| go to profile page";
+
+    var _bottomOfThePage = "scroll down";
+
+    var _footerStatement = "these are my subjective reflections on what is software development and are aimed at nobody in person";
 
     var _OneDriveRedirectionUrl = "https://1drv.ms/f/s!Av2ZrNqOVnWLrXv9QGwAepdMS_Zn";
 
@@ -61,7 +69,31 @@
                 flat_file_storage_view_bag_data : null
     };
 
-    var _hashReplacement = "[access granted]";    
+    var _hashReplacement = "[access granted]";
+
+    /**
+     * Copyright (c) 2017-present, Facebook, Inc. All rights reserved.
+     *
+     * You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
+     * copy, modify, and distribute this software in source code or binary form for use
+     * in connection with the web services and APIs provided by Facebook.
+     *
+     * As with any software that integrates with the Facebook platform, your use of
+     * this software is subject to the Facebook Platform Policy
+     * [http://developers.facebook.com/policy/]. This copyright notice shall be
+     * included in all copies or substantial portions of the software.
+     *
+     * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+     * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+     * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+     * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+     * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+     * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    */    
+    var _Facebook_ID = "facebook-jssdk";
+    var _Facebook_SDK_url = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+
+    var _siteUrl = "https://software-development-of-better-tomorrow.github.io/clever_code/blog/#" + _hashReplacement;
 
     /* module scope variables end */
 
@@ -91,12 +123,36 @@
         return _disallowedResolutionsArray;
     }
 
+    self.getProgrammerExperience = function() {
+        return _programmerExperience;
+    }
+
+    self.getBloggerExperience = function() {
+        return _bloggerExperience;
+    }
+
     self.getMainPageUrl = function() {
         return _mainPageUrl;
     }
 
+    self.getMainPageUrl_label = function() {
+        return _mainPageUrl_label;
+    }
+
     self.getProfileRedirectionUrl = function() {
         return _profileRedirectionUrl;
+    }
+
+    self.getProfileRedirectionUrl_label = function() {
+        return _profileRedirectionUrl_label;
+    }
+
+    self.getBottomOfThePage = function() {
+        return _bottomOfThePage;
+    }
+
+    self.getFooterStatement = function() {
+        return _footerStatement;
     }
 
     self.getOneDriveRedirectionUrl = function() {
@@ -137,7 +193,19 @@
 
     self.getHashReplacement = function() {
         return _hashReplacement;
-    }    
+    }
+
+    self.getFacebook_ID = function() {
+        return _Facebook_ID;
+    }
+
+    self.getFacebook_SDK_url = function() {
+        return _Facebook_SDK_url;
+    }
+
+    self.getSiteUrl = function() {
+        return _siteUrl;
+    }
 
     /* ~ Public API */
 

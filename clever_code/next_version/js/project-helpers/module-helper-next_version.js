@@ -27,11 +27,14 @@
 
                                   
 
+    var _nextVersionVersion = "v1";
+    var _nextVersionOverviewTitle = "Next Feature Overview <sup>" + _nextVersionVersion + "</sup>";
+
     var _mainPageUrl = _siteRootFolder + "main/";
+    var _mainPageUrl_label = "go to main page";
 
     var _releaseNotesPageRedirectionUrl = _siteRootFolder + "release_notes/";
-
-    var _nextVersionVersion = "v1";
+    var _releaseNotesPageRedirectionUrl_label = "go to release notes page";
 
 
     var _salmAccessName = "salm";
@@ -85,17 +88,25 @@
         return _disallowedResolutionsArray;
     }
 
+    self.getNextVersionOverviewTitle = function() {
+        return _nextVersionOverviewTitle;
+    }
+
     self.getMainPageUrl = function() {
         return _mainPageUrl;
+    }
+
+    self.getMainPageUrl_label = function() {
+        return _mainPageUrl_label;
     }
 
     self.getReleaseNotesPageRedirectionUrl = function() {
         return _releaseNotesPageRedirectionUrl;
     }
 
-    self.getNextVersionVersion = function() {
-        return _nextVersionVersion;
-    }    
+    self.getReleaseNotesPageRedirectionUrl_label = function() {
+        return _releaseNotesPageRedirectionUrl_label;
+    }
 
     self.getNotSupportedResolution = function() {
         return _notSupportedResolution;

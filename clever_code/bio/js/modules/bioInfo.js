@@ -3,6 +3,27 @@
     var self = this;
 
 
+    /*
+     Trigger module's entry point as soon as HTML document has been completely loaded and parsed (althought some images, frames & other external resources may still be loading).
+     This allows for current module to kick off its entry point method as soon as possible with View (HTML file) knowing nothing about mechanism
+     that renders View's layout.
+     This is further separation of concerns (~ Static MVC) AFAIK and towards better CSP (Content Security Policy).
+    */
+    document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementsByTagName("body")[0].addEventListener("load", bioInfo.loadApplicationModule());
+
+        // assign action to go to main page
+        document.getElementsByClassName("goToMainPage")[0].addEventListener("click", goToMainPage_Internal);
+
+        // assign action to go to profile page
+        document.getElementsByClassName("goToProfilePage")[0].addEventListener("click", goToProfilePage_Internal);
+
+        // assign action to go to profile page
+        document.getElementsByClassName("goToGithubPage")[0].addEventListener("click", goToGitHubPage_Internal);                
+       }
+    );
+    
+    
     /* module scope variables begining */
 
     var _mobileVersionPrefix = moduleHelperBio.getMobileVersionPrefix();
@@ -106,6 +127,30 @@
 		swfobject.embedSWF("images/technologies.swf", "technologies", "100%", "100%", "10", false, {}, {scale: "exactFit"}, {});
 	}
 
+    function apply_Header_Defaults_Internal() {
+        $(".since").prop("innerHTML", moduleHelperBio.getProgrammingExperience_since());
+
+        $(".through").prop("innerHTML", moduleHelperBio.getProgrammingExperience_through());
+
+        $(".now").prop("innerHTML", moduleHelperBio.getProgrammingExperience_now());
+
+        $(".bioTitle").prop("innerHTML", moduleHelperBio.getBioTitle());
+
+        $(".programmerExperienceLeadingThought").prop("innerHTML", moduleHelperBio.getProgrammerExperienceLeadingThought());
+    }
+
+    function apply_NavigationMenu_Defaults_Internal() {
+        $(".goToMainPage").prop("innerHTML", moduleHelperBio.getMainPageUrl_label());
+
+        $(".goToProfilePage").prop("innerHTML", moduleHelperBio.getProfileRedirectionUrl_label());
+
+        $(".goToGithubPage").prop("innerHTML", moduleHelperBio.getGitHubRedirectionUrl_label());
+    }
+
+    function apply_BroadAudienceQA_Defaults_Internal() {
+        $(".broadAudienceQA").prop("innerHTML", moduleHelperBio.getBroadAudienceQA());
+    }
+
     function goToMainPage_Internal() {
         // generate token for this GET request
         var token = jsUtilities.getDestinationUrlToken();
@@ -122,18 +167,6 @@
 
     function goToGitHubPage_Internal() {
         window.open(_GitHubPageRedirectionUrl,'_blank');
-    }
-
-	function formatDateBio_Internal(date) {
-		var formattedDate = "";
-		
-		var date_parts = date.split("-");
-		if(date_parts[0].length == 1) {
-			date_parts[0] = "0" + date_parts[0];	
-		}
-		formattedDate = date_parts[0] + "-" + date_parts[1] + "-" + date_parts[2];
-		
-		return formattedDate;
     }
     
     function on_SALM_BeingAccessible_Internal() {
@@ -153,6 +186,9 @@
     function initializeBioFunctionality_Internal(abstractionOfData) {
         adjustSpecificBrowser_Internal();
         setupFlash_Internal();
+        apply_Header_Defaults_Internal();
+        apply_NavigationMenu_Defaults_Internal();
+        apply_BroadAudienceQA_Defaults_Internal();
         loadBio_Internal(abstractionOfData);
         showPage_Internal();
     }
@@ -217,24 +253,6 @@
 
     self.runBioEditor = function(editorContainerUniqueID) {
         return runBioEditor_Internal(editorContainerUniqueID);
-    }
-    
-    self.getCurrentDateFormatted = function(dateToBeFormatted) {
-        var date = jsUtilities.getCurrentDateFormatted_2(dateToBeFormatted);
-		
-		return formatDateBio_Internal(date);
-    }
-
-    self.goToMainPage = function() {
-         return goToMainPage_Internal();
-    }
-    
-    self.goToProfilePage = function() {
-         return goToProfilePage_Internal();
-    }
-
-    self.goToGitHubPage = function() {
-        return goToGitHubPage_Internal();
     }
 
     /* ~ Public API */

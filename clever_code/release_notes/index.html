@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <meta http-equiv="Content-Security-Policy"
+		    content="
+					        default-src 'none';
+					        script-src https://software-development-of-better-tomorrow.github.io 'unsafe-eval' https://www.google-analytics.com/analytics.js data:;
+					        style-src https://software-development-of-better-tomorrow.github.io;
+					        img-src https://software-development-of-better-tomorrow.github.io https://www.google-analytics.com;
+					        connect-src https://software-development-of-better-tomorrow.github.io
+				" />
   <meta charset="utf-8" />
   <meta name="google" content="notranslate" />
   <meta name="robots" content="index,follow" />
@@ -10,16 +18,16 @@
   <title>Software Development of Better Tomorrow | Dabrowski Software Development | Changes to version</title>
   <script src="js/external-libraries/jquery-3.2.1.min.js"></script>
   <script src="js/project-libraries/browser-utility-1.0.3.js"></script>
-  <script src="js/project-libraries/js-utilities-1.0.0.js"></script>
+  <script src="js/project-libraries/js-utilities-1.0.2.js"></script>
   <script src="js/project-helpers/module-helper-release_notes.js"></script>
   <script src="js/modules/releaseInfo.js"></script>
   <link rel="stylesheet" type="text/css" href="css/loaders/releaseNotesLoader.css" />
   <link rel="icon" href="/favicon.ico" />
  </head>
-<body onload="releaseInfo.loadApplicationModule();">
+<body>
     <div class="main">
-      <div class="main_page"> | <a href="#" onclick="releaseInfo.goToMainPage()">go to main page</a></div>
-      <div class="main_page"> | <a href="#" onclick="releaseInfo.goToNextVersion()">next version overview</a></div>
+      <div class="main_page"> | <a class="goToMainPage" href="#"></a></div>
+      <div class="main_page"> | <a class="goToNextVersion" href="#"></a></div>
       <div class="main_page"> | </div>
     </div>
     <script src="js/modules/my-google-analytics.js"></script>	

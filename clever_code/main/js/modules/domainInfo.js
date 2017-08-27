@@ -1,7 +1,19 @@
 (
  function (window) {
     var self = this;
-    
+
+
+    /*
+      Trigger module's entry point as soon as HTML document has been completely loaded and parsed (althought some images, frames & other external resources may still be loading).
+      This allows for current module to kick off its entry point method as soon as possible with View (HTML file) knowing nothing about mechanism
+      that renders View's layout.
+      This is further separation of concerns (~ Static MVC) AFAIK and towards better CSP (Content Security Policy).
+    */
+    document.addEventListener("DOMContentLoaded", function(event) {
+                                                    document.getElementsByTagName("body")[0].addEventListener("load", domainInfo.loadApplicationModule());
+                                                  }
+    );
+
 
     /* module scope variables begining */
 
@@ -112,7 +124,7 @@
         window.location.href = _profileRedirectionUrl + token;
     }
 
-    function goToYouTube_Internaal() {
+    function goToYouTube_Internal() {
         window.open(_YouTubeRedirectionUrl, "_blank");
     }
 
@@ -154,14 +166,14 @@
         $(".sourceCode").removeClass("siteName");
 
         // apply [Download Source Code] look & feel
-        applyDownloadSourceCode_Internal();
+        apply_DownloadSourceCode_Internal();
     }
 
     function outOfHoverDownloadSourceCode_Internal() {
         $(".sourceCode").removeClass("goToSourceCode");
 
         // restore default look & feel
-        applySiteNameDefaults_Internal();
+        apply_SiteName_Defaults_Internal();
     }
     
     function downloadSourceCode_Internal() {
@@ -175,7 +187,7 @@
         window.open(_releaseNotesRedirectionUrl + token, "_self");
     }
 
-    function applySiteNameDefaults_Internal() {
+    function apply_SiteName_Defaults_Internal() {
         $(".sourceCode").text(moduleHelperMain.getSiteName());
         $(".sourceCode").addClass("siteName");
 
@@ -184,7 +196,41 @@
         $(".siteName").css("font-size", "0.9em");
     }
 
-    function assignEventHandlers_Internal() {
+    function apply_LogoType_Defaults_Internal() {
+        $(".idea").prop("innerHTML", moduleHelperMain.getIdea());
+    }
+
+    function apply_SiteContent_Defaults_Internal() {
+        $(".dossier_title").prop("innerHTML", moduleHelperMain.getDossierTitle());
+        $(".rule_dossier.last_updated").prop("innerHTML", moduleHelperMain.getDossierUpdate());
+    }
+
+    function apply_SiteFooter_Defaults_Internal() {
+        $(".year").prop("innerHTML", moduleHelperMain.getCopyrightYear());
+
+        $(".siteName").prop("innerHTML", moduleHelperMain.getSiteName());
+
+        $(".siteVersion").prop("innerHTML", moduleHelperMain.getSiteVersion());
+    }
+
+    function assign_EventHandlers_Internal() {
+        // philosophy DIV
+        $(".philosophy").hover(
+                            hoverPhilosophy_Internal,
+                            outOfHoverPhilosophy_Internal
+                         );
+
+        $(".philosophy").click(goToProfile_Internal);
+
+        
+        // download CV & LM
+        $(".cv_doc").click(download_CV_doc_Internal);
+        $(".cv_pdf").click(download_CV_pdf_Internal);
+        $(".lm_doc").click(download_LM_doc_Internal);
+        $(".lm_pdf").click(download_LM_pdf_Internal);
+
+
+        // Open Source 4 Better Tomorrow
         $(".open_source_philosophy").hover(
                                             // over
                                             function() {
@@ -199,13 +245,29 @@
         $(".open_source_philosophy").click(function() {
             return goToOpenSource_Internal();
         });
+
+
+        // developer YT & CH9
+        $(".yt").click(goToYouTube_Internal);
+        $(".ch9").click(goToChannel9_Internal);
+
+
+        // source code download
+        $(".sourceCode").click(downloadSourceCode_Internal);
+        $(".sourceCode").hover(
+                            hoverDownloadSourceCode_Internal,
+                            outOfHoverDownloadSourceCode_Internal
+                         );
+
+        // site version
+        $(".siteVersion").click(goToReleaseNotes_Internal);
     }
 
     function goToOpenSource_Internal() {
         window.location.href = _openSourceRedirectionUrl;
     }
 
-    function applyDownloadSourceCode_Internal() {
+    function apply_DownloadSourceCode_Internal() {
         $(".sourceCode").text(moduleHelperMain.getDownloadSourceCodeDescription());
         $(".sourceCode").addClass("goToSourceCode");
 
@@ -371,8 +433,17 @@
         /* ~ token stuff */
 
         applySiteHeightBasedOnCurrentResolution_Internal();
-        applySiteNameDefaults_Internal();
-        assignEventHandlers_Internal();
+
+        apply_SiteName_Defaults_Internal();
+        
+        apply_LogoType_Defaults_Internal();
+        
+        apply_SiteContent_Defaults_Internal();
+        
+        apply_SiteFooter_Defaults_Internal();
+        
+        assign_EventHandlers_Internal();
+        
         showSplash_Internal();
      }
     }
@@ -380,58 +451,6 @@
 	self.changePageLayoutDynamically = function(cssFilesLoader) {
 		return changePageLayoutDynamically_Internal(cssFilesLoader);
 	}
-
-    self.goToProfile = function() {
-        return goToProfile_Internal();
-    }
-
-    self.goToYouTube = function() {
-        return goToYouTube_Internaal();
-    }
-
-    self.goToChannel9 = function() {
-        return goToChannel9_Internal();
-    }
-
-    self.downlaod_CV_doc = function() {
-        return download_CV_doc_Internal();
-    }
-
-    self.downlaod_CV_pdf = function() {
-        return download_CV_pdf_Internal();
-    }
-
-    self.downlaod_LM_doc = function() {
-        return download_LM_doc_Internal();
-    }
-
-    self.downlaod_LM_pdf = function() {
-        return download_LM_pdf_Internal();
-    }
-
-    self.hoverPhilosophy = function() {
-        return hoverPhilosophy_Internal();
-    }
-
-    self.outOfHoverPhilosophy = function() {
-        return outOfHoverPhilosophy_Internal();
-    }
-
-    self.hoverDownloadSourceCode = function() {
-        return hoverDownloadSourceCode_Internal();
-    }
-
-    self.outOfHoverDownloadToSourceCode = function() {
-        return outOfHoverDownloadSourceCode_Internal();
-    }
-    
-    self.downloadSourceCode = function() {
-        return downloadSourceCode_Internal();
-    }
-
-    self.goToReleaseNotes = function() {
-        return goToReleaseNotes_Internal();
-    }
 
     /* ~ Public API */
 

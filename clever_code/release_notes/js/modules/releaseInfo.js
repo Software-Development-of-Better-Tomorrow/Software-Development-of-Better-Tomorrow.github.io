@@ -1,7 +1,19 @@
 (
  function (window) {
     var self = this;
-    
+
+
+    /*
+     Trigger module's entry point as soon as HTML document has been completely loaded and parsed (althought some images, frames & other external resources may still be loading).
+     This allows for current module to kick off its entry point method as soon as possible with View (HTML file) knowing nothing about mechanism
+     that renders View's layout.
+     This is further separation of concerns (~ Static MVC) AFAIK and towards better CSP (Content Security Policy).
+    */
+    document.addEventListener("DOMContentLoaded", function(event) {
+                                                    document.getElementsByTagName("body")[0].addEventListener("load", releaseInfo.loadApplicationModule());
+                                                  }
+    );
+
 
     /* module scope variables begining */
 
@@ -69,6 +81,18 @@
         }
     }
 
+    function assign_EventHandlers_Internal() {
+        $(".goToMainPage").click(goToMainPage_Internal);
+        
+        $(".goToNextVersion").click(goToNextVersion_Internal);
+    }
+
+    function apply_NavigationMenu_Defaults_Internal() {
+        $(".goToMainPage").prop("innerHTML", moduleHelperReleaseNotes.getMainPageUrl_label());
+
+        $(".goToNextVersion").prop("innerHTML", moduleHelperReleaseNotes.getNextVersionRedirectionUrl_label());
+    }
+
     /* module scope private functions end */
 
     
@@ -109,17 +133,13 @@
 
         // make sure SALM object is accessible at this point if not previously loaded by any other module
         moduleHelperReleaseNotes.promise_SALM_Availability_and_Then(on_SALM_BeingAccessible_Internal);
+
+        // assign event handlers
+        assign_EventHandlers_Internal();
+
+        // apply navigation menu defaults
+        apply_NavigationMenu_Defaults_Internal();
      }
-    }
-
-
-    self.goToMainPage = function() {
-        return goToMainPage_Internal();
-    }
-
-
-    self.goToNextVersion = function() {
-        return goToNextVersion_Internal();
     }
 
     /* ~ Public API */

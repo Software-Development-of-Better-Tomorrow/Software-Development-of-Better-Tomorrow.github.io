@@ -28,10 +28,18 @@
 
 
     var _mainPageUrl = _siteRootFolder + "main/";
+    var _mainPageUrl_label = "go to main page";
 
     var _profileRedirectionUrl = _siteRootFolder + "profile/";
+    var _profileRedirectionUrl_label = "go to profile page";
+
+    var _seeHowFarYouAreFromUs_label = "see how far you are from us ?";
 
     var _moduleBaseDir = _siteRootFolder + "our_roots/";
+
+    var _ourRootTitle = "Where do we come from ?";
+
+    var _footerContent = "We come from where good values are being passed to children!";
 
     
     var _salmAccessName = "salm";
@@ -93,8 +101,20 @@
         return _mainPageUrl;
     }
 
+    self.getMainPageUrl_label = function() {
+        return _mainPageUrl_label;
+    }
+
     self.getProfileRedirectionUrl = function() {
         return _profileRedirectionUrl;
+    }
+
+    self.getProfileRedirectionUrl_label = function() {
+        return _profileRedirectionUrl_label;
+    }
+
+    self.getSeeHowFarYouAreFromUs_label = function() {
+        return _seeHowFarYouAreFromUs_label;
     }
 
     self.getNotSupportedResolution = function() {
@@ -103,6 +123,14 @@
 
     self.getModuleBaseDir = function() {
         return _moduleBaseDir;
+    }
+
+    self.getOurRootTitle = function() {
+        return _ourRootTitle;
+    }
+
+    self.getFooterContent = function() {
+        return _footerContent;
     }
 
     self.getSalmAccessName = function() {

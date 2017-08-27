@@ -26,13 +26,25 @@
                                   "13\" Notebook is the base device supported. (1280 x 768)";
 
 
+    var _programmingExperience_since = "since ~ MARCH 2007";
+    var _programmingExperience_through = "->";
+    var _programmingExperience_now = "A.D. " + formatDateBio_Internal(jsUtilities.getCurrentDateFormatted_2(new Date()).toUpperCase());
+
+    var _bioTitle = "fast|forward_only bio";
+
+    var _programmerExperienceLeadingThought = "...from being misunderstood about T-SQL ranking functions to being abused for knowing .NET internals...";
+
 
     var _mainPageUrl = _siteRootFolder + "main/";
+    var _mainPageUrl_label = "go to main page ";
 
     var _profileRedirectionUrl = _siteRootFolder + "profile/";
+    var _profileRedirectionUrl_label = "go to profile page";
 
     var _GitHubRedirectionUrl = "https://github.com/Software-Development-of-Better-Tomorrow?tab=repositories";
+    var _GitHubRedirectionUrl_label = "go to GitHub page";
 
+    var _broadAudienceQA = "I'll not program in every language, but could learn everyone.";
 
     var _salmAccessName = "salm";
 
@@ -67,6 +79,18 @@
 
     /* module scope private functions begining */
 
+	function formatDateBio_Internal(date) {
+		var formattedDate = "";
+		
+		var date_parts = date.split("-");
+		if(date_parts[0].length == 1) {
+			date_parts[0] = "0" + date_parts[0];	
+		}
+		formattedDate = date_parts[0] + "-" + date_parts[1] + "-" + date_parts[2];
+		
+		return formattedDate;
+    }    
+
     function promise_SALM_Availability_and_Then_Internal(callback) {
         var exists = typeof(window.salm) !== "undefined";
 
@@ -89,16 +113,52 @@
         return _disallowedResolutionsArray;
     }
 
+    self.getProgrammingExperience_since = function() {
+        return _programmingExperience_since;
+    }
+
+    self.getProgrammingExperience_through = function() {
+        return _programmingExperience_through;
+    }
+
+    self.getProgrammingExperience_now = function() {
+        return _programmingExperience_now;
+    }
+
+    self.getBioTitle = function() {
+        return _bioTitle;
+    }
+
+    self.getProgrammerExperienceLeadingThought = function() {
+        return _programmerExperienceLeadingThought;
+    }
+
     self.getMainPageUrl = function() {
         return _mainPageUrl;
+    }
+
+    self.getMainPageUrl_label = function() {
+        return _mainPageUrl_label;
     }
 
     self.getProfileRedirectionUrl = function() {
         return _profileRedirectionUrl;
     }
 
+    self.getProfileRedirectionUrl_label = function() {
+        return _profileRedirectionUrl_label;
+    }
+
     self.getGitHubRedirectionUrl = function() {
         return _GitHubRedirectionUrl;
+    }
+
+    self.getGitHubRedirectionUrl_label = function() {
+        return _GitHubRedirectionUrl_label;
+    }
+
+    self.getBroadAudienceQA = function() {
+        return _broadAudienceQA;
     }
 
     self.getNotSupportedResolution = function() {

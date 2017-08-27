@@ -1,0 +1,4 @@
+{
+This site will help you test SSL configuration of your server and browser, plus more stuff on SSL in general.
+23-august-2017 13:02:00 GMT +0100
+}

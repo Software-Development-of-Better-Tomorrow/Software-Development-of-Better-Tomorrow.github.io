@@ -27,13 +27,19 @@
 
 
 
+    var _proLinksTitle = "IT Pro Links 4 IT Pro";
+
     var _mainPageUrl = _siteRootFolder + "main/";
+    var _mainPageUrl_label = "go to main page";
 
     var _profileRedirectionUrl = _siteRootFolder + "profile/";
+    var _profileRedirectionUrl_label = "go to profile page";
 
     var _ITProLinksPageRedirectionUrl = _siteRootFolder + "it_pro_links/";
 
     var _proLinkExplanation = _siteRootFolder + "it_pro_link_explanation/";
+
+    var _footerStatement = "these are not some web addresses, this is professional stuff !";
 
 
     var _salmAccessName = "salm";
@@ -87,12 +93,24 @@
         return _disallowedResolutionsArray;
     }
 
+    self.getProLinksTitle = function() {
+        return _proLinksTitle;
+    }
+
     self.getMainPageUrl = function() {
         return _mainPageUrl;
     }
 
+    self.getMainPageUrl_label = function() {
+        return _mainPageUrl_label;
+    }
+
     self.getProfileRedirectionUrl = function() {
         return _profileRedirectionUrl;
+    }
+
+    self.getProfileRedirectionUrl_label = function() {
+        return _profileRedirectionUrl_label;
     }
 
     self.getITProLinksPageRedirectionUrl = function() {
@@ -101,6 +119,10 @@
 
     self.getProLinkExplanation = function() {
         return _proLinkExplanation;
+    }
+
+    self.getFooterStatement = function() {
+        return _footerStatement;
     }
 
     self.getNotSupportedResolution = function() {

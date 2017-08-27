@@ -3,6 +3,24 @@
     var self = this;
     
 
+    /*
+     Trigger module's entry point as soon as HTML document has been completely loaded and parsed (althought some images, frames & other external resources may still be loading).
+     This allows for current module to kick off its entry point method as soon as possible with View (HTML file) knowing nothing about mechanism
+     that renders View's layout.
+     This is further separation of concerns (~ Static MVC) AFAIK and towards better CSP (Content Security Policy).
+    */
+    document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementsByTagName("body")[0].addEventListener("load", itProLinkExplanationInfo.loadApplicationModule());
+
+        // assign action to go to main page
+        document.getElementsByClassName("goToMainPage")[0].addEventListener("click", goToMainPage_Internal);
+
+        // assign action to go to IT Pro Links page
+        document.getElementsByClassName("goToProLinksPage")[0].addEventListener("click", goToITProLinksPage_Internal);        
+       }
+    );
+
+
     /* module scope variables begining */
 
     var _mobileVersionPrefix = moduleHelperITProLinkExplanation.getMobileVersionPrefix();
@@ -43,6 +61,16 @@
 
         // inject pro link's display text
         injectExplanationTitle_Internal(proLink_Title_Attr);
+    }
+
+    function apply_Header_Defaults_Internal() {
+        $(".proLinkExplanationTitle").prop("innerHTML", moduleHelperITProLinkExplanation.getProLinkExplanationTitle());
+    }
+
+    function apply_NavigationMenu_Defaults_Internal() {
+        $(".goToMainPage").prop("innerHTML", moduleHelperITProLinkExplanation.getMainPageUrl_label());
+
+        $(".goToProLinksPage").prop("innerHTML", moduleHelperITProLinkExplanation.getITProLinksPageRedirectionUrl_label());
     }
 
     function goToMainPage_Internal() {
@@ -104,6 +132,8 @@
 
     function finalizeProcessOfDataLoading_Internal() {
         loadProLinkExplanationOtherStuff_Internal();
+        apply_Header_Defaults_Internal();
+        apply_NavigationMenu_Defaults_Internal();
         showPage_Internal();
     }
 
@@ -157,14 +187,6 @@
          // make sure SALM object is accessible at this point if not previously loaded by any other module
          moduleHelperITProLinkExplanation.promise_SALM_Availability_and_Then(on_SALM_BeingAccessible_Internal);
      }
-    }
-    
-    self.goToMainPage = function() {
-         return goToMainPage_Internal();
-    }
-    
-    self.goToITProLinksPage = function() {
-         return goToITProLinksPage_Internal();
     }
 
     self.download = function(url) {

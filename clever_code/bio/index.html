@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="Content-Security-Policy"
+          content="
+                 default-src 'none';
+                 script-src https://software-development-of-better-tomorrow.github.io 'unsafe-eval' 'unsafe-inline' https://www.google-analytics.com data:;
+                 style-src https://software-development-of-better-tomorrow.github.io 'unsafe-inline';
+                 img-src https://software-development-of-better-tomorrow.github.io https://www.google-analytics.com;
+                 connect-src https://software-development-of-better-tomorrow.github.io;
+                 child-src 'self';
+                 object-src https://software-development-of-better-tomorrow.github.io
+            " />    
     <meta charset="utf-8" />
     <meta name="google" content="notranslate" />
     <meta name="robots" content="index,follow" />
@@ -13,37 +23,34 @@
     <script src="js/external-libraries/jquery-ui.min.js"></script>
     <script src="js/external-libraries/swfobject.js"></script>
     <script src="js/project-libraries/browser-utility-1.0.3.js"></script>
-    <script src="js/project-libraries/js-utilities-1.0.0.js"></script>
+    <script src="js/project-libraries/js-utilities-1.0.2.js"></script>
+    <script src="js/project-libraries/blog-utilities-1.0.0.js"></script>    
     <script src="js/project-helpers/module-helper-bio.js"></script>
-    <script src="js/project-libraries/blog-utilities-0.0.7.js"></script>
-    <script src="js/modules/bioInfo.js"></script> <!-- this module has to be loaded as a last one for naming convention algoritm (content edition) to run properly [jsUtilities.getModulePrefix()] -->
+    <script src="js/modules/bioInfo.js"></script>
     <link rel="stylesheet" type="text/css" href="css/loaders/bioLoader.css" />
     <link rel="icon" href="/favicon.ico" />
 </head>
-<body onload="bioInfo.loadApplicationModule();">
+<body>
     <div class="main">
         <div class="header">
             <div class="programmerExperience">
-                <span class="since">since ~ MARCH 2007</span>
-                <span class="through">-></span>
-                <span class="now">A.D. <script type="text/javascript">document.write(bioInfo.getCurrentDateFormatted(new Date()).toUpperCase())</script></span>
+                <span class="since"></span>
+                <span class="through"></span>
+                <span class="now"></span>
             </div>            
-            <div class="bioTitle">
-                fast|forward_only bio
-            </div>
+            <div class="bioTitle"></div>
 			<div class="programmerExperienceLeadingThought">
-                 ...from being misunderstood about T-SQL ranking functions to being abused for knowing .NET internals...
+                 
             </div>                        
         </div>
         <div class="bio_intro">
             <div class="inline leftPanel">
                 <div class="navigation">
-                    <div class="main_page"> | <a href="#" onclick="bioInfo.goToMainPage()">go to main page </a></div>
-                    <div class="main_page"> | <a href="#" onclick="bioInfo.goToProfilePage()">go to profile page</a></div>
-                    <div class="main_page"> | <a href="#" onclick="bioInfo.goToGitHubPage()">go to GitHub page</a></div>
+                    <div class="main_page"> | <a class="goToMainPage" href="#"></a></div>
+                    <div class="main_page"> | <a class="goToProfilePage" href="#"></a></div>
+                    <div class="main_page"> | <a class="goToGithubPage" href="#"></a></div>
                 </div>
                 <div class="broadAudienceQA">
-                    "I'll not program in every language, but could learn everyone."
                 </div>                
             </div>
             <div class="inline" id="technologies">

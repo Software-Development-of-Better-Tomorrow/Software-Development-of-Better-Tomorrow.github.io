@@ -3,6 +3,24 @@
     var self = this;
     
 
+    /*
+     Trigger module's entry point as soon as HTML document has been completely loaded and parsed (althought some images, frames & other external resources may still be loading).
+     This allows for current module to kick off its entry point method as soon as possible with View (HTML file) knowing nothing about mechanism
+     that renders View's layout.
+     This is further separation of concerns (~ Static MVC) AFAIK and towards better CSP (Content Security Policy).
+    */
+    document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementsByTagName("body")[0].addEventListener("load", nextVersionInfo.loadApplicationModule());
+
+        // assign action to go to main page
+        document.getElementsByClassName("goToMainPage")[0].addEventListener("click", goToMainPage_Internal);
+
+        // assign action to go to main page
+        document.getElementsByClassName("goToReleaseNotesPage")[0].addEventListener("click", goToReleaseNotes_Internal);        
+       }
+    );
+
+
     /* module scope variables begining */
 
     var _mobileVersionPrefix = moduleHelperNextVersion.getMobileVersionPrefix();
@@ -22,6 +40,24 @@
 
     
     /* module scope private functions begining */
+
+    function handle_AboutTo_ShowPage_Internal() {
+        apply_Header_Defaults_Internal();
+
+        apply_NavigationMenu_Defaults_Internal();
+
+        showPage_Internal();
+    }
+
+    function apply_Header_Defaults_Internal() {
+        $(".nextVersionOverviewTitle").prop("innerHTML", moduleHelperNextVersion.getNextVersionOverviewTitle());
+    }
+
+    function apply_NavigationMenu_Defaults_Internal() {
+        $(".goToMainPage").prop("innerHTML", moduleHelperNextVersion.getMainPageUrl_label());
+        
+        $(".goToReleaseNotesPage").prop("innerHTML", moduleHelperNextVersion.getReleaseNotesPageRedirectionUrl_label());
+    }
 
     function showPage_Internal() {
          $(".main").css("visibility", "visible");
@@ -53,7 +89,7 @@
         var configFileLocation = moduleHelperNextVersion.getModuleConfigLocation();
 
         // set callback to invoke on successfull completion
-        _moduleDOM_Object.successfullCompletionCallback = showPage_Internal;
+        _moduleDOM_Object.successfullCompletionCallback = handle_AboutTo_ShowPage_Internal;
 
         // load module config asynchronously
         window.salm.getModuleData(configFileLocation, _moduleDOM_Object);
@@ -109,14 +145,6 @@
         // make sure SALM object is accessible at this point if not previously loaded by any other module
         moduleHelperNextVersion.promise_SALM_Availability_and_Then(on_SALM_BeingAccessible_Internal);
      }
-    }
-    
-    self.goToMainPage = function() {
-         return goToMainPage_Internal();
-    }
-    
-    self.goToReleaseNotes = function() {
-         return goToReleaseNotes_Internal();
     }
 
     /* ~ Public API */

@@ -27,9 +27,13 @@
 
 
 
+    var _proLinkExplanationTitle = "IT Pro :: this is why";
+
     var _mainPageUrl = _siteRootFolder + "main/";
+    var _mainPageUrl_label = "go to main page";
 
     var _ITProLinksPageRedirectionUrl = _siteRootFolder + "it_pro_links/";
+    var _ITProLinksPageRedirectionUrl_label = "go to pro links page";
 
 
     var _salmAccessName = "salm";
@@ -85,12 +89,24 @@
         return _disallowedResolutionsArray;
     }
 
+    self.getProLinkExplanationTitle = function() {
+        return _proLinkExplanationTitle;
+    }
+
     self.getMainPageUrl = function() {
         return _mainPageUrl;
     }
 
+    self.getMainPageUrl_label = function() {
+        return _mainPageUrl_label;
+    }
+
     self.getITProLinksPageRedirectionUrl = function() {
         return _ITProLinksPageRedirectionUrl;
+    }
+
+    self.getITProLinksPageRedirectionUrl_label = function() {
+        return _ITProLinksPageRedirectionUrl_label;
     }
 
     self.getNotSupportedResolution = function() {

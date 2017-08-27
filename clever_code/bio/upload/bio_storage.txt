@@ -62,5 +62,10 @@ Either until 31-05-2017 I have new deal with some company or will quit progrramm
 We were thinking about that for the past month and this is the most reasonable decision to make.
 This is so-called "official statement" :-)
 What about my algorithms ? Nothing changed. SQL2SQL project will start this August :-) and for sure other stuff that will follow the 3rd algorithm, that is currently looming on the horizon of my mind.
-Last modified on 02-may-2017 14:55:00
+<span class="bioUpdate">Update: 26-08-2017</span>
+Since temporary departure from Krakow I've added a couple of new features. To be honest haven't thought that I would arrive with my web development where I've arrived so far :-).
+And that's gonna be a major "bus stop" at the end of the year (v20) with so-called "Project website". I mean major one, because I'll probably be adding new minor features now and then.
+Now as of this writing I am awaiting this mind-blowing job offer, which is unofficially called "For the Future of My Family".
+My work attitude is well-known. All unknowns are on the "next employer" side from my perspective.
+Last modified on 26-august-2017 11:55:00
 }

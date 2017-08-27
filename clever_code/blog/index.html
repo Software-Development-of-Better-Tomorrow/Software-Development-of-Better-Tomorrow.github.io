@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="Content-Security-Policy"
+          content="
+                   default-src 'none';
+                   script-src https://software-development-of-better-tomorrow.github.io 'unsafe-eval' 'unsafe-inline' http://connect.facebook.net https://www.google-analytics.com/analytics.js data:;
+                   style-src https://software-development-of-better-tomorrow.github.io 'unsafe-inline' https://fonts.googleapis.com;
+                   font-src https://fonts.gstatic.com;
+                   img-src https://software-development-of-better-tomorrow.github.io https://www.google-analytics.com https://jigsaw.w3.org https://www.facebook.com;
+                   connect-src https://software-development-of-better-tomorrow.github.io;
+                   child-src *.facebook.com
+              " />    
     <meta charset="utf-8" />
     <meta name="google" content="notranslate" />
     <meta name="robots" content="index,follow" />
@@ -12,46 +22,42 @@
     <script src="js/external-libraries/jquery-3.2.1.min.js"></script>
     <script src="js/external-libraries/jquery-ui.min.js"></script>
     <script src="js/project-libraries/browser-utility-1.0.3.js"></script>
-    <script src="js/project-libraries/js-utilities-1.0.0.js"></script>
+    <script src="js/project-libraries/js-utilities-1.0.2.js"></script>
+    <script src="js/project-libraries/blog-utilities-1.0.0.js"></script>
     <script src="js/project-helpers/module-helper-blog.js"></script>
-    <script src="js/project-libraries/blog-utilities-0.0.7.js"></script>
-    <script src="js/modules/blogInfo.js"></script> <!-- this module has to be loaded as a last one for naming convention algoritm (content edition) to run properly [jsUtilities.getModulePrefix()] -->
+    <script src="js/modules/blogInfo.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron" />
     <link rel="stylesheet" type="text/css" href="css/loaders/blogLoader.css" />
     <link rel="icon" href="/favicon.ico" />
 </head>
-<body onload="blogInfo.loadApplicationModule();">
+<body>
     <div class="main">
         <div class="header">
-            <div class="programmerExperience">
-                Software Engineer
-            </div>            
+            <div class="programmerExperience"></div>            
             <div class="blogTitle">
                 b<span class="redLetter">l</span>og <span class="redLetter">o</span>f łukasz dąbro<span class="redLetter">w</span>ski
             </div>
-			<div class="bloggerExperience">
-                Junior Development Blogger
-            </div>                        
+			<div class="bloggerExperience"></div>                        
         </div>
         <div class="addArea">
-            <input type="text" class="page_speed_move" value="set speed of page going down (default 10 sec)" />
+            <input type="text" class="page_speed_move" value="" />
         </div>
         <div class="navigation">
-            <div class="main_page"><a href="#" onclick="blogInfo.goToMainPage()">| go to main page </a></div>
-            <div class="main_page"><a href="#" onclick="blogInfo.goToProfilePage()">| go to profile page</a></div>
+            <div class="main_page"><a class="goToMainPage" href="#"></a></div>
+            <div class="main_page"><a class="goToProfilePage" href="#"></a></div>
             <!--<div class="main_page"><a href="#" onclick="blogInfo.runBlogEditor('#editorContainer');return false;">-->| Add/Edit |<!--</a></div>--> <!-- #editorContainer has to be unique name in the context of this module.
                                                                                                                                                  Just provide some valid CSS ID string. This name is not used by CSS at all.
                                                                                                                                                  It is just an identifier.
                                                                                                                                              -->
-        <div class="main_page"><a href="#" onclick="blogInfo.goToBottomOfThePage()">scroll down</a></div> |
+        <div class="main_page"><a class="goToBottomOfThePage" href="#"></a></div> |
         </div>
         <div class="content">                                                                                    
         </div>
     </div>
     <div class="footer">
-        <div class="footerStatement">these are my subjective reflections on what is software development and are aimed at nobody in person</div>
+        <div class="footerStatement"></div>
     </div>
-    <div class="off_the_main_page" onclick="blogInfo.goToTopOfThePage();"><a href="#">^</a></div>
-    <script src="js/modules/my-google-analytics.js"></script>	    
+    <div class="off_the_main_page"><a href="#">^</a></div>
+    <script src="js/modules/my-google-analytics.js"></script>
 </body>

@@ -3,6 +3,30 @@
     var self = this;
 
 
+    /*
+     Trigger module's entry point as soon as HTML document has been completely loaded and parsed (althought some images, frames & other external resources may still be loading).
+     This allows for current module to kick off its entry point method as soon as possible with View (HTML file) knowing nothing about mechanism
+     that renders View's layout.
+     This is further separation of concerns (~ Static MVC) AFAIK and towards better CSP (Content Security Policy).
+    */
+    document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementsByTagName("body")[0].addEventListener("load", blogInfo.loadApplicationModule());
+
+        // assign action to go to main page
+        document.getElementsByClassName("goToMainPage")[0].addEventListener("click", goToMainPage_Internal);
+
+        // assign action to go to profile page
+        document.getElementsByClassName("goToProfilePage")[0].addEventListener("click", goToProfilePage_Internal);        
+
+        // assign action to go to bottom of the page
+        document.getElementsByClassName("goToBottomOfThePage")[0].addEventListener("click", goToBottomOfThePage_Internal);                
+
+        // assign action to go to top of the page
+        document.getElementsByClassName("off_the_main_page")[0].addEventListener("click", goToTopOfThePage_Internal);
+       }
+    );
+
+    
     /* module scope variables begining */
 
     var _mobileVersionPrefix = moduleHelperBlog.getMobileVersionPrefix();
@@ -22,6 +46,9 @@
     var _useBackwardCompatibility = moduleHelperBlog.checkBackwardCompatibilityUsage();
 
     
+    var _Facebook_ID = moduleHelperBlog.getFacebook_ID();
+    var _Facebook_SDK_url = moduleHelperBlog.getFacebook_SDK_url();
+
 
     var _pageSpeedNavigationContainerClassName = ".addArea";
     var _pageSpeedNavigationInputValueContainerClassName = ".page_speed_move";
@@ -92,6 +119,22 @@
         }
     }
 
+    function load_Facebook_SDK_for_JavaScript_Internal(htmlDocument, scriptTag, fb_id, abstractionOfData) {
+        var fjs;
+        fjs = htmlDocument.getElementsByTagName(scriptTag)[0];
+        if (htmlDocument.getElementById(fb_id)) return;
+        
+        var js;
+        js = htmlDocument.createElement(scriptTag);
+        js.id = fb_id;
+        js.src = _Facebook_SDK_url;
+        js.onload = function() {
+            loadBlog_Internal(abstractionOfData);
+            load_LikeButton_Internal();
+        }
+        document.body.appendChild(js);
+    }    
+
     function loadBlog_Internal(abstractionOfData) {
         blogUtilities.initializeBlogFunctionality(
                                                     _useBackwardCompatibility,
@@ -114,6 +157,32 @@
                                                  );
     }
 
+    function load_LikeButton_Internal() {
+        var postEntryCollection = document.getElementsByClassName(_dataDivContainerCssClassName);
+
+        for(var i = 0; i < postEntryCollection.length; i++) {
+            var postEntry = postEntryCollection[i];
+            
+            // create Facebook Like button
+            var fbLikeDiv = document.createElement("div");
+            fbLikeDiv.setAttribute("class", "fb-like my_custom_fb-like");
+            fbLikeDiv.setAttribute("data-href", moduleHelperBlog.getSiteUrl());
+            fbLikeDiv.setAttribute("data-layout", "button_count");
+            fbLikeDiv.setAttribute("data-action", "like");
+            fbLikeDiv.setAttribute("data-size", "small");
+            fbLikeDiv.setAttribute("data-show-faces", "false");
+            fbLikeDiv.setAttribute("data-share", "false");
+
+            postEntry.insertBefore(fbLikeDiv, postEntry.childNodes[postEntry.childNodes.length - 1]);
+
+            postEntryCollection[i] = postEntry;
+        }
+
+        // update HTML DOM content
+        var contentDiv = document.getElementsByClassName(_parentContainerCssClass.substring(1))[0];
+        contentDiv.setAttribute("innerHTML", postEntryCollection.innerHTML);
+    }
+
     function assignEventHandlers_Internal() {
         $(_pageSpeedNavigationContainerClassName).focusin(function() {
             handleAddAreaGotFoucs_Internal();
@@ -132,6 +201,28 @@
         });
 
         blogUtilities.manageStartStopPageScrollingDown();
+    }
+
+    function apply_Header_Defaults_Internal() {
+        $(".programmerExperience").prop("innerHTML", moduleHelperBlog.getProgrammerExperience());
+
+        $(".bloggerExperience").prop("innerHTML", moduleHelperBlog.getBloggerExperience());
+    }
+
+    function apply_AddArea_Defaults_Internal() {
+        $(_pageSpeedNavigationInputValueContainerClassName).val(_pageSpeedDefaultValueLabel);
+    }
+
+    function apply_NavigationMenu_Defaults_Internal() {
+        $(".goToMainPage").prop("innerHTML", moduleHelperBlog.getMainPageUrl_label());
+
+        $(".goToProfilePage").prop("innerHTML", moduleHelperBlog.getProfileRedirectionUrl_label());
+
+        $(".goToBottomOfThePage").prop("innerHTML", moduleHelperBlog.getBottomOfThePage());
+    }
+
+    function apply_Footer_Defaults_Internal() {
+        $(".footerStatement").prop("innerHTML", moduleHelperBlog.getFooterStatement());
     }
 
     function goToBottomOfThePage_Internal() {
@@ -211,8 +302,8 @@
                 blogUtilities.setPageSpeedDefaultValue(parsedValue);
             }
             else {
-                location.reload();
                 alert("Provide valid integer number.");
+                apply_AddArea_Defaults_Internal();
                 return;
             }
         }
@@ -263,8 +354,12 @@
     }
 
     function initializeBlogFunctionality_Internal(abstractionOfData) {
-        loadBlog_Internal(abstractionOfData);
+        load_Facebook_SDK_for_JavaScript_Internal(document, 'script', _Facebook_ID, abstractionOfData);
         assignEventHandlers_Internal();
+        apply_Header_Defaults_Internal();
+        apply_AddArea_Defaults_Internal();
+        apply_NavigationMenu_Defaults_Internal();
+        apply_Footer_Defaults_Internal();
         adjustBrowser_Internal();
         adjustScrollSpeedInputFieldBasedOnCurrentResolution_Internal();
         showPage_Internal();
@@ -328,24 +423,8 @@
      }
     }
 
-    self.goToBottomOfThePage = function() {
-        return goToBottomOfThePage_Internal();
-    }
-    
-    self.goToTopOfThePage = function() {
-        return goToTopOfThePage_Internal();
-    }
-
     self.runBlogEditor = function(editorContainerUniqueID) {
         return runBlogEditor_Internal(editorContainerUniqueID);
-    }
-
-    self.goToMainPage = function() {
-         return goToMainPage_Internal();
-    }
-    
-    self.goToProfilePage = function() {
-         return goToProfilePage_Internal();
     }
 
     self.goToOneDrive = function() {

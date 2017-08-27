@@ -1,0 +1,8 @@
+{
+This whole section treats about security when it comes to data on any website, even if it is an open source website.
+You will find there core explanation on how to write more secure websites with more flexible approaches to writing code.
+What I mean by flexible approaches is this simple fact that URL addresses can be written in a way to allow them "adjust" themselves to the protocol under which they are being execute.
+And many more.
+I do recommend reading this whole section.
+23-august-2017 12:58:00 GMT +0100
+}

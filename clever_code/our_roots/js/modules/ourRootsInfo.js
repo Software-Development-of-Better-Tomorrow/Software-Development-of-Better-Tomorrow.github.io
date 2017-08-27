@@ -3,6 +3,25 @@
     var self = this;
     
 
+    /*
+     Trigger module's entry point as soon as HTML document has been completely loaded and parsed (althought some images, frames & other external resources may still be loading).
+     This allows for current module to kick off its entry point method as soon as possible with View (HTML file) knowing nothing about mechanism
+     that renders View's layout.
+     This is further separation of concerns (~ Static MVC) AFAIK and towards better CSP (Content Security Policy).
+    */
+    document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementsByTagName("body")[0].addEventListener("load", ourRootsInfo.loadApplicationModule());
+
+        // assign actions to navigation menu
+        document.getElementsByClassName("goToMainPage")[0].addEventListener("click", goToMainPage_Internal);
+
+        document.getElementsByClassName("goToProfilePage")[0].addEventListener("click", goToProfile_Internal);
+
+        document.getElementsByClassName("seeHowFarYouAreFromUs")[0].addEventListener("click", showDistance_Internal);
+       }
+    );
+
+
     /* module scope variables begining */
 
     var _mobileVersionPrefix = moduleHelperOurRoots.getMobileVersionPrefix();
@@ -126,6 +145,22 @@
         }
     }    
 
+    function apply_Header_Defaults_Internal() {
+        $(".ourRootsTitle").prop("innerHTML", moduleHelperOurRoots.getOurRootTitle());
+    }
+
+    function apply_NavigationMenu_Defaults_Internal() {
+        $(".goToMainPage").prop("innerHTML", moduleHelperOurRoots.getMainPageUrl_label());
+
+        $(".goToProfilePage").prop("innerHTML", moduleHelperOurRoots.getProfileRedirectionUrl_label());
+
+        $(".seeHowFarYouAreFromUs").prop("innerHTML", moduleHelperOurRoots.getSeeHowFarYouAreFromUs_label());
+    }
+
+    function apply_Footer_Defaults_Internal() {
+        $(".footerContent").prop("innerHTML", moduleHelperOurRoots.getFooterContent());
+    }
+
     /* module scope private functions end */
 
     
@@ -161,24 +196,21 @@
             jsUtilities.setFallbackUrl(window.location.href);
         }
         
-        /* ~ token stuff */            
+        /* ~ token stuff */
+
+        // apply header defaults
+        apply_Header_Defaults_Internal();
+
+        // apply navigation menu defaults
+        apply_NavigationMenu_Defaults_Internal();
+
+        // apply footer defaults
+        apply_Footer_Defaults_Internal();
      }
-    }
-    
-    self.goToMainPage = function() {
-         return goToMainPage_Internal();
-    }
-    
-    self.goToProfile = function() {
-         return goToProfile_Internal();
     }
 
     self.loadOurRoots = function() {
         return loadOurRoots_Internal();
-    }
-
-    self.showDistance = function() {
-        return showDistance_Internal();
     }
 
     /* ~ Public API */

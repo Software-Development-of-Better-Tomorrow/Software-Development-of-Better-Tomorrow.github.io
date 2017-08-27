@@ -3,6 +3,23 @@
     var self = this;
     
 
+    /*
+     Trigger module's entry point as soon as HTML document has been completely loaded and parsed (althought some images, frames & other external resources may still be loading).
+     This allows for current module to kick off its entry point method as soon as possible with View (HTML file) knowing nothing about mechanism
+     that renders View's layout.
+     This is further separation of concerns (~ Static MVC) AFAIK and towards better CSP (Content Security Policy).
+    */
+    document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementsByTagName("body")[0].addEventListener("load", itProLinksInfo.loadApplicationModule());
+
+        // assign action to go to main page
+        document.getElementsByClassName("goToMainPage")[0].addEventListener("click", goToMainPage_Internal);
+
+        // assign action to go to profile page
+        document.getElementsByClassName("goToProfile")[0].addEventListener("click", goToProfilePage_Internal);
+       }
+    );
+
     /* module scope variables begining */
 
     var _mobileVersionPrefix = moduleHelperITProLinks.getMobileVersionPrefix();
@@ -38,8 +55,9 @@
     }
     
     function assign_Event_Handler_To_ProLink_Explanation_Internal() {
-        // event delegation instead of event handling due to the fact that while all documents are being loaded into DOM
-        // jQuery has no yet information on dynamically loaded external files miliseconds afterwards.
+        // event delegation instead of event handling due to this simple fact:
+        // while all resources are being loaded into DOM (i), jQuery has no yet information at that point (i) on dynamically loaded external files
+        // which were loaded miliseconds after DOM has been loaded.
         $(document).on('click','.why', function(event) {
             getAndStoreMetadataForCurrentlyClickedLink_Internal(event);
 
@@ -48,6 +66,20 @@
 
             window.location.href = _proLinkExplanation + token;
         });
+    }
+
+    function apply_Header_Defaults_Internal() {
+        $(".proLinksTitle").prop("innerHTML", moduleHelperITProLinks.getProLinksTitle());
+    }
+
+    function apply_NavigationMenu_Defaults_Internal() {
+        $(".goToMainPage").prop("innerHTML", moduleHelperITProLinks.getMainPageUrl_label());
+
+        $(".goToProfile").prop("innerHTML", moduleHelperITProLinks.getProfileRedirectionUrl_label());
+    }
+
+    function apply_Footer_Defaults_Internal() {
+        $(".footerStatement").prop("innerHTML", moduleHelperITProLinks.getFooterStatement());
     }
 
     function goToMainPage_Internal() {
@@ -145,6 +177,9 @@
 
     function finalizeProcessOfDataLoading_Internal() {
         assign_Event_Handler_To_ProLink_Explanation_Internal();
+        apply_Header_Defaults_Internal();
+        apply_NavigationMenu_Defaults_Internal();
+        apply_Footer_Defaults_Internal();
         startAnimation_Internal();
         showPage_Internal();        
     }
@@ -200,14 +235,8 @@
         moduleHelperITProLinks.promise_SALM_Availability_and_Then(on_SALM_BeingAccessible_Internal);
      }
     }
-    
-    self.goToMainPage = function() {
-         return goToMainPage_Internal();
-    }
-    
-    self.goToProfilePage = function() {
-         return goToProfilePage_Internal();
-    }
+
+
 
     /* ~ Public API */
 

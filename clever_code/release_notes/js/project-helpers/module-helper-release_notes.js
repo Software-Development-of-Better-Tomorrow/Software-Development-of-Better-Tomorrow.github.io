@@ -28,8 +28,10 @@
 
 
     var _mainPageUrl = _siteRootFolder + "main/";
+    var _mainPageUrl_label = "go to main page";
 
     var _nextVersionRedirectionUrl = _siteRootFolder + "next_version/";
+    var _nextVersionRedirectionUrl_label = "next version overview";
 
 
     var _salmAccessName = "salm";
@@ -87,8 +89,16 @@
         return _mainPageUrl;
     }
 
+    self.getMainPageUrl_label = function() {
+        return _mainPageUrl_label;
+    }
+
     self.getNextVersionRedirectionUrl = function() {
         return _nextVersionRedirectionUrl;
+    }
+
+    self.getNextVersionRedirectionUrl_label = function() {
+        return _nextVersionRedirectionUrl_label;
     }
 
     self.getNotSupportedResolution = function() {
