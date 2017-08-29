@@ -28,7 +28,7 @@
 
     var _siteName = "S-D-of-B-T";
                                   
-    var _siteVersion = "v19.6";
+    var _siteVersion = "v19.7";
                                   
     var _getCopyrightYear = new Date().getFullYear().toString();
 

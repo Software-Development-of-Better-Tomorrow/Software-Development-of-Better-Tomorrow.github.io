@@ -1016,4 +1016,14 @@ Therefore what I mean by Static MVC is:
 <br />
 Please bear in mind that this is my humble understanding.
 24-august-2017 00:05:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[version explained: v19.7 (blog enhacements' fix)]...
+Now it works. And as you see Like buttons are provided in the context of a post, but they have blog scope.
+What I mean by that, is the fact that instead of putting Like button at the beginning of the page or at the end I put it in each and every post.
+If you like my blog you can click Like in the current post you are reading. All Like buttons will receive your click.
+Like buttons provided by Facebook have page scope rather than f.e. like in my case, post scope.
+I will consider making something of my own that will be blog post-related. If I am satisfied with that, then at the end of next week will release v19.8
+If not, next version will be v20.
+29-august-2017 14:58:00 GMT +0100
 }

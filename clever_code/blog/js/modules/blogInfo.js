@@ -165,7 +165,7 @@
             
             // create Facebook Like button
             var fbLikeDiv = document.createElement("div");
-            fbLikeDiv.setAttribute("class", "fb-like my_custom_fb-like");
+            fbLikeDiv.setAttribute("class", "fb-like");
             fbLikeDiv.setAttribute("data-href", moduleHelperBlog.getSiteUrl());
             fbLikeDiv.setAttribute("data-layout", "button_count");
             fbLikeDiv.setAttribute("data-action", "like");

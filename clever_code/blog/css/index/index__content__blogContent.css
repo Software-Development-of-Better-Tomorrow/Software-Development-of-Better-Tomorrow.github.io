@@ -328,10 +328,6 @@ img {
     font-size: 2.4em;
 }
 
-.my_custom_fb-like {
-    position: relative;
-    float: right;
-    right: 1%;
-
-    line-height: 1.8em;
+.fb-like {
+    padding-top: 20px;
 }

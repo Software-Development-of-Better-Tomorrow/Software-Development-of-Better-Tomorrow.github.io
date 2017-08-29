@@ -93,7 +93,7 @@
     var _Facebook_ID = "facebook-jssdk";
     var _Facebook_SDK_url = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
 
-    var _siteUrl = "https://software-development-of-better-tomorrow.github.io/clever_code/blog/#" + _hashReplacement;
+    var _siteUrl = "https://software-development-of-better-tomorrow.github.io/clever_code/blog/";
 
     /* module scope variables end */
 
