@@ -1026,4 +1026,15 @@ Like buttons provided by Facebook have page scope rather than f.e. like in my ca
 I will consider making something of my own that will be blog post-related. If I am satisfied with that, then at the end of next week will release v19.8
 If not, next version will be v20.
 29-august-2017 14:58:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[offical statement: software-development-of-better-tomorrow.org coming soon]...
+I am happy to tell you that I have successfully managed to purchase long-term coming software-development-of-better-tomorrow.org domain from <a id="blogUrls" href="https://www.xvhost.com/" target="_blank">XVHOST</a>.
+What will follow that are:
+1. Next versions will come from software-development-of-better-tomorrow.org
+2. Code will be minified, uglified and <a id="blogUrls" href="http://fuse-box.org/" target="_blank">FuseBox'ed</a>.
+3. Downloadable version will stay the same.
+4. Several optimizations already settled in my mind.
+5. v20 will probably be shifted to the end of December 2017, i.e. ~ December 20.
+31-august-2017 23:36:00 GMT +0100
 }
