@@ -1037,4 +1037,30 @@ What will follow that are:
 4. Several optimizations already settled in my mind.
 5. v20 will probably be shifted to the end of December 2017, i.e. ~ December 20.
 01-september-2017 00:19:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[offical statement: approach to Software Development of Better Tomorrow releases]...
+Since yesterday I decided to give up on this so-called weekend if it comes to releases of software.
+It basically means that every next release can come even on Saturday or Sunday, put it very shortly.
+Reason: family, day-to-day job.
+03-september-2017 13:27:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[offical statement: approach to Twitter "posts"]...
+Since yesterday I decided to give up on this timetabled posts on Twitter as I wrote yesterday on Facebook.
+Reason: family, day-to-day job.
+03-september-2017 13:29:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[offical statement: PWA mobile version of Software Development of Better Tomorrow]...
+Today after very careful and long thinking (since I wrote the very first time about that) I decided not to follow PWA approach to writing this mobile site (v1 in 2018).
+Reason:
+1.It disagrees with my philosophy of writing what I write:
+&nbsp;&nbsp;a. people still use Windows 7 and IE on that version of Windows, which does not support Service Workers.
+&nbsp;&nbsp;b. Apple do not support it as well at the time of this writing.
+&nbsp;&nbsp;c. I want to deliver my software to as broad audience as possible (not necessarily to those who are to some extent rich but do not use their knowledge wisely)
+2.<a id="blogUrls" href="http://caniuse.com/#feat=serviceworkers" target="_blank">Service Workers - WD</a>.
+<br />
+The other parts do not change. It will be React/Redux.
+03-september-2017 14:10:00 GMT +0100
 }
