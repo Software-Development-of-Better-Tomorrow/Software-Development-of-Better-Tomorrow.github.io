@@ -10,7 +10,7 @@
      This is further separation of concerns (~ Static MVC) AFAIK and towards better CSP (Content Security Policy).
     */
     document.addEventListener("DOMContentLoaded", function(event) {
-        document.getElementsByTagName("body")[0].addEventListener("load", nextVersionInfo.loadApplicationModule());
+        document.getElementsByTagName("body")[0].addEventListener("load", mobileVersionDesignNotesInfo.loadApplicationModule());
 
         // assign action to go to main page
         document.getElementsByClassName("goToMainPage")[0].addEventListener("click", goToMainPage_Internal);
@@ -23,27 +23,28 @@
 
     /* module scope variables begining */
 
-    var _mobileVersionPrefix = moduleHelperNextVersion.getMobileVersionPrefix();
-	var _disallowedResolutionsArray = moduleHelperNextVersion.getDisallowedResolutionsArray();
-    var _notSupportedResolution = moduleHelperNextVersion.getNotSupportedResolution();
+    var _mobileVersionPrefix = moduleHelperMobileVersionDesignNotes.getMobileVersionPrefix();
+    var _disallowedResolutionsArray = moduleHelperMobileVersionDesignNotes.getDisallowedResolutionsArray();
+    var _notSupportedResolution = moduleHelperMobileVersionDesignNotes.getNotSupportedResolution();
 
-    var _mainPageRedirectionUrl = moduleHelperNextVersion.getMainPageUrl();
-    var _mainPageUrl_label = moduleHelperNextVersion.getMainPageUrl_label();
+    var _mainPageRedirectionUrl = moduleHelperMobileVersionDesignNotes.getMainPageUrl();
+    var _mainPageUrl_label = moduleHelperMobileVersionDesignNotes.getMainPageUrl_label();
 
-    var _releaseNotesPageRedirectionUrl = moduleHelperNextVersion.getReleaseNotesPageRedirectionUrl();
-    var _releaseNotesPageRedirectionUrl_label = moduleHelperNextVersion.getReleaseNotesPageRedirectionUrl_label();
+    var _releaseNotesPageRedirectionUrl = moduleHelperMobileVersionDesignNotes.getReleaseNotesPageRedirectionUrl();
+    var _releaseNotesPageRedirectionUrl_label = moduleHelperMobileVersionDesignNotes.getReleaseNotesPageRedirectionUrl_label();
 
-    var _nextVersionOverviewTitle = moduleHelperNextVersion.getNextVersionOverviewTitle();
+    var _nextVersionOverviewTitle = moduleHelperMobileVersionDesignNotes.getNextVersionOverviewTitle();
     
+
+    var _moduleConfigLocation = moduleHelperMobileVersionDesignNotes.getModuleConfigLocation();
     
-    var _moduleConfigLocation = moduleHelperNextVersion.getModuleConfigLocation();
+
+    var _salmName = moduleHelperMobileVersionDesignNotes.getSalmAccessName();
+
+    var _moduleDOM_Object = moduleHelperMobileVersionDesignNotes.getModuleDOM_Object();
 
     
-    var _salmName = moduleHelperNextVersion.getSalmAccessName();
-
-    var _moduleDOM_Object = moduleHelperNextVersion.getModuleDOM_Object();
-
-    var _hashReplacement = moduleHelperNextVersion.getHashReplacement();
+    var _hashReplacement = moduleHelperMobileVersionDesignNotes.getHashReplacement();
 
     /* module scope variables end */
 
@@ -56,17 +57,40 @@
 
         apply_NavigationMenu_Defaults_Internal();
 
+        apply_DynamicNextVersionOverviewContainer_Defaults_Internal();
+
+        apply_Footer_Defaults_Internal();
+
         showPage_Internal();
     }
 
     function apply_Header_Defaults_Internal() {
-        $(".nextVersionOverviewTitle").prop("innerHTML", _nextVersionOverviewTitle);
+        $(".mobileVersionDesignNotesOverviewTitle").prop("innerHTML", _nextVersionOverviewTitle);
     }
 
     function apply_NavigationMenu_Defaults_Internal() {
         $(".goToMainPage").prop("innerHTML", _mainPageUrl_label);
         
         $(".goToReleaseNotesPage").prop("innerHTML", _releaseNotesPageRedirectionUrl_label);
+    }
+
+    function apply_DynamicNextVersionOverviewContainer_Defaults_Internal() {
+        $(".windows").prop("innerHTML", "Windows 10 Mobile");
+
+        $(".android").prop("innerHTML", "Android");
+
+        $(".ios").prop("innerHTML", "iOS");
+        $(".ios").css("color", "#000000");
+
+        $(".blackberry").prop("innerHTML", "BlackBerry");
+
+        $(".official_name").prop("innerHTML", "S-D-of-B-T 4 Mobile Platform");
+        $(".four").prop("innerHTML", "4");
+        $(".OS").prop("innerHTML", "OS");
+    }
+
+    function apply_Footer_Defaults_Internal() {
+        $(".footer").prop("innerHTML", "$\"{x}G v1 available in 2018\";");
     }
 
     function showPage_Internal() {
@@ -153,7 +177,7 @@
 
 
         // make sure SALM object is accessible at this point if not previously loaded by any other module
-        moduleHelperNextVersion.promise_SALM_Availability_and_Then(on_SALM_BeingAccessible_Internal);
+        moduleHelperMobileVersionDesignNotes.promise_SALM_Availability_and_Then(on_SALM_BeingAccessible_Internal);
      }
     }
 
@@ -162,7 +186,7 @@
 
 
     /* Expose module API to the outside world */
-    window.nextVersionInfo = window.nextVersionInfo || self;
+    window.mobileVersionDesignNotesInfo = window.mobileVersionDesignNotesInfo || self;
 
     /* redirect to mobile version in case of mobile browser */    
     jsUtilities.redirectToMobileVersionIfMobileBrowserDetected(_mobileVersionPrefix);

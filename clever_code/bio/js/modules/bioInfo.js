@@ -28,11 +28,29 @@
 
     var _mobileVersionPrefix = moduleHelperBio.getMobileVersionPrefix();
 	var _disallowedResolutionsArray = moduleHelperBio.getDisallowedResolutionsArray();
+    var _notSupportedResolution = moduleHelperBio.getNotSupportedResolution();
 
-    var _mainPageRedirectionUrl = moduleHelperBio.getMainPageUrl();
-    var _profilePageRedirectionUrl = moduleHelperBio.getProfileRedirectionUrl();
-    var _GitHubPageRedirectionUrl = moduleHelperBio.getGitHubRedirectionUrl();
+    var _programmingExperience_since = moduleHelperBio.getProgrammingExperience_since();
+    var _programmingExperience_through = moduleHelperBio.getProgrammingExperience_through();
+    var _programmingExperience_now = moduleHelperBio.getProgrammingExperience_now();
+    var _programmerExperienceLeadingThought = moduleHelperBio.getProgrammerExperienceLeadingThought();
     
+    var _mainPageRedirectionUrl = moduleHelperBio.getMainPageUrl();
+    var _mainPageUrl_label = moduleHelperBio.getMainPageUrl_label();
+    
+    var _profilePageRedirectionUrl = moduleHelperBio.getProfileRedirectionUrl();
+    var _profileRedirectionUrl_label = moduleHelperBio.getProfileRedirectionUrl_label();
+    
+    var _bioTitle = moduleHelperBio.getBioTitle();
+    
+    var _broadAudienceQA = moduleHelperBio.getBroadAudienceQA();
+
+    var _GitHubPageRedirectionUrl = moduleHelperBio.getGitHubRedirectionUrl();
+    var _gitHubRedirectionUrl_label = moduleHelperBio.getGitHubRedirectionUrl_label();
+
+
+    var _moduleConfigLocation = moduleHelperBio.getModuleConfigLocation();
+    var _moduleStorageLocation = moduleHelperBio.getModuleStorageLocation();
 
 
     var _salmName = moduleHelperBio.getSalmAccessName();
@@ -41,6 +59,7 @@
     
     var _useBackwardCompatibility = moduleHelperBio.checkBackwardCompatibilityUsage();
 
+    var _hashReplacement = moduleHelperBio.getHashReplacement();
 
     
     var _modulePrefix = jsUtilities.getModulePrefix(); // this method executes in the context of this module, i.e. this module's relative path location.
@@ -72,7 +91,7 @@
     }
 
     function displayMessageForNotSupportedBrowser_Internal() {
-        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + moduleHelperBio.getNotSupportedResolution() + "</div>";
+        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + _notSupportedResolution + "</div>";
     }
 
     function adjustBrowser_Safari_Internal() {
@@ -128,27 +147,27 @@
 	}
 
     function apply_Header_Defaults_Internal() {
-        $(".since").prop("innerHTML", moduleHelperBio.getProgrammingExperience_since());
+        $(".since").prop("innerHTML", _programmingExperience_since);
 
-        $(".through").prop("innerHTML", moduleHelperBio.getProgrammingExperience_through());
+        $(".through").prop("innerHTML", _programmingExperience_through);
 
-        $(".now").prop("innerHTML", moduleHelperBio.getProgrammingExperience_now());
+        $(".now").prop("innerHTML", _programmingExperience_now);
 
-        $(".bioTitle").prop("innerHTML", moduleHelperBio.getBioTitle());
+        $(".bioTitle").prop("innerHTML", _bioTitle);
 
-        $(".programmerExperienceLeadingThought").prop("innerHTML", moduleHelperBio.getProgrammerExperienceLeadingThought());
+        $(".programmerExperienceLeadingThought").prop("innerHTML", _programmerExperienceLeadingThought);
     }
 
     function apply_NavigationMenu_Defaults_Internal() {
-        $(".goToMainPage").prop("innerHTML", moduleHelperBio.getMainPageUrl_label());
+        $(".goToMainPage").prop("innerHTML", _mainPageUrl_label);
 
-        $(".goToProfilePage").prop("innerHTML", moduleHelperBio.getProfileRedirectionUrl_label());
+        $(".goToProfilePage").prop("innerHTML", _profileRedirectionUrl_label);
 
-        $(".goToGithubPage").prop("innerHTML", moduleHelperBio.getGitHubRedirectionUrl_label());
+        $(".goToGithubPage").prop("innerHTML", _gitHubRedirectionUrl_label);
     }
 
     function apply_BroadAudienceQA_Defaults_Internal() {
-        $(".broadAudienceQA").prop("innerHTML", moduleHelperBio.getBroadAudienceQA());
+        $(".broadAudienceQA").prop("innerHTML", _broadAudienceQA);
     }
 
     function goToMainPage_Internal() {
@@ -174,7 +193,7 @@
         jsUtilities.exposeToCurrentWindowDynamicallyLoadedModuleFromDisk(_salmName);
 
         // get module config location
-        var configFileLocation = moduleHelperBio.getModuleConfigLocation();
+        var configFileLocation = _moduleConfigLocation;
 
         // set callback to invoke on successfull completion
         _moduleDOM_Object.successfullCompletionCallback = initializeBioFunctionality_Internal;
@@ -199,7 +218,7 @@
             jsUtilities.setDestinationUrlNewShadowToken();
 
             // obfuscate token
-            jsUtilities.clearHash(moduleHelperBio.getHashReplacement());
+            jsUtilities.clearHash(_hashReplacement);
         }
     }    
 
@@ -241,7 +260,7 @@
 
         
             if(_useBackwardCompatibility === true) {
-                var moduleStorageLocation = moduleHelperBio.getModuleStorageLocation();
+                var moduleStorageLocation = _moduleStorageLocation;
                 initializeBioFunctionality_Internal(moduleStorageLocation);
             }
             else {

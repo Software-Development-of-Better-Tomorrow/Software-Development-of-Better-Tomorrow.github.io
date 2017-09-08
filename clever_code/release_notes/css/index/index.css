@@ -2,7 +2,7 @@
     position: relative;
 		
     width: 70%;
-    height: 121em;
+    height: 123em;
         
     box-shadow: 9px 8px 4px #b3b3b3, 0 0 14px #b3b3b3;
             
@@ -24,7 +24,7 @@
 .main_page {
     position: relative;
     float: left;
-    left: 43%;
+    left: 2%;
     top: .8em;
         
     font-family: monospace;

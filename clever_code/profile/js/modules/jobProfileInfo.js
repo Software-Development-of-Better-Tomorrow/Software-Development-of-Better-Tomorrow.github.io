@@ -176,12 +176,215 @@
 
      var _mobileVersionPrefix = moduleHelperProfile.getMobileVersionPrefix();
      var _disallowedResolutionsArray = moduleHelperProfile.getDisallowedResolutionsArray();
+     var _notSupportedResolution = moduleHelperProfile.getNotSupportedResolution();
 
      var _mainPageRedirectionUrl = moduleHelperProfile.getMainPageUrl();
      var _blogPageRedirectionUrl = moduleHelperProfile.getBlogPageRedirectionUrl();
      var _bioPageRedirectionUrl = moduleHelperProfile.getBioPageRedirectionUrl();
      var _ITProLinksPageRedirectionUrl = moduleHelperProfile.getITProLinksPageRedirectionUrl();
      var _ourRootsPageRedirectionUrl = moduleHelperProfile.getOurRootsPageRedirectionUrl();
+
+     var _myTitle = moduleHelperProfile.getMyTitle();
+     var _info = moduleHelperProfile.getInfo();
+     
+
+
+     var _expandCollapseAll = moduleHelperProfile.getExpandCollapseAll();
+     
+
+     
+     var _infoAbout_Me_label = moduleHelperProfile.getInfoAbout_Me_label();
+     var _infoAbout_Me_descr = moduleHelperProfile.getInfoAbout_Me_descr();
+
+     var _infoAbout_MyHobby_label = moduleHelperProfile.getInfoAbout_MyHobby_label();
+     var _infoAbout_MyHobby_descr = moduleHelperProfile.getInfoAbout_MyHobby_descr();
+     
+
+
+     var _infoAbout_MyAchievments_label = moduleHelperProfile.getInfoAbout_MyAchievments_label();
+     
+     var _npmPageRedirectionUrl_label = moduleHelperProfile.getNpmPageRedirectionUrl_label();
+     var _npmPageRedirectionUrl = moduleHelperProfile.getNpmPageRedirectionUrl();
+     
+     var _gitHubPageRedirectionUrl_label = moduleHelperProfile.getGitHubPageRedirectionUrl_label();
+     var _gitHubPageRedirectionUrl = moduleHelperProfile.getGitHubPageRedirectionUrl();
+     
+     var _linkedInPageRedirectionUrl_label = moduleHelperProfile.getLinkedInPageRedirectionUrl_label();
+     var _linkedInPageRedirectionUrl = moduleHelperProfile.getLinkedInPageRedirectionUrl();
+     
+     var _twitterPageRedirectionUrl_label = moduleHelperProfile.getTwitterPageRedirectionUrl_label();
+     var _twitterPageRedirectionUrl = moduleHelperProfile.getTwitterPageRedirectionUrl();
+     
+     var _gitterPageRedirectionUrl_label = moduleHelperProfile.getGitterPageRedirectionUrl_label();
+     var _gitterPageRedirectionUrl = moduleHelperProfile.getGitterPageRedirectionUrl();
+     
+     var _codePenPageRedirectionUrl_label = moduleHelperProfile.getCodePenPageRedirectionUrl_label();
+     var _codePenPageRedirectionUrl = moduleHelperProfile.getCodePenPageRedirectionUrl();
+     
+     var _opportunityPageRedirectionUrl_label = moduleHelperProfile.getOpportunityPageRedirectionUrl_label();
+     var _opportunityPageRedirectionUrl = moduleHelperProfile.getOpportunityPageRedirectionUrl();
+     
+     var _blogPageRedirectionUrl_label = moduleHelperProfile.getBlogPageRedirectionUrl_label();
+     var _bioPageRedirectionUrl_label = moduleHelperProfile.getBioPageRedirectionUrl_label();
+     
+
+
+     var _infoAbout_MySocialMedia_label = moduleHelperProfile.getInfoAbout_MySocialMedia_label();
+     
+     var _facebookPageRedirectionUrl_label = moduleHelperProfile.getFacebookPageRedirectionUrl_label();
+     var _facebookPageRedirectionUrl = moduleHelperProfile.getFacebookPageRedirectionUrl();
+     
+     var _instagramPageRedirectionUrl_label = moduleHelperProfile.getInstagramPageRedirectionUrl_label();
+     var _instagramPageRedirectionUrl = moduleHelperProfile.getInstagramPageRedirectionUrl();
+     
+     var _mediumPageRedirectionUrl_label = moduleHelperProfile.getMediumPageRedirectionUrl_label();
+     var _mediumPageRedirectionUrl = moduleHelperProfile.getMediumPageRedirectionUrl();
+     
+     var _dribbblePageRedirectionUrl_label = moduleHelperProfile.getDribbblePageRedirectionUrl_label();
+     var _dribbblePageRedirectionUrl = moduleHelperProfile.getDribbblePageRedirectionUrl();
+     
+
+
+     var _infoAbout_MySkype_label = moduleHelperProfile.getInfoAbout_MySkype_label();
+     
+     var _skypeCallMeRedirectionUrl_label = moduleHelperProfile.getSkypeCallMeRedirectionUrl_label();
+     var _skypeCallMeRedirectionUrl = moduleHelperProfile.getSkypeCallMeRedirectionUrl();
+     var _skypeChatWithMeRedirectionUrl_label = moduleHelperProfile.getSkypeChatWithMeRedirectionUrl_label();
+     var _skypeChatWithMeRedirectionUrl = moduleHelperProfile.getSkypeChatWithMeRedirectionUrl();
+     var _skypeAddMeToContactsRedirectionUrl_label = moduleHelperProfile.getSkypeAddMeToContactsRedirectionUrl_label();
+     var _skypeAddMeToContactsRedirectionUrl = moduleHelperProfile.getSkypeAddMeToContactsRedirectionUrl();
+     var _skypeProfileRedirectionUrl_label = moduleHelperProfile.getSkypeProfileRedirectionUrl_label();
+     var _skypeProfileRedirectionUrl = moduleHelperProfile.getSkypeProfileRedirectionUrl();
+     
+
+
+     var _infoAbout_MyDownload_label = moduleHelperProfile.getInfoAbout_MyDownload_label();
+     
+     var _CV_doc_label = moduleHelperProfile.getCV_doc_label();
+     var _CV_doc = moduleHelperProfile.getCV_doc();
+     var _CV_doc_download_label = moduleHelperProfile.getCV_doc_download_label();
+     var _CV_pdf_label = moduleHelperProfile.getCV_pdf_label();
+     var _CV_pdf = moduleHelperProfile.getCV_pdf();
+     var _CV_pdf_download_label = moduleHelperProfile.getCV_pdf_download_label();
+     var _LM_doc_label = moduleHelperProfile.getLM_doc_label();
+     var _LM_doc = moduleHelperProfile.getLM_doc();
+     var _LM_doc_download_label = moduleHelperProfile.getLM_doc_download_label();
+     var _LM_pdf_label = moduleHelperProfile.getLM_pdf_label();
+     var _LM_pdf = moduleHelperProfile.getLM_pdf();
+     var _LM_pdf_download_label = moduleHelperProfile.getLM_pdf_download_label();
+     var _projects_and_Tech_label = moduleHelperProfile.getProjects_and_Tech_label();
+     var _projects_and_Tech = moduleHelperProfile.getProjects_and_Tech();
+     var _projects_and_Tech_download_label = moduleHelperProfile.getProjects_and_Tech_download_label();
+     
+     
+     
+     var _infoAbout_Resources_from_Internet_label = moduleHelperProfile.getInfoAbout_Resources_from_Internet_label();
+     var _infoAbout_Resources_from_Internet_IT_Pro_links_label = moduleHelperProfile.getInfoAbout_Resources_from_Internet_IT_Pro_links_label();
+     
+     var _experience_IT_label = moduleHelperProfile.getExperience_IT_label();
+     var _experience_IT = moduleHelperProfile.getExperience_IT();     
+
+     var _experience_Education_label = moduleHelperProfile.getExperience_Education_label();
+     var _experience_Education = moduleHelperProfile.getExperience_Education();
+     
+     var _experience_Offwork_label = moduleHelperProfile.getExperience_Offwork_label();
+     var _experience_Offwork = moduleHelperProfile.getExperience_Offwork();
+     
+     var _experience_Language_label = moduleHelperProfile.getExperience_Language_label();
+     var _experience_Language = moduleHelperProfile.getExperience_Language();
+     
+
+
+     var _employment_status = moduleHelperProfile.getEmployment_status();
+     
+
+
+     var _history_details_company_label = moduleHelperProfile.getHistory_details_company_label();
+     var _history_details_company_4 = moduleHelperProfile.getHistory_details_company_4();
+     var _history_details_company_3 = moduleHelperProfile.getHistory_details_company_3();
+     var _history_details_company_2 = moduleHelperProfile.getHistory_details_company_2();
+     var _history_details_company_1 = moduleHelperProfile.getHistory_details_company_1();
+     
+     var _history_details_timePeriod_label = moduleHelperProfile.getHistory_details_timePeriod_label();
+     var _history_details_timePeriod_4 = moduleHelperProfile.getHistory_details_timePeriod_4();
+     var _history_details_timePeriod_3 = moduleHelperProfile.getHistory_details_timePeriod_3();
+     var _history_details_timePeriod_2 = moduleHelperProfile.getHistory_details_timePeriod_2();
+     var _history_details_timePeriod_1 = moduleHelperProfile.getHistory_details_timePeriod_1();
+     
+     var _history_details_occupation_label = moduleHelperProfile.getHistory_details_occupation_label();
+     var _history_details_occupation_4 = moduleHelperProfile.getHistory_details_occupation_4();
+     var _history_details_occupation_3 = moduleHelperProfile.getHistory_details_occupation_3();
+     var _history_details_occupation_2 = moduleHelperProfile.getHistory_details_occupation_2();
+     var _history_details_occupation_1 = moduleHelperProfile.getHistory_details_occupation_1();
+     
+     var _history_details_technologies_label = moduleHelperProfile.getHistory_details_technologies_label();
+     var _history_details_technologies_4 = moduleHelperProfile.getHistory_details_technologies_4();
+     var _history_details_technologies_3 = moduleHelperProfile.getHistory_details_technologies_3();
+     var _history_details_technologies_2 = moduleHelperProfile.getHistory_details_technologies_2();
+     var _history_details_technologies_1 = moduleHelperProfile.getHistory_details_technologies_1();
+     
+     var _history_details_projects_label = moduleHelperProfile.getHistory_details_projects_label();
+     var _history_details_projects_4 = moduleHelperProfile.getHistory_details_projects_4();
+     var _history_details_projects_3 = moduleHelperProfile.getHistory_details_projects_3();
+     var _history_details_projects_2 = moduleHelperProfile.getHistory_details_projects_2();
+     var _history_details_projects_1 = moduleHelperProfile.getHistory_details_projects_1();
+
+
+
+     var _skills_pLanguages_label_1 = moduleHelperProfile.getSkills_pLanguages_label_1();
+     var _skills_pLanguages_1 = moduleHelperProfile.getSkills_pLanguages_1();
+     
+     var _skills_pTechnologies_label_1 = moduleHelperProfile.getSkills_pTechnologies_label_1();
+     var _skills_pTechnologies_1 = moduleHelperProfile.getSkills_pTechnologies_1();
+     var _skills_pTechnologies_label_2 = moduleHelperProfile.getSkills_pTechnologies_label_2();
+     var _skills_pTechnologies_2 = moduleHelperProfile.getSkills_pTechnologies_2();
+     
+     var _skills_pFrameworks_label_1 = moduleHelperProfile.getSkills_pFrameworks_label_1();
+     var _skills_pFrameworks_1 = moduleHelperProfile.getSkills_pFrameworks_1();
+     var _skills_pFrameworks_label_2 = moduleHelperProfile.getSkills_pFrameworks_label_2();
+     var _skills_pFrameworks_2 = moduleHelperProfile.getSkills_pFrameworks_2();
+     var _skills_pFrameworks_label_3 = moduleHelperProfile.getSkills_pFrameworks_label_3();
+     var _skills_pFrameworks_3 = moduleHelperProfile.getSkills_pFrameworks_3();
+     
+     var _skills_pDatabases_label_1 = moduleHelperProfile.getSkills_pDatabases_label_1();
+     var _skills_pDatabases_1 = moduleHelperProfile.getSkills_pDatabases_1();
+     var _skills_pDatabases_label_2 = moduleHelperProfile.getSkills_pDatabases_label_2();
+     var _skills_pDatabases_2 = moduleHelperProfile.getSkills_pDatabases_2();
+     var _skills_pDatabases_label_3 = moduleHelperProfile.getSkills_pDatabases_label_3();
+     var _skills_pDatabases_3 = moduleHelperProfile.getSkills_pDatabases_3();
+     
+     var _skills_pTools_label_1 = moduleHelperProfile.getSkills_pTools_label_1();
+     var _skills_pTools_1 = moduleHelperProfile.getSkills_pTools_1();
+     var _skills_pTools_label_2 = moduleHelperProfile.getSkills_pTools_label_2();
+     var _skills_pTools_2 = moduleHelperProfile.getSkills_pTools_2();
+     var _skills_pTools_label_3 = moduleHelperProfile.getSkills_pTools_label_3();
+     var _skills_pTools_3 = moduleHelperProfile.getSkills_pTools_3();
+     var _skills_pTools_label_4 = moduleHelperProfile.getSkills_pTools_label_4();
+     var _skills_pTools_4 = moduleHelperProfile.getSkills_pTools_4();
+     var _skills_pTools_label_5 = moduleHelperProfile.getSkills_pTools_label_5();
+     var _skills_pTools_5 = moduleHelperProfile.getSkills_pTools_5();     
+
+     var _skills_pVersionControlSystems_label_1 = moduleHelperProfile.getSkills_pVersionControlSystems_label_1();
+     var _skills_pVersionControlSystems_1 = moduleHelperProfile.getSkills_pVersionControlSystems_1();
+     
+     var _skills_pVersionControlSystems_label_2 = moduleHelperProfile.getSkills_pVersionControlSystems_label_2();
+     var _skills_pVersionControlSystems_2 = moduleHelperProfile.getSkills_pVersionControlSystems_2();
+     
+     var _skills_pPendingStuff_label_1 = moduleHelperProfile.getSkills_pPendingStuff_label_1();
+     var _skills_pPendingStuff_1 = moduleHelperProfile.getSkills_pPendingStuff_1();
+     
+     var _F_contactme_content = moduleHelperProfile.getF_contactme_content();
+     var _F_address_HTML_img_src = moduleHelperProfile.getF_address_HTML_img_src();
+     var _F_address_HTML_img_alt = moduleHelperProfile.getF_address_HTML_img_alt();
+     var _F_address_CSS_img_src = moduleHelperProfile.getF_address_CSS_img_src();
+     var _F_address_CSS_img_alt = moduleHelperProfile.getF_address_CSS_img_alt();
+     var _F_address_copyright = moduleHelperProfile.getF_address_copyright();
+     var _F_address_date = moduleHelperProfile.getF_address_date();
+     var _F_address_address = moduleHelperProfile.getF_address_address();
+     var _F_address_lastModified = moduleHelperProfile.getF_address_lastModified();     
+
+
+     var _hashReplacement = moduleHelperProfile.getHashReplacement();
      
      
      var _currentTimeInternal = 1000;
@@ -474,7 +677,7 @@
 	 }
 	 
      function displayMessageForNotSupportedBrowser_Internal() {
-        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + moduleHelperProfile.getNotSupportedResolution() + "</div>";
+        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + _notSupportedResolution + "</div>";
      }
 
      function assign_EventHandlers_Internal() {
@@ -484,224 +687,222 @@
      }
 
      function apply_Header_Defaults_Internal() {
-         $(".jobprofile").prop("innerHTML", moduleHelperProfile.getMyTitle());
+         $(".jobprofile").prop("innerHTML", _myTitle);
          $(".currentTime").prop("innerHTML", setInterval(getCurrentTime_Internal, _currentTimeInternal));
      }
 
      function apply_Info_Defaults_Internal() {
-         $(".info").prop("innerHTML", moduleHelperProfile.getInfo());
+         $(".info").prop("innerHTML", _info);
      }
 
      function apply_Frame_Defaults_Internal() {
         
         // Expand / Collapse
 
-        $(".expandAllCollapseAll").prop("innerHTML", moduleHelperProfile.getExpandCollapseAll());
+        $(".expandAllCollapseAll").prop("innerHTML", _expandCollapseAll);
 
         // [about me] section
 
-        $(".infoAboutMe_label").prop("innerHTML", moduleHelperProfile.getInfoAbout_Me_label());
-        $(".infoAboutMe_descr").prop("innerHTML", moduleHelperProfile.getInfoAbout_Me_descr());
+        $(".infoAboutMe_label").prop("innerHTML", _infoAbout_Me_label);
+        $(".infoAboutMe_descr").prop("innerHTML", _infoAbout_Me_descr);
 
-        $(".infoAboutMyHobby_label").prop("innerHTML", moduleHelperProfile.getInfoAbout_MyHobby_label());
-        $(".infoAboutMyHobby_descr").prop("innerHTML", moduleHelperProfile.getInfoAbout_MyHobby_descr());
-
-
-        $(".infoAboutMyAchievments_label").prop("innerHTML", moduleHelperProfile.getInfoAbout_MyAchievments_label());
-
-        $(".npm").prop("innerHTML", moduleHelperProfile.getNpmPageRedirectionUrl_label());
-        $(".npm").prop("href", moduleHelperProfile.getNpmPageRedirectionUrl());
-
-        $(".GitHub").prop("innerHTML", moduleHelperProfile.getGitHubPageRedirectionUrl_label());
-        $(".GitHub").prop("href", moduleHelperProfile.getGitHubPageRedirectionUrl());
-
-        $(".LinkedIn").prop("innerHTML", moduleHelperProfile.getLinkedInPageRedirectionUrl_label());
-        $(".LinkedIn").prop("href", moduleHelperProfile.getLinkedInPageRedirectionUrl());
-
-        $(".Twitter").prop("innerHTML", moduleHelperProfile.getTwitterPageRedirectionUrl_label());
-        $(".Twitter").prop("href", moduleHelperProfile.getTwitterPageRedirectionUrl());
-
-        $(".Gitter").prop("innerHTML", moduleHelperProfile.getGitterPageRedirectionUrl_label());
-        $(".Gitter").prop("href", moduleHelperProfile.getGitterPageRedirectionUrl());
-
-        $(".CodePen").prop("innerHTML", moduleHelperProfile.getCodePenPageRedirectionUrl_label());
-        $(".CodePen").prop("href", moduleHelperProfile.getCodePenPageRedirectionUrl());
-
-        $(".Opportunity").prop("innerHTML", moduleHelperProfile.getOpportunityPageRedirectionUrl_label());
-        $(".Opportunity").prop("href", moduleHelperProfile.getOpportunityPageRedirectionUrl());
-
-        $(".aboutMe_Blog").prop("innerHTML", moduleHelperProfile.getBlogPageRedirectionUrl_label());
-
-        $(".aboutMe_Bio").prop("innerHTML", moduleHelperProfile.getBioPageRedirectionUrl_label());
+        $(".infoAboutMyHobby_label").prop("innerHTML", _infoAbout_MyHobby_label);
+        $(".infoAboutMyHobby_descr").prop("innerHTML", _infoAbout_MyHobby_descr);
 
 
-        $(".infoAboutMySocialMedia_label").prop("innerHTML", moduleHelperProfile.getInfoAbout_MySocialMedia_label());
+        $(".infoAboutMyAchievments_label").prop("innerHTML", _infoAbout_MyAchievments_label);
 
-        $(".Facebook").prop("innerHTML", moduleHelperProfile.getFacebookPageRedirectionUrl_label());
-        $(".Facebook").prop("href", moduleHelperProfile.getFacebookPageRedirectionUrl());
+        $(".npm").prop("innerHTML", _npmPageRedirectionUrl_label);
+        $(".npm").prop("href", _npmPageRedirectionUrl);
 
-        $(".Instagram").prop("innerHTML", moduleHelperProfile.getInstagramPageRedirectionUrl_label());
-        $(".Instagram").prop("href", moduleHelperProfile.getInstagramPageRedirectionUrl());
+        $(".GitHub").prop("innerHTML", _gitHubPageRedirectionUrl_label);
+        $(".GitHub").prop("href", _gitHubPageRedirectionUrl);
 
-        $(".Medium").prop("innerHTML", moduleHelperProfile.getMediumPageRedirectionUrl_label());
-        $(".Medium").prop("href", moduleHelperProfile.getMediumPageRedirectionUrl());
+        $(".LinkedIn").prop("innerHTML", _linkedInPageRedirectionUrl_label);
+        $(".LinkedIn").prop("href", _linkedInPageRedirectionUrl);
 
-        $(".dribbble").prop("innerHTML", moduleHelperProfile.getDribbblePageRedirectionUrl_label());
-        $(".dribbble").prop("href", moduleHelperProfile.getDribbblePageRedirectionUrl());
+        $(".Twitter").prop("innerHTML", _twitterPageRedirectionUrl_label);
+        $(".Twitter").prop("href", _twitterPageRedirectionUrl);
 
+        $(".Gitter").prop("innerHTML", _gitterPageRedirectionUrl_label);
+        $(".Gitter").prop("href", _gitterPageRedirectionUrl);
 
-        $(".infoAboutMySkype_label").prop("innerHTML", moduleHelperProfile.getInfoAbout_MySkype_label());
+        $(".CodePen").prop("innerHTML", _codePenPageRedirectionUrl_label);
+        $(".CodePen").prop("href", _codePenPageRedirectionUrl);
 
-        $(".skype_call_me").prop("innerHTML", moduleHelperProfile.getSkypeCallMeRedirectionUrl_label());
-        $(".skype_call_me").prop("href", moduleHelperProfile.getSkypeCallMeRedirectionUrl());
+        $(".Opportunity").prop("innerHTML", _opportunityPageRedirectionUrl_label);
+        $(".Opportunity").prop("href", _opportunityPageRedirectionUrl);
 
-        $(".skype_chat_with_me").prop("innerHTML", moduleHelperProfile.getSkypeChatWithMeRedirectionUrl_label());
-        $(".skype_chat_with_me").prop("href", moduleHelperProfile.getSkypeChatWithMeRedirectionUrl());
+        $(".aboutMe_Blog").prop("innerHTML", _blogPageRedirectionUrl_label);
 
-        $(".skype_add_me_to_contacts").prop("innerHTML", moduleHelperProfile.getSkypeAddMeToContactsRedirectionUrl_label());
-        $(".skype_add_me_to_contacts").prop("href", moduleHelperProfile.getSkypeAddMeToContactsRedirectionUrl());
-
-        $(".skype_profile").prop("innerHTML", moduleHelperProfile.getSkypeProfileRedirectionUrl_label());
-        $(".skype_profile").prop("href", moduleHelperProfile.getSkypeProfileRedirectionUrl());
+        $(".aboutMe_Bio").prop("innerHTML", _bioPageRedirectionUrl_label);
 
 
-        $(".infoAboutMyDownload_label").prop("innerHTML", moduleHelperProfile.getInfoAbout_MyDownload_label());
+        $(".infoAboutMySocialMedia_label").prop("innerHTML", _infoAbout_MySocialMedia_label);
 
-        $(".cv_doc").prop("innerHTML", moduleHelperProfile.getCV_doc_label());
-        $(".cv_doc").prop("href", moduleHelperProfile.getCV_doc());
-        $(".cv_doc").prop("download", moduleHelperProfile.getCV_doc_download_label());
+        $(".Facebook").prop("innerHTML", _facebookPageRedirectionUrl_label);
+        $(".Facebook").prop("href", _facebookPageRedirectionUrl);
 
-        $(".cv_pdf").prop("innerHTML", moduleHelperProfile.getCV_pdf_label());
-        $(".cv_pdf").prop("href", moduleHelperProfile.getCV_pdf());
-        $(".cv_pdf").prop("download", moduleHelperProfile.getCV_pdf_download_label());
+        $(".Instagram").prop("innerHTML", _instagramPageRedirectionUrl_label);
+        $(".Instagram").prop("href", _instagramPageRedirectionUrl);
 
-        $(".lm_doc").prop("innerHTML", moduleHelperProfile.getLM_doc_label());
-        $(".lm_doc").prop("href", moduleHelperProfile.getLM_doc());
-        $(".lm_doc").prop("download", moduleHelperProfile.getLM_doc_download_label());
+        $(".Medium").prop("innerHTML", _mediumPageRedirectionUrl_label);
+        $(".Medium").prop("href", _mediumPageRedirectionUrl);
 
-        $(".lm_pdf").prop("innerHTML", moduleHelperProfile.getLM_pdf_label());
-        $(".lm_pdf").prop("href", moduleHelperProfile.getLM_pdf());
-        $(".lm_pdf").prop("download", moduleHelperProfile.getLM_pdf_download_label());
-
-        $(".proj_and_tech").prop("innerHTML", moduleHelperProfile.getProjects_and_Tech_label());
-        $(".proj_and_tech").prop("href", moduleHelperProfile.getProjects_and_Tech());
-        $(".proj_and_tech").prop("download", moduleHelperProfile.getProjects_and_Tech_download_label());
+        $(".dribbble").prop("innerHTML", _dribbblePageRedirectionUrl_label);
+        $(".dribbble").prop("href", _dribbblePageRedirectionUrl);
 
 
-        $(".infoAboutResources_from_Internet_label").prop("innerHTML", moduleHelperProfile.getInfoAbout_Resources_from_Internet_label());
-        $(".aboutMe_ProLinks").prop("innerHTML", moduleHelperProfile.getInfoAbout_Resources_from_Internet_IT_Pro_links_label());
+        $(".infoAboutMySkype_label").prop("innerHTML", _infoAbout_MySkype_label);
+
+        $(".skype_call_me").prop("innerHTML", _skypeCallMeRedirectionUrl_label);
+        $(".skype_call_me").prop("href", _skypeCallMeRedirectionUrl);
+
+        $(".skype_chat_with_me").prop("innerHTML", _skypeChatWithMeRedirectionUrl_label);
+        $(".skype_chat_with_me").prop("href", _skypeChatWithMeRedirectionUrl);
+
+        $(".skype_add_me_to_contacts").prop("innerHTML", _skypeAddMeToContactsRedirectionUrl_label);
+        $(".skype_add_me_to_contacts").prop("href", _skypeAddMeToContactsRedirectionUrl);
+
+        $(".skype_profile").prop("innerHTML", _skypeProfileRedirectionUrl_label);
+        $(".skype_profile").prop("href", _skypeProfileRedirectionUrl);
+
+
+        $(".infoAboutMyDownload_label").prop("innerHTML", _infoAbout_MyDownload_label);
+
+        $(".cv_doc").prop("innerHTML", _CV_doc_label);
+        $(".cv_doc").prop("href", _CV_doc);
+        $(".cv_doc").prop("download", _CV_doc_download_label);
+
+        $(".cv_pdf").prop("innerHTML", _CV_pdf_label);
+        $(".cv_pdf").prop("href", _CV_pdf);
+        $(".cv_pdf").prop("download", _CV_pdf_download_label);
+
+        $(".lm_doc").prop("innerHTML", _LM_doc_label);
+        $(".lm_doc").prop("href", _LM_doc);
+        $(".lm_doc").prop("download", _LM_doc_download_label);
+
+        $(".lm_pdf").prop("innerHTML", _LM_pdf_label);
+        $(".lm_pdf").prop("href", _LM_pdf);
+        $(".lm_pdf").prop("download", _LM_pdf_download_label);
+
+        $(".proj_and_tech").prop("innerHTML", _projects_and_Tech_label);
+        $(".proj_and_tech").prop("href", _projects_and_Tech);
+        $(".proj_and_tech").prop("download", _projects_and_Tech_download_label);
+
+
+        $(".infoAboutResources_from_Internet_label").prop("innerHTML", _infoAbout_Resources_from_Internet_label);
+        $(".aboutMe_ProLinks").prop("innerHTML", _infoAbout_Resources_from_Internet_IT_Pro_links_label);
 
 
         // [experience] section
 
-        $(".experience_IT_label").prop("innerHTML", moduleHelperProfile.getExperience_IT_label());
-        $(".experience_IT").prop("innerHTML", moduleHelperProfile.getExperience_IT());
+        $(".experience_IT_label").prop("innerHTML", _experience_IT_label);
+        $(".experience_IT").prop("innerHTML", _experience_IT);
 
-        $(".experience_Education_label").prop("innerHTML", moduleHelperProfile.getExperience_Education_label());
-        $(".experience_Education").prop("innerHTML", moduleHelperProfile.getExperience_Education());
+        $(".experience_Education_label").prop("innerHTML", _experience_Education_label);
+        $(".experience_Education").prop("innerHTML", _experience_Education);
 
-        $(".experience_Offwork_label").prop("innerHTML", moduleHelperProfile.getExperience_Offwork_label());
-        $(".experience_Offwork").prop("innerHTML", moduleHelperProfile.getExperience_Offwork());
+        $(".experience_Offwork_label").prop("innerHTML", _experience_Offwork_label);
+        $(".experience_Offwork").prop("innerHTML", _experience_Offwork);
 
-        $(".experience_Language_label").prop("innerHTML", moduleHelperProfile.getExperience_Language_label());
-        $(".experience_Language").prop("innerHTML", moduleHelperProfile.getExperience_Language());
-
-        $(".employment_status").prop("innerHTML", moduleHelperProfile.getEmployment_status());
+        $(".experience_Language_label").prop("innerHTML", _experience_Language_label);
+        $(".experience_Language").prop("innerHTML", _experience_Language);
 
 
         // [current employer] section
 
-        $(".employment_status").prop("innerHTML", moduleHelperProfile.getEmployment_status());
+        $(".employment_status").prop("innerHTML", _employment_status);
 
 
         // [history] section
 
-        $(".history_details_company_label").prop("innerHTML", moduleHelperProfile.getHistory_details_company_label());
-        $(".history_details_company_4").prop("innerHTML", moduleHelperProfile.getHistory_details_company_4());
-        $(".history_details_company_3").prop("innerHTML", moduleHelperProfile.getHistory_details_company_3());
-        $(".history_details_company_2").prop("innerHTML", moduleHelperProfile.getHistory_details_company_2());
-        $(".history_details_company_1").prop("innerHTML", moduleHelperProfile.getHistory_details_company_1());
+        $(".history_details_company_label").prop("innerHTML", _history_details_company_label);
+        $(".history_details_company_4").prop("innerHTML", _history_details_company_4);
+        $(".history_details_company_3").prop("innerHTML", _history_details_company_3);
+        $(".history_details_company_2").prop("innerHTML", _history_details_company_2);
+        $(".history_details_company_1").prop("innerHTML", _history_details_company_1);
 
-        $(".history_details_timePeriod_label").prop("innerHTML", moduleHelperProfile.getHistory_details_timePeriod_label());
-        $(".history_details_timePeriod_4").prop("innerHTML", moduleHelperProfile.getHistory_details_timePeriod_4());
-        $(".history_details_timePeriod_3").prop("innerHTML", moduleHelperProfile.getHistory_details_timePeriod_3());
-        $(".history_details_timePeriod_2").prop("innerHTML", moduleHelperProfile.getHistory_details_timePeriod_2());
-        $(".history_details_timePeriod_1").prop("innerHTML", moduleHelperProfile.getHistory_details_timePeriod_1());
+        $(".history_details_timePeriod_label").prop("innerHTML", _history_details_timePeriod_label);
+        $(".history_details_timePeriod_4").prop("innerHTML", _history_details_timePeriod_4);
+        $(".history_details_timePeriod_3").prop("innerHTML", _history_details_timePeriod_3);
+        $(".history_details_timePeriod_2").prop("innerHTML", _history_details_timePeriod_2);
+        $(".history_details_timePeriod_1").prop("innerHTML", _history_details_timePeriod_1);
 
-        $(".history_details_occupation_label").prop("innerHTML", moduleHelperProfile.getHistory_details_occupation_label());
-        $(".history_details_occupation_4").prop("innerHTML", moduleHelperProfile.getHistory_details_occupation_4());
-        $(".history_details_occupation_3").prop("innerHTML", moduleHelperProfile.getHistory_details_occupation_3());
-        $(".history_details_occupation_2").prop("innerHTML", moduleHelperProfile.getHistory_details_occupation_2());
-        $(".history_details_occupation_1").prop("innerHTML", moduleHelperProfile.getHistory_details_occupation_1());
+        $(".history_details_occupation_label").prop("innerHTML", _history_details_occupation_label);
+        $(".history_details_occupation_4").prop("innerHTML", _history_details_occupation_4);
+        $(".history_details_occupation_3").prop("innerHTML", _history_details_occupation_3);
+        $(".history_details_occupation_2").prop("innerHTML", _history_details_occupation_2);
+        $(".history_details_occupation_1").prop("innerHTML", _history_details_occupation_1);
 
-        $(".history_details_technologies_label").prop("innerHTML", moduleHelperProfile.getHistory_details_technologies_label());
-        $(".history_details_technologies_4").prop("innerHTML", moduleHelperProfile.getHistory_details_technologies_4());
-        $(".history_details_technologies_3").prop("innerHTML", moduleHelperProfile.getHistory_details_technologies_3());
-        $(".history_details_technologies_2").prop("innerHTML", moduleHelperProfile.getHistory_details_technologies_2());
-        $(".history_details_technologies_1").prop("innerHTML", moduleHelperProfile.getHistory_details_technologies_1());
+        $(".history_details_technologies_label").prop("innerHTML", _history_details_technologies_label);
+        $(".history_details_technologies_4").prop("innerHTML", _history_details_technologies_4);
+        $(".history_details_technologies_3").prop("innerHTML", _history_details_technologies_3);
+        $(".history_details_technologies_2").prop("innerHTML", _history_details_technologies_2);
+        $(".history_details_technologies_1").prop("innerHTML", _history_details_technologies_1);
 
-        $(".history_details_projects_label").prop("innerHTML", moduleHelperProfile.getHistory_details_projects_label());
-        $(".history_details_projects_4").prop("innerHTML", moduleHelperProfile.getHistory_details_projects_4());
-        $(".history_details_projects_3").prop("innerHTML", moduleHelperProfile.getHistory_details_projects_3());
-        $(".history_details_projects_2").prop("innerHTML", moduleHelperProfile.getHistory_details_projects_2());
-        $(".history_details_projects_1").prop("innerHTML", moduleHelperProfile.getHistory_details_projects_1());
+        $(".history_details_projects_label").prop("innerHTML", _history_details_projects_label);
+        $(".history_details_projects_4").prop("innerHTML", _history_details_projects_4);
+        $(".history_details_projects_3").prop("innerHTML", _history_details_projects_3);
+        $(".history_details_projects_2").prop("innerHTML", _history_details_projects_2);
+        $(".history_details_projects_1").prop("innerHTML", _history_details_projects_1);
 
 
         // [skills] section
 
-        $(".skills_pLanguages_label_1").prop("innerHTML", moduleHelperProfile.getSkills_pLanguages_label_1());
-        $(".skills_pLanguages_1").prop("innerHTML", moduleHelperProfile.getSkills_pLanguages_1());
+        $(".skills_pLanguages_label_1").prop("innerHTML", _skills_pLanguages_label_1);
+        $(".skills_pLanguages_1").prop("innerHTML", _skills_pLanguages_1);
 
-        $(".skills_pTechnologies_label_1").prop("innerHTML", moduleHelperProfile.getSkills_pTechnologies_label_1());
-        $(".skills_pTechnologies_1").prop("innerHTML", moduleHelperProfile.getSkills_pTechnologies_1());
-        $(".skills_pTechnologies_label_2").prop("innerHTML", moduleHelperProfile.getSkills_pTechnologies_label_2());
-        $(".skills_pTechnologies_2").prop("innerHTML", moduleHelperProfile.getSkills_pTechnologies_2());
+        $(".skills_pTechnologies_label_1").prop("innerHTML", _skills_pTechnologies_label_1);
+        $(".skills_pTechnologies_1").prop("innerHTML", _skills_pTechnologies_1);
+        $(".skills_pTechnologies_label_2").prop("innerHTML", _skills_pTechnologies_label_2);
+        $(".skills_pTechnologies_2").prop("innerHTML", _skills_pTechnologies_2);
 
-        $(".skills_pFrameworks_label_1").prop("innerHTML", moduleHelperProfile.getSkills_pFrameworks_label_1());
-        $(".skills_pFrameworks_1").prop("innerHTML", moduleHelperProfile.getSkills_pFrameworks_1());
-        $(".skills_pFrameworks_label_2").prop("innerHTML", moduleHelperProfile.getSkills_pFrameworks_label_2());
-        $(".skills_pFrameworks_2").prop("innerHTML", moduleHelperProfile.getSkills_pFrameworks_2());
-        $(".skills_pFrameworks_label_3").prop("innerHTML", moduleHelperProfile.getSkills_pFrameworks_label_3());
-        $(".skills_pFrameworks_3").prop("innerHTML", moduleHelperProfile.getSkills_pFrameworks_3());
+        $(".skills_pFrameworks_label_1").prop("innerHTML", _skills_pFrameworks_label_1);
+        $(".skills_pFrameworks_1").prop("innerHTML", _skills_pFrameworks_1);
+        $(".skills_pFrameworks_label_2").prop("innerHTML", _skills_pFrameworks_label_2);
+        $(".skills_pFrameworks_2").prop("innerHTML", _skills_pFrameworks_2);
+        $(".skills_pFrameworks_label_3").prop("innerHTML", _skills_pFrameworks_label_3);
+        $(".skills_pFrameworks_3").prop("innerHTML", _skills_pFrameworks_3);
 
-        $(".skills_pDatabases_label_1").prop("innerHTML", moduleHelperProfile.getSkills_pDatabases_label_1());
-        $(".skills_pDatabases_1").prop("innerHTML", moduleHelperProfile.getSkills_pDatabases_1());
-        $(".skills_pDatabases_label_2").prop("innerHTML", moduleHelperProfile.getSkills_pDatabases_label_2());
-        $(".skills_pDatabases_2").prop("innerHTML", moduleHelperProfile.getSkills_pDatabases_2());
-        $(".skills_pDatabases_label_3").prop("innerHTML", moduleHelperProfile.getSkills_pDatabases_label_3());
-        $(".skills_pDatabases_3").prop("innerHTML", moduleHelperProfile.getSkills_pDatabases_3());
+        $(".skills_pDatabases_label_1").prop("innerHTML", _skills_pDatabases_label_1);
+        $(".skills_pDatabases_1").prop("innerHTML", _skills_pDatabases_1);
+        $(".skills_pDatabases_label_2").prop("innerHTML", _skills_pDatabases_label_2);
+        $(".skills_pDatabases_2").prop("innerHTML", _skills_pDatabases_2);
+        $(".skills_pDatabases_label_3").prop("innerHTML", _skills_pDatabases_label_3);
+        $(".skills_pDatabases_3").prop("innerHTML", _skills_pDatabases_3);
         
-        $(".skills_pTools_label_1").prop("innerHTML", moduleHelperProfile.getSkills_pTools_label_1());
-        $(".skills_pTools_1").prop("innerHTML", moduleHelperProfile.getSkills_pTools_1());
-        $(".skills_pTools_label_2").prop("innerHTML", moduleHelperProfile.getSkills_pTools_label_2());
-        $(".skills_pTools_2").prop("innerHTML", moduleHelperProfile.getSkills_pTools_2());
-        $(".skills_pTools_label_3").prop("innerHTML", moduleHelperProfile.getSkills_pTools_label_3());
-        $(".skills_pTools_3").prop("innerHTML", moduleHelperProfile.getSkills_pTools_3());
-        $(".skills_pTools_label_4").prop("innerHTML", moduleHelperProfile.getSkills_pTools_label_4());
-        $(".skills_pTools_4").prop("innerHTML", moduleHelperProfile.getSkills_pTools_4());
-        $(".skills_pTools_label_5").prop("innerHTML", moduleHelperProfile.getSkills_pTools_label_5());
-        $(".skills_pTools_5").prop("innerHTML", moduleHelperProfile.getSkills_pTools_5());
+        $(".skills_pTools_label_1").prop("innerHTML", _skills_pTools_label_1);
+        $(".skills_pTools_1").prop("innerHTML", _skills_pTools_1);
+        $(".skills_pTools_label_2").prop("innerHTML", _skills_pTools_label_2);
+        $(".skills_pTools_2").prop("innerHTML", _skills_pTools_2);
+        $(".skills_pTools_label_3").prop("innerHTML", _skills_pTools_label_3);
+        $(".skills_pTools_3").prop("innerHTML", _skills_pTools_3);
+        $(".skills_pTools_label_4").prop("innerHTML", _skills_pTools_label_4);
+        $(".skills_pTools_4").prop("innerHTML", _skills_pTools_4);
+        $(".skills_pTools_label_5").prop("innerHTML", _skills_pTools_label_5);
+        $(".skills_pTools_5").prop("innerHTML", _skills_pTools_5);
 
-        $(".skills_pVersionControlSystems_label_1").prop("innerHTML", moduleHelperProfile.getSkills_pVersionControlSystems_label_1());
-        $(".skills_pVersionControlSystems_1").prop("innerHTML", moduleHelperProfile.getSkills_pVersionControlSystems_1());
-        $(".skills_pVersionControlSystems_label_2").prop("innerHTML", moduleHelperProfile.getSkills_pVersionControlSystems_label_2());
-        $(".skills_pVersionControlSystems_2").prop("innerHTML", moduleHelperProfile.getSkills_pVersionControlSystems_2());
+        $(".skills_pVersionControlSystems_label_1").prop("innerHTML", _skills_pVersionControlSystems_label_1);
+        $(".skills_pVersionControlSystems_1").prop("innerHTML", _skills_pVersionControlSystems_1);
+        $(".skills_pVersionControlSystems_label_2").prop("innerHTML", _skills_pVersionControlSystems_label_2);
+        $(".skills_pVersionControlSystems_2").prop("innerHTML", _skills_pVersionControlSystems_2);
 
-        $(".skills_pPendingStuff_label_1").prop("innerHTML", moduleHelperProfile.getSkills_pPendingStuff_label_1());
-        $(".skills_pPendingStuff_1").prop("innerHTML", moduleHelperProfile.getSkills_pPendingStuff_1());
+        $(".skills_pPendingStuff_label_1").prop("innerHTML", _skills_pPendingStuff_label_1);
+        $(".skills_pPendingStuff_1").prop("innerHTML", _skills_pPendingStuff_1);
 
 
         // [footer] section
 
-        $(".f_contactme_content").prop("innerHTML", moduleHelperProfile.getF_contactme_content());
-        $(".f_address_HTML").prop("src", moduleHelperProfile.getF_address_HTML_img_src());
-        $(".f_address_HTML").prop("alt", moduleHelperProfile.getF_address_HTML_img_alt());
-        $(".f_address_CSS").prop("src", moduleHelperProfile.getF_address_CSS_img_src());
-        $(".f_address_CSS").prop("alt", moduleHelperProfile.getF_address_CSS_img_alt());
-        $(".copyright").prop("innerHTML", moduleHelperProfile.getF_address_copyright());
-        $(".date").prop("innerHTML", moduleHelperProfile.getF_address_date());
-        $(".address").prop("innerHTML", moduleHelperProfile.getF_address_address());
-        $(".lastModified").prop("innerHTML", moduleHelperProfile.getF_address_lastModified());
+        $(".f_contactme_content").prop("innerHTML", _F_contactme_content);
+        $(".f_address_HTML").prop("src", _F_address_HTML_img_src);
+        $(".f_address_HTML").prop("alt", _F_address_HTML_img_alt);
+        $(".f_address_CSS").prop("src", _F_address_CSS_img_src);
+        $(".f_address_CSS").prop("alt", _F_address_CSS_img_alt);
+        $(".copyright").prop("innerHTML", _F_address_copyright);
+        $(".date").prop("innerHTML", _F_address_date);
+        $(".address").prop("innerHTML", _F_address_address);
+        $(".lastModified").prop("innerHTML", _F_address_lastModified);
      }
 
      function showPage_Internal() {
@@ -749,7 +950,7 @@
             jsUtilities.setDestinationUrlNewShadowToken();
 
             // obfuscate token
-            jsUtilities.clearHash(moduleHelperProfile.getHashReplacement());
+            jsUtilities.clearHash(_hashReplacement);
         }
      }
 

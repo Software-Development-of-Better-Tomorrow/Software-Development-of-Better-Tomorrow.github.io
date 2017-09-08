@@ -33,6 +33,8 @@
     var _nextVersionRedirectionUrl = _siteRootFolder + "next_version/";
     var _nextVersionRedirectionUrl_label = "next version overview";
 
+    var _mobileVersionDesignNotesRedirectionUrl = _siteRootFolder + "mobile_version_design_notes/";
+    var _mobileVersionDesignNotesRedirectionUrl_label = "mobile version overview";    
 
     var _salmAccessName = "salm";
 
@@ -100,6 +102,14 @@
     self.getNextVersionRedirectionUrl_label = function() {
         return _nextVersionRedirectionUrl_label;
     }
+
+    self.getMobileVersionDesignNotesRedirectionUrl = function() {
+        return _mobileVersionDesignNotesRedirectionUrl;
+    }
+
+    self.getMobileVersionDesignNotesRedirectionUrl_label = function() {
+        return _mobileVersionDesignNotesRedirectionUrl_label;
+    }    
 
     self.getNotSupportedResolution = function() {
         return _notSupportedResolution;

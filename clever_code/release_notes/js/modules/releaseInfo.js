@@ -19,15 +19,26 @@
 
     var _mobileVersionPrefix = moduleHelperReleaseNotes.getMobileVersionPrefix();
 	var _disallowedResolutionsArray = moduleHelperReleaseNotes.getDisallowedResolutionsArray();
-    
+    var _notSupportedResolution = moduleHelperReleaseNotes.getNotSupportedResolution();
+
     var _mainPageRedirectionUrl = moduleHelperReleaseNotes.getMainPageUrl();
+    var _mainPageRedirectionUrl_label = moduleHelperReleaseNotes.getMainPageUrl_label();
+
     var _nextVersionRedirectionUrl = moduleHelperReleaseNotes.getNextVersionRedirectionUrl();
+    var _nextVersionRedirectionUrl_label = moduleHelperReleaseNotes.getNextVersionRedirectionUrl_label();
+
+    var _mobileVersionDesignNotesRedirectionUrl = moduleHelperReleaseNotes.getMobileVersionDesignNotesRedirectionUrl();
+    var _mobileVersionDesignNotesRedirectionUrl_label = moduleHelperReleaseNotes.getMobileVersionDesignNotesRedirectionUrl_label();
 
 
-    
+    var _moduleConfigLocation = moduleHelperReleaseNotes.getModuleConfigLocation();
+
     var _salmName = moduleHelperReleaseNotes.getSalmAccessName();
 
     var _moduleDOM_Object = moduleHelperReleaseNotes.getModuleDOM_Object();
+
+
+    var _hashReplacement = moduleHelperReleaseNotes.getHashReplacement();
 
     /* module scope variables end */
 
@@ -36,7 +47,7 @@
     /* module scope private functions begining */
 
     function displayMessageForNotSupportedBrowser_Internal() {
-        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + moduleHelperReleaseNotes.getNotSupportedResolution() + "</div>";
+        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + _notSupportedResolution + "</div>";
     }
 
     function showPage_Internal() {
@@ -57,12 +68,19 @@
         window.location.href = _nextVersionRedirectionUrl + token;
     }
 
+    function goToMobileVersionDesignNotes_Internal() {
+        // generate token for this GET request
+        var token = jsUtilities.getDestinationUrlToken();
+
+        window.location.href = _mobileVersionDesignNotesRedirectionUrl + token;
+    }
+
     function on_SALM_BeingAccessible_Internal() {
         // expose SALM to current window, i.e. make it accessible via window object
         jsUtilities.exposeToCurrentWindowDynamicallyLoadedModuleFromDisk(_salmName);
 
         // get module config location
-        var configFileLocation = moduleHelperReleaseNotes.getModuleConfigLocation();
+        var configFileLocation = _moduleConfigLocation;
 
         // set callback to invoke on successfull completion
         _moduleDOM_Object.successfullCompletionCallback = showPage_Internal;
@@ -77,7 +95,7 @@
             jsUtilities.setDestinationUrlNewShadowToken();
 
             // obfuscate token
-            jsUtilities.clearHash(moduleHelperReleaseNotes.getHashReplacement());
+            jsUtilities.clearHash(_hashReplacement);
         }
     }
 
@@ -85,12 +103,16 @@
         $(".goToMainPage").click(goToMainPage_Internal);
         
         $(".goToNextVersion").click(goToNextVersion_Internal);
+
+        $(".goToMobileVersionDesignNotes").click(goToMobileVersionDesignNotes_Internal);
     }
 
     function apply_NavigationMenu_Defaults_Internal() {
-        $(".goToMainPage").prop("innerHTML", moduleHelperReleaseNotes.getMainPageUrl_label());
+        $(".goToMainPage").prop("innerHTML", _mainPageRedirectionUrl_label);
 
-        $(".goToNextVersion").prop("innerHTML", moduleHelperReleaseNotes.getNextVersionRedirectionUrl_label());
+        $(".goToNextVersion").prop("innerHTML", _nextVersionRedirectionUrl_label);
+
+        $(".goToMobileVersionDesignNotes").prop("innerHTML", _mobileVersionDesignNotesRedirectionUrl_label);
     }
 
     /* module scope private functions end */

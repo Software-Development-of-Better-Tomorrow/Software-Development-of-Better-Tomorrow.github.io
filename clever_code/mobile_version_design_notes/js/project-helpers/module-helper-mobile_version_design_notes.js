@@ -27,8 +27,8 @@
 
                                   
 
-    var _nextVersionVersion = "v2";
-    var _nextVersionOverviewTitle = "Next Feature Overview <sup>" + _nextVersionVersion + "</sup>";
+    var _nextVersionVersion = "v1";
+    var _nextVersionOverviewTitle = "Powered by React Native / Redux";
 
     var _mainPageUrl = _siteRootFolder + "main/";
     var _mainPageUrl_label = "go to main page";
@@ -41,7 +41,7 @@
 
     var _salmLocation =  _siteRootFolder + "salm.js";
 
-    var _pathToConfig = _siteRootFolder + "next_version/config.txt";
+    var _pathToConfig = _siteRootFolder + "mobile_version_design_notes/config.txt";
 
     var _moduleDOM_Object = {
                 parentContainerCssClass : ".content",
@@ -137,5 +137,5 @@
 
     
     /* Expose module API to the outside world */
-    window.moduleHelperNextVersion = window.moduleHelperNextVersion || self;
+    window.moduleHelperMobileVersionDesignNotes = window.moduleHelperMobileVersionDesignNotes || self;
 })(window)

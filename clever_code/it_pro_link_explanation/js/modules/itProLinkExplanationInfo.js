@@ -25,22 +25,29 @@
 
     var _mobileVersionPrefix = moduleHelperITProLinkExplanation.getMobileVersionPrefix();
 	var _disallowedResolutionsArray = moduleHelperITProLinkExplanation.getDisallowedResolutionsArray();
+    var _notSupportedResolution = moduleHelperITProLinkExplanation.getNotSupportedResolution();
 
     var _mainPageRedirectionUrl = moduleHelperITProLinkExplanation.getMainPageUrl();
-    var _proLinksPageRedirectionUrl = moduleHelperITProLinkExplanation.getITProLinksPageRedirectionUrl();
+    var _mainPageUrl_label = moduleHelperITProLinkExplanation.getMainPageUrl_label();
 
+    var _proLinksPageRedirectionUrl = moduleHelperITProLinkExplanation.getITProLinksPageRedirectionUrl();
+    var _ITProLinksPageRedirectionUrl_label = moduleHelperITProLinkExplanation.getITProLinksPageRedirectionUrl_label();
+    var _proLinkExplanationTitle = moduleHelperITProLinkExplanation.getProLinkExplanationTitle();
+
+
+    var _moduleConfigLocation = moduleHelperITProLinkExplanation.getModuleConfigLocation();
 
 
     var _salmName = moduleHelperITProLinkExplanation.getSalmAccessName();
 
     var _moduleDOM_Object = moduleHelperITProLinkExplanation.getModuleDOM_Object();    
-
-
     
     var _currentStorageFormatExtension = moduleHelperITProLinkExplanation.getCurrentStorageFormatExtension();
 
     var _proLinkExplanationTemporaryData = "proLinkExplanationTemporaryData";
     var _proLinkTitleTemporaryData = "proLinkTitleTemporaryData";
+
+    var _hashReplacement = moduleHelperITProLinkExplanation.getHashReplacement();
 
     /* module scope variables end */
 
@@ -53,7 +60,7 @@
     }
 
     function displayMessageForNotSupportedBrowser_Internal() {
-        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + moduleHelperITProLinkExplanation.getNotSupportedResolution() + "</div>";
+        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + _notSupportedResolution + "</div>";
     }
 
     function loadProLinkExplanationOtherStuff_Internal() {
@@ -64,13 +71,13 @@
     }
 
     function apply_Header_Defaults_Internal() {
-        $(".proLinkExplanationTitle").prop("innerHTML", moduleHelperITProLinkExplanation.getProLinkExplanationTitle());
+        $(".proLinkExplanationTitle").prop("innerHTML", _proLinkExplanationTitle);
     }
 
     function apply_NavigationMenu_Defaults_Internal() {
-        $(".goToMainPage").prop("innerHTML", moduleHelperITProLinkExplanation.getMainPageUrl_label());
+        $(".goToMainPage").prop("innerHTML", _mainPageUrl_label);
 
-        $(".goToProLinksPage").prop("innerHTML", moduleHelperITProLinkExplanation.getITProLinksPageRedirectionUrl_label());
+        $(".goToProLinksPage").prop("innerHTML", _ITProLinksPageRedirectionUrl_label);
     }
 
     function goToMainPage_Internal() {
@@ -110,7 +117,7 @@
         jsUtilities.exposeToCurrentWindowDynamicallyLoadedModuleFromDisk(_salmName);
 
         // get module config location
-        var configFileLocation = moduleHelperITProLinkExplanation.getModuleConfigLocation();
+        var configFileLocation = _moduleConfigLocation;
 
         // set callback to invoke on successfull completion
         _moduleDOM_Object.successfullCompletionCallback = finalizeProcessOfDataLoading_Internal;
@@ -143,7 +150,7 @@
             jsUtilities.setDestinationUrlNewShadowToken();
 
             // obfuscate token
-            jsUtilities.clearHash(moduleHelperITProLinkExplanation.getHashReplacement());
+            jsUtilities.clearHash(_hashReplacement);
         }
     }    
 

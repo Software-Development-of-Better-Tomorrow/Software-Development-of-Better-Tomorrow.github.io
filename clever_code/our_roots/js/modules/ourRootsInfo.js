@@ -26,23 +26,36 @@
 
     var _mobileVersionPrefix = moduleHelperOurRoots.getMobileVersionPrefix();
 	var _disallowedResolutionsArray = moduleHelperOurRoots.getDisallowedResolutionsArray();
+    var _notSupportedResolution = moduleHelperOurRoots.getNotSupportedResolution();
 
     var _mainPageRedirectionUrl = moduleHelperOurRoots.getMainPageUrl();
-    var _profilePageRedirectionUrl = moduleHelperOurRoots.getProfileRedirectionUrl();
-    
-    var _moduleBaseDir = moduleHelperOurRoots.getModuleBaseDir();
+    var _mainPageUrl_label = moduleHelperOurRoots.getMainPageUrl_label();
 
+    var _profilePageRedirectionUrl = moduleHelperOurRoots.getProfileRedirectionUrl();
+    var _profileRedirectionUrl_label = moduleHelperOurRoots.getProfileRedirectionUrl_label();
+    
+    var _seeHowFarYouAreFromUs_label = moduleHelperOurRoots.getSeeHowFarYouAreFromUs_label();
+
+    var _ourRootTitle = moduleHelperOurRoots.getOurRootTitle();
+    
+    var _footerContent = moduleHelperOurRoots.getFooterContent();
+
+
+    var _moduleBaseDir = moduleHelperOurRoots.getModuleBaseDir();
+    var _moduleStorageLocation = moduleHelperOurRoots.getModuleStorageLocation();
+    var _moduleConfigLocation = moduleHelperOurRoots.getModuleConfigLocation();
 
 
     var _salmName = moduleHelperOurRoots.getSalmAccessName();
 
     var _moduleDOM_Object = moduleHelperOurRoots.getModuleDOM_Object();
 
+    
     var _useBackwardCompatibility = moduleHelperOurRoots.checkBackwardCompatibilityUsage();
-
-
     
     var _mapContainerClassName = "mapContainer";
+
+    var _hashReplacement = moduleHelperOurRoots.getHashReplacement();
 
     /* module scope variables end */
 
@@ -55,7 +68,7 @@
     }
 
     function displayMessageForNotSupportedBrowser_Internal() {
-        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + moduleHelperOurRoots.getNotSupportedResolution() + "</div>";
+        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + _notSupportedResolution + "</div>";
     }
 
     function adjustBrowser_Internal() {
@@ -71,7 +84,7 @@
 
     function loadOurRoots_Internal() {
         if(_useBackwardCompatibility === true) {
-            var moduleStorageLocation = moduleHelperOurRoots.getModuleStorageLocation();
+            var moduleStorageLocation = _moduleStorageLocation;
             doRealOurRootsDataLoad_Internal(moduleStorageLocation);
         }
         else {
@@ -85,7 +98,7 @@
         jsUtilities.exposeToCurrentWindowDynamicallyLoadedModuleFromDisk(_salmName);
 
         // get module config location
-        var configFileLocation = moduleHelperOurRoots.getModuleConfigLocation();
+        var configFileLocation = _moduleConfigLocation;
 
         // set callback to invoke on successfull completion
         _moduleDOM_Object.successfullCompletionCallback = doRealOurRootsDataLoad_Internal;
@@ -141,24 +154,24 @@
             jsUtilities.setDestinationUrlNewShadowToken();
 
             // obfuscate token
-            jsUtilities.clearHash(moduleHelperOurRoots.getHashReplacement());
+            jsUtilities.clearHash(_hashReplacement);
         }
     }    
 
     function apply_Header_Defaults_Internal() {
-        $(".ourRootsTitle").prop("innerHTML", moduleHelperOurRoots.getOurRootTitle());
+        $(".ourRootsTitle").prop("innerHTML", _ourRootTitle);
     }
 
     function apply_NavigationMenu_Defaults_Internal() {
-        $(".goToMainPage").prop("innerHTML", moduleHelperOurRoots.getMainPageUrl_label());
+        $(".goToMainPage").prop("innerHTML", _mainPageUrl_label);
 
-        $(".goToProfilePage").prop("innerHTML", moduleHelperOurRoots.getProfileRedirectionUrl_label());
+        $(".goToProfilePage").prop("innerHTML", _profileRedirectionUrl_label);
 
-        $(".seeHowFarYouAreFromUs").prop("innerHTML", moduleHelperOurRoots.getSeeHowFarYouAreFromUs_label());
+        $(".seeHowFarYouAreFromUs").prop("innerHTML", _seeHowFarYouAreFromUs_label);
     }
 
     function apply_Footer_Defaults_Internal() {
-        $(".footerContent").prop("innerHTML", moduleHelperOurRoots.getFooterContent());
+        $(".footerContent").prop("innerHTML", _footerContent);
     }
 
     /* module scope private functions end */

@@ -31,12 +31,29 @@
 
     var _mobileVersionPrefix = moduleHelperBlog.getMobileVersionPrefix();
 	var _disallowedResolutionsArray = moduleHelperBlog.getDisallowedResolutionsArray();
+    var _notSupportedResolution = moduleHelperBlog.getNotSupportedResolution();
+
+    var _siteUrl = moduleHelperBlog.getSiteUrl();
 
     var _mainPageRedirectionUrl = moduleHelperBlog.getMainPageUrl();
+    var _mainPageUrl_label = moduleHelperBlog.getMainPageUrl_label();
+
     var _profilePageRedirectionUrl = moduleHelperBlog.getProfileRedirectionUrl();
+    var _profileRedirectionUrl_label = moduleHelperBlog.getProfileRedirectionUrl_label();
+
+    var _bottomOfThePage = moduleHelperBlog.getBottomOfThePage();
+    var _footerStatement = moduleHelperBlog.getFooterStatement();
+
+
+    var _moduleConfigLocation = moduleHelperBlog.getModuleConfigLocation();
+    var _moduleStorageLocation = moduleHelperBlog.getModuleStorageLocation();
+
+
     var _OneDriveRedirectionUrl = moduleHelperBlog.getOneDriveRedirectionUrl();
     var _GoogleDriveRedirectionUrl = moduleHelperBlog.getGoogleDriveRedirectionUrl();
 
+    var _programmerExperience = moduleHelperBlog.getProgrammerExperience();
+    var _bloggerExperience = moduleHelperBlog.getBloggerExperience();
 
 
     var _salmName = moduleHelperBlog.getSalmAccessName();
@@ -48,6 +65,9 @@
     
     var _Facebook_ID = moduleHelperBlog.getFacebook_ID();
     var _Facebook_SDK_url = moduleHelperBlog.getFacebook_SDK_url();
+
+
+    var _hashReplacement = moduleHelperBlog.getHashReplacement();
 
 
     var _pageSpeedNavigationContainerClassName = ".addArea";
@@ -83,7 +103,7 @@
     }
 
     function displayMessageForNotSupportedBrowser_Internal() {
-        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + moduleHelperBlog.getNotSupportedResolution() + "</div>";
+        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + _notSupportedResolution + "</div>";
     }
 
     function adjustBrowser_Internal() {
@@ -166,7 +186,7 @@
             // create Facebook Like button
             var fbLikeDiv = document.createElement("div");
             fbLikeDiv.setAttribute("class", "fb-like");
-            fbLikeDiv.setAttribute("data-href", moduleHelperBlog.getSiteUrl());
+            fbLikeDiv.setAttribute("data-href", _siteUrl);
             fbLikeDiv.setAttribute("data-layout", "button_count");
             fbLikeDiv.setAttribute("data-action", "like");
             fbLikeDiv.setAttribute("data-size", "small");
@@ -204,9 +224,9 @@
     }
 
     function apply_Header_Defaults_Internal() {
-        $(".programmerExperience").prop("innerHTML", moduleHelperBlog.getProgrammerExperience());
+        $(".programmerExperience").prop("innerHTML", _programmerExperience);
 
-        $(".bloggerExperience").prop("innerHTML", moduleHelperBlog.getBloggerExperience());
+        $(".bloggerExperience").prop("innerHTML", _bloggerExperience);
     }
 
     function apply_AddArea_Defaults_Internal() {
@@ -214,15 +234,15 @@
     }
 
     function apply_NavigationMenu_Defaults_Internal() {
-        $(".goToMainPage").prop("innerHTML", moduleHelperBlog.getMainPageUrl_label());
+        $(".goToMainPage").prop("innerHTML", _mainPageUrl_label);
 
-        $(".goToProfilePage").prop("innerHTML", moduleHelperBlog.getProfileRedirectionUrl_label());
+        $(".goToProfilePage").prop("innerHTML", _profileRedirectionUrl_label);
 
-        $(".goToBottomOfThePage").prop("innerHTML", moduleHelperBlog.getBottomOfThePage());
+        $(".goToBottomOfThePage").prop("innerHTML", _bottomOfThePage);
     }
 
     function apply_Footer_Defaults_Internal() {
-        $(".footerStatement").prop("innerHTML", moduleHelperBlog.getFooterStatement());
+        $(".footerStatement").prop("innerHTML", _footerStatement);
     }
 
     function goToBottomOfThePage_Internal() {
@@ -344,7 +364,7 @@
         jsUtilities.exposeToCurrentWindowDynamicallyLoadedModuleFromDisk(_salmName);
 
         // get module config location
-        var configFileLocation = moduleHelperBlog.getModuleConfigLocation();
+        var configFileLocation = _moduleConfigLocation;
 
         // set callback to invoke on successfull completion
         _moduleDOM_Object.successfullCompletionCallback = initializeBlogFunctionality_Internal;
@@ -371,7 +391,7 @@
             jsUtilities.setDestinationUrlNewShadowToken();
 
             // obfuscate token
-            jsUtilities.clearHash(moduleHelperBlog.getHashReplacement());
+            jsUtilities.clearHash(_hashReplacement);
         }
     }
 
@@ -413,7 +433,7 @@
         
         
             if(_useBackwardCompatibility === true) {
-                var moduleStorageLocation = moduleHelperBlog.getModuleStorageLocation();
+                var moduleStorageLocation = _moduleStorageLocation;
                 initializeBlogFunctionality_Internal(moduleStorageLocation);
             }
             else {

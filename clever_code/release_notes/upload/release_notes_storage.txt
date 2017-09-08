@@ -1,4 +1,5 @@
 {
+ [v19.8]: [release notes -> new option & moving further towards Lean Development] (silent version)
  [v19.7]: [blog enhancements fix] (silent version)
  [v19.6]: [Content Security Policy, profile simplification, blog enhancements] (silent version)
  [v19.5]: [npm JavaScript Package Manager added to profile] (silent version)

@@ -24,21 +24,31 @@
 
     var _mobileVersionPrefix = moduleHelperITProLinks.getMobileVersionPrefix();
 	var _disallowedResolutionsArray = moduleHelperITProLinks.getDisallowedResolutionsArray();
+    var _notSupportedResolution = moduleHelperITProLinks.getNotSupportedResolution();
 
     var _mainPageRedirectionUrl = moduleHelperITProLinks.getMainPageUrl();
+    var _mainPageUrl_label = moduleHelperITProLinks.getMainPageUrl_label();
+
     var _profilePageRedirectionUrl = moduleHelperITProLinks.getProfileRedirectionUrl();
+    var _profileRedirectionUrl_label =  moduleHelperITProLinks.getProfileRedirectionUrl_label();    
+
+    var _proLinksTitle = moduleHelperITProLinks.getProLinksTitle();
     var _proLinkExplanation = moduleHelperITProLinks.getProLinkExplanation();
 
+    var _footerStatement = moduleHelperITProLinks.getFooterStatement();
+
+
+    var _moduleConfigLocation = moduleHelperITProLinks.getModuleConfigLocation();
 
 
     var _salmName = moduleHelperITProLinks.getSalmAccessName();
 
-    var _moduleDOM_Object = moduleHelperITProLinks.getModuleDOM_Object();    
-
-
+    var _moduleDOM_Object = moduleHelperITProLinks.getModuleDOM_Object();
     
     var _proLinkExplanationTemporaryData = "proLinkExplanationTemporaryData";
-    var _proLinkTitleTemporaryData = "proLinkTitleTemporaryData";    
+    var _proLinkTitleTemporaryData = "proLinkTitleTemporaryData";
+
+    var _hashReplacement = moduleHelperITProLinks.getHashReplacement();    
 
     /* module scope variables end */
 
@@ -51,7 +61,7 @@
     }
 
     function displayMessageForNotSupportedBrowser_Internal() {
-        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + moduleHelperITProLinks.getNotSupportedResolution() + "</div>";
+        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + _notSupportedResolution + "</div>";
     }
     
     function assign_Event_Handler_To_ProLink_Explanation_Internal() {
@@ -69,17 +79,17 @@
     }
 
     function apply_Header_Defaults_Internal() {
-        $(".proLinksTitle").prop("innerHTML", moduleHelperITProLinks.getProLinksTitle());
+        $(".proLinksTitle").prop("innerHTML", _proLinksTitle);
     }
 
     function apply_NavigationMenu_Defaults_Internal() {
-        $(".goToMainPage").prop("innerHTML", moduleHelperITProLinks.getMainPageUrl_label());
+        $(".goToMainPage").prop("innerHTML", _mainPageUrl_label);
 
-        $(".goToProfile").prop("innerHTML", moduleHelperITProLinks.getProfileRedirectionUrl_label());
+        $(".goToProfile").prop("innerHTML", _profileRedirectionUrl_label);
     }
 
     function apply_Footer_Defaults_Internal() {
-        $(".footerStatement").prop("innerHTML", moduleHelperITProLinks.getFooterStatement());
+        $(".footerStatement").prop("innerHTML", _footerStatement);
     }
 
     function goToMainPage_Internal() {
@@ -166,7 +176,7 @@
         jsUtilities.exposeToCurrentWindowDynamicallyLoadedModuleFromDisk(_salmName);
 
         // get module config location
-        var configFileLocation = moduleHelperITProLinks.getModuleConfigLocation();
+        var configFileLocation = _moduleConfigLocation;
 
         // set callback to invoke on successfull completion
         _moduleDOM_Object.successfullCompletionCallback = finalizeProcessOfDataLoading_Internal;
@@ -190,7 +200,7 @@
             jsUtilities.setDestinationUrlNewShadowToken();
 
             // obfuscate token
-            jsUtilities.clearHash(moduleHelperITProLinks.getHashReplacement());
+            jsUtilities.clearHash(_hashReplacement);
         }
     }
 

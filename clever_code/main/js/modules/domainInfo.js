@@ -19,9 +19,21 @@
 
     var _mobileVersionPrefix = moduleHelperMain.getMobileVersionPrefix();
 	var _disallowedResolutionsArray = moduleHelperMain.getDisallowedResolutionsArray();
-    
+    var _notSupportedResolution = moduleHelperMain.getNotSupportedResolution();
+
     var _profileRedirectionUrl = moduleHelperMain.getProfileRedirectionUrl();
     var _profileRedirectionUrlAnimationHander = null;
+    
+    var _siteName = moduleHelperMain.getSiteName();
+
+    var _idea = moduleHelperMain.getIdea();
+
+    var _dossierTitle = moduleHelperMain.getDossierTitle();
+    var _dossierUpdate = moduleHelperMain.getDossierUpdate();
+
+    var _copyrightYear = moduleHelperMain.getCopyrightYear();
+    var _siteName = moduleHelperMain.getSiteName();
+    var _siteVersion = moduleHelperMain.getSiteVersion();
     
     var _YouTubeRedirectionUrl = moduleHelperMain.getYouTubeRedirectionUrl();
     var _Channel9RedirectionUrl = moduleHelperMain.getChannel9RedirectionUrl();
@@ -31,12 +43,15 @@
     var _LM_docRedirectionUrl = moduleHelperMain.getLM_docRedirectionUrl();
     var _LM_pdfRedirectionUrl = moduleHelperMain.getLM_pdfRedirectionUrl();
 
+    var _downloadSourceCodeDescription = moduleHelperMain.getDownloadSourceCodeDescription();
     var _downloadSourceCodeRedirectionUrl = moduleHelperMain.getDownloadSourceCodeRedirectionUrl();
 
     var _releaseNotesRedirectionUrl = moduleHelperMain.getReleaseNotesRedirectionUrl();
 
     var _openSourceRedirectionUrl = moduleHelperMain.getOpenSourceRedirectionUrl();
     
+    var _hashReplacement = moduleHelperMain.getHashReplacement();
+
     /* module scope variables end */
 
 
@@ -91,7 +106,7 @@
     }
 
     function displayMessageForNotSupportedBrowser_Internal() {
-        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + moduleHelperMain.getNotSupportedResolution() + "</div>";
+        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + _notSupportedResolution + "</div>";
     }
     
 	function changePageLayoutDynamically_Internal(cssFilesLoader) {
@@ -188,7 +203,7 @@
     }
 
     function apply_SiteName_Defaults_Internal() {
-        $(".sourceCode").text(moduleHelperMain.getSiteName());
+        $(".sourceCode").text(_siteName);
         $(".sourceCode").addClass("siteName");
 
         $(".siteName").css("color", "#1D61A8");
@@ -197,20 +212,20 @@
     }
 
     function apply_LogoType_Defaults_Internal() {
-        $(".idea").prop("innerHTML", moduleHelperMain.getIdea());
+        $(".idea").prop("innerHTML", _idea);
     }
 
     function apply_SiteContent_Defaults_Internal() {
-        $(".dossier_title").prop("innerHTML", moduleHelperMain.getDossierTitle());
-        $(".rule_dossier.last_updated").prop("innerHTML", moduleHelperMain.getDossierUpdate());
+        $(".dossier_title").prop("innerHTML", _dossierTitle);
+        $(".rule_dossier.last_updated").prop("innerHTML", _dossierUpdate);
     }
 
     function apply_SiteFooter_Defaults_Internal() {
-        $(".year").prop("innerHTML", moduleHelperMain.getCopyrightYear());
+        $(".year").prop("innerHTML", _copyrightYear);
 
-        $(".siteName").prop("innerHTML", moduleHelperMain.getSiteName());
+        $(".siteName").prop("innerHTML", _siteName);
 
-        $(".siteVersion").prop("innerHTML", moduleHelperMain.getSiteVersion());
+        $(".siteVersion").prop("innerHTML", _siteVersion);
     }
 
     function assign_EventHandlers_Internal() {
@@ -268,7 +283,7 @@
     }
 
     function apply_DownloadSourceCode_Internal() {
-        $(".sourceCode").text(moduleHelperMain.getDownloadSourceCodeDescription());
+        $(".sourceCode").text(_downloadSourceCodeDescription);
         $(".sourceCode").addClass("goToSourceCode");
 
         $(".goToSourceCode").css("color", "black");
@@ -392,7 +407,7 @@
             jsUtilities.setDestinationUrlNewShadowToken();
 
             // obfuscate token
-            jsUtilities.clearHash(moduleHelperMain.getHashReplacement());
+            jsUtilities.clearHash(_hashReplacement);
         }
     }
 
