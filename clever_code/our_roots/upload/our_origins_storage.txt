@@ -1,9 +1,0 @@
-{
-Here is my family home.;Janów 6, 27-350 Sienno, Mazowieckie;
-Łukasz (Lucas); Janów, Lipsko County, Masovian Voivodeship, Poland; Lucas.png;
-},
-{
-Here is my SKARB's family home.<br />Tosia is registered here.;Dębno 33, 27-530 Ożarów, Świętokrzyskie;
-Beata (Betty); Dębno, Ożarów County, Świętokrzyskie Voivodeship, Poland; Betty.jpg;
-Tosia (Tony); Dębno, Ożarów County, Świętokrzyskie Voivodeship, Poland; Tony.png;
-}

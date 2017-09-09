@@ -1,5 +1,0 @@
-{
-This is proffesional platform for proffesional full & mobile websites testing.
-Please download this [ <a class="it_pro_expl_url clip" href="#" onclick="itProLinkExplanationInfo.download('upload/clips/browserstack.mp4')">BrowserStack clip</a> ] to see what I mean.
-08-july-2017 14:05:00 GMT +0100
-}

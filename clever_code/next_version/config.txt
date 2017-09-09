@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/clever_code/next_version/upload/next_version_overview.html"
-}

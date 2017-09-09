@@ -1,16 +1,2 @@
 User-agent: *
-Disallow: /clever_code/main/css/
-Disallow: /clever_code/main/images/
-Disallow: /clever_code/main/download/
-Disallow: /clever_code/profile/css/
-Disallow: /clever_code/profile/images/
-Disallow: /clever_code/blog/css/
-Disallow: /clever_code/release_notes/css/
-Disallow: /clever_code/bio/css/
-Disallow: /clever_code/bio/images/
-Disallow: /clever_code/bio/php/
-Disallow: /clever_code/itprolinks/css/
-Disallow: /clever_code/it_pro_link_explanation/css/
-Disallow: /clever_code/next_version/css/
-Disallow: /clever_code/our_roots/css/
 Sitemap: https://github.com/Software-Development-of-Better-Tomorrow/Software-Development-of-Better-Tomorrow.github.io/blob/master/sitemap.xml

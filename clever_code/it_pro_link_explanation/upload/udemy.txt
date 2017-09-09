@@ -1,4 +1,0 @@
-{
-This is like Pluralsight. Professional courses for professionals.
-30-june-2017 11:15:00 GMT +0100
-}
