@@ -1063,4 +1063,11 @@ Reason:
 <br />
 The other parts do not change. It will be React/Redux.
 03-september-2017 14:10:00 GMT +0100
+},
+{
+<span class="titleBeginingMarker">>> </span>[offical statement: software development path]...
+I will officially devote the next 10 years for programming, then I will seek the next challenge.
+I think good 20 years will be enough :-) !
+Unofficallly, I think, will be doing some programming. I cannot live without developing software.
+09-september-2017 11:18:00 GMT +0100
 }
