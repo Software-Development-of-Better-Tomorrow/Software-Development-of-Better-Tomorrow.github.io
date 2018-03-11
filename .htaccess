@@ -1,3 +1,2 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.software-development-of-better-tomorrow.org/ [NC]
 RewriteRule ^(.*)$ https://software-development-of-better-tomorrow.org/$1 [R=301,L]
