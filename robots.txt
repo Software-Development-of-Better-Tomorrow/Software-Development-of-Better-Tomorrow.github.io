@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://github.com/Software-Development-of-Better-Tomorrow/Software-Development-of-Better-Tomorrow.github.io/blob/master/sitemap.xml
